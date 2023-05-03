@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import '/src/styles/components/navbar.scss';
+@import '/src/styles/components/logo.scss';
+@import '/src/styles/components/container.scss';
+@import '/src/styles/variables/colors.scss';
+@import '/src/styles/base/button.scss';
+
+$body-color: $white;
+$background-color: $blue-light;
+
+html {
+  box-sizing: border-box;
+  font-size: 16.5px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  line-height: 1.8em;
+  min-width: 100%;
+  min-height: 100%;
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  color: $body-color !important;
+  background-color: $background-color !important;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

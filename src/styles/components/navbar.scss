@@ -1,0 +1,124 @@
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navbar-position {
+  position: relative;
+}
+.navbar__hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../assets/images/hero-sm.jpg');
+  background-position: 25% 75%;
+
+  min-height: 40vh;
+  width: 100vw;
+  background-size: cover !important ;
+  position: relative;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  object-fit: cover !important;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    min-height: 60vh;
+  }
+
+  &--overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.navbar-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: 0;
+  margin: 0.3rem;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  .menu-closed {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-slider {
+    position: fixed;
+    min-width: 100%;
+    height: 40vh;
+    background-color: transparent;
+    transition: 0.35s ease;
+    top: -100%;
+  }
+  .navbar-slider.active {
+    top: 0;
+    left: 50%;
+    transition: 0.45s ease-out;
+  }
+  .menu-icon .menu {
+    //display: flex;
+    display: block;
+    flex-direction: column;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .menu-icon-none {
+    display: none;
+  }
+  .menu-closed {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  .menu-closed .close {
+    display: block;
+    cursor: pointer;
+    font-size: 40px;
+  }
+}
+/* .navbar-responsive {
+  display: flex;
+  //flex-direction: row-reverse;
+  padding-top: 2rem;
+} */
+/*/
+.navbar-nav {
+  &__hamburger {
+    background: blue;
+  }
+  &__responsive {
+    @media (min-width: 768px) {
+      flex-direction: row !important;
+      justify-content: space-between;
+    }
+  }
+}
+.navbar-position .toggle {
+  position: fixed;
+  right: 30px;
+  top: 40px;
+}
+.navbar-nav.show-menu {
+  width: 100%;
+} */
