@@ -6,6 +6,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  @media (min-width: 1200px) {
+    font-size: large;
+  }
 }
 .navbar-position {
   position: relative;
@@ -57,7 +60,13 @@
   .menu-icon {
     display: none;
   }
+  .menu-icon-none {
+    display: none;
+  }
   .menu-closed {
+    display: none;
+  }
+  menu-closed .close {
     display: none;
   }
 }
@@ -70,10 +79,12 @@
     background-color: transparent;
     transition: 0.35s ease;
     top: -100%;
+    left: 50%;
   }
   .navbar-slider.active {
     top: 0;
     left: 50%;
+
     transition: 0.45s ease-out;
   }
   .menu-icon .menu {

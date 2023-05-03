@@ -41,7 +41,9 @@ const Navbar = () => {
           <Close className="close" onClick={showMenu} />
         </div>
 
-        <div className="navbar-links">{renderedLinks}</div>
+        <div className="navbar-links" onClick={showMenu}>
+          {renderedLinks}
+        </div>
       </div>
     </div>
   );

@@ -3,17 +3,23 @@
   //justify-content: center;
   background-image: url('../../assets/images/logo-horizontal.jpg');
   //background-position: center center;
-  width: 50px;
+  width: 70px;
   height: 50px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
+  margin-left: 10px;
 
   @media (min-width: 768px) {
     background-image: url('../../assets/images/logo-vertical.jpg');
     justify-content: center;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+  }
+
+  @media (min-width: 992px) {
+    height: 130px;
+    width: 130px;
   }
 
   &__container {
