@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react';
-import className from 'classnames';
 
 type ButtonProps = {
   children: ReactNode;

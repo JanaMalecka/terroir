@@ -1,8 +1,5 @@
-import { RouterProvider } from 'react-router-dom';
 import Logo from './Logo';
 import Navbar from './Navbar';
-import Link from './Link';
-import NavigationContext from '../../context/navigation';
 import Home from '../../pages/Home';
 import Winemakers from '../../pages/Winemakers';
 import Route from './Route';
