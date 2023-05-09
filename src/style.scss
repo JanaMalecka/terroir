@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import '/src/styles/components/navbar.scss';
 @import '/src/styles/components/logo.scss';
-@import '/src/styles/components/container.scss';
+@import '/src/styles/base/container.scss';
 @import '/src/styles/variables/colors.scss';
 @import '/src/styles/base/button.scss';
-
-$body-color: $white;
-$background-color: $blue-light;
+@import '/src/styles/utilities/colors';
+@import '/src/styles/variables/layout.scss';
+@import '/src/styles/components/hero.scss';
 
 html {
   box-sizing: border-box;
@@ -27,8 +27,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  color: $body-color !important;
-  background-color: $background-color !important;
+  color: $white !important;
+  background-color: $white !important;
 }
 
 /* code {

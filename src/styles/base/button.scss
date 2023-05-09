@@ -1,12 +1,11 @@
 .btn--primary {
   background-color: $white;
-  color: $blue-light;
-  padding: 10px;
-  outline: auto;
-}
-.btn--secondary {
-  background-color: red;
-  color: $blue-light;
-  padding: 10px;
-  outline: auto;
+  color: red;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }

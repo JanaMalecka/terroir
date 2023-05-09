@@ -1,8 +1,15 @@
-import classNames from 'classnames';
-import { useContext } from 'react';
+import React, { useContext, FC } from 'react';
 import NavigationContext from '../../context/navigation';
+import classNames from 'classnames';
 
-function Link({ to, children, className, activeClassName }: any) {
+type LinkProps = {
+  to: string;
+  children: React.ReactNode;
+  className?: string;
+  activeClassName?: string;
+};
+
+const Link: FC<LinkProps> = ({ to, children, className, activeClassName }) => {
   const { navigate, currentPath } = useContext(NavigationContext);
 
   const classes = classNames(
@@ -11,7 +18,9 @@ function Link({ to, children, className, activeClassName }: any) {
     currentPath === to && activeClassName
   );
 
-  const handleClick = (event: any) => {
+  const handleClick = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+  ) => {
     if (event.metaKey || event.ctrlKey) {
       return;
     }
@@ -25,6 +34,6 @@ function Link({ to, children, className, activeClassName }: any) {
       {children}
     </a>
   );
-}
+};
 
 export default Link;

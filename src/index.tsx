@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './style.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './style.scss';
 import { NavigationProvider } from './context/navigation';
 
 const root = ReactDOM.createRoot(

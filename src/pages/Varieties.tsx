@@ -1,5 +1,5 @@
 function Varieties() {
-  return <div> odrudy</div>;
+  return <div className="container__content">odrudy</div>;
 }
 
 export default Varieties;

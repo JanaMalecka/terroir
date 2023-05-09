@@ -1,7 +1,7 @@
 const Winemakers = () => {
   return (
     <>
-      <div className="container">
+      <div className="container__content">
         <section id="winemakers">
           Vinari první apelační systém, který ukazuje neopakovatelnou typičnost
           odrůd Tramín a Rulandské modré pěstovaných na jedinečných viničních

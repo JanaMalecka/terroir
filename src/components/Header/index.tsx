@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Home from '../../pages/Home';
@@ -8,10 +9,10 @@ import Vineyards from '../../pages/Vineyards';
 import Varieties from '../../pages/Varieties';
 import Contacts from '../../pages/Contacts';
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <>
-      <div className="container__navigation navbar__hero">
+      <div className="container__navigation hero">
         <Logo />
         <Navbar />
       </div>

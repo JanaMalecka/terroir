@@ -1,5 +1,5 @@
 function Contacts() {
-  return <div>Kontakty</div>;
+  return <div className="container__content">Kontakty</div>;
 }
 
 export default Contacts;

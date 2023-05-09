@@ -1,3 +1,5 @@
+@import '/src/styles/variables/colors.scss';
+
 .logo {
   display: flex;
   background-image: url('../../assets/images/logo-horizontal.jpg');
@@ -9,10 +11,11 @@
   margin-left: 10px;
 
   @media (min-width: 768px) {
-    background-image: url('../../assets/images/logo-vertical.jpg');
+    background-image: url('../../assets/images/logo-vertical2.jpg');
     justify-content: center;
     height: 70px;
     width: 70px;
+    border-radius: 0 0 42px 42px;
   }
 
   @media (min-width: 992px) {

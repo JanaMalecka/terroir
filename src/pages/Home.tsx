@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container__content">
         <section id="intro">
           TERROIR ČEJKOVICE první apelační systém, který ukazuje neopakovatelnou
           typičnost odrůd Tramín a Rulandské modré pěstovaných na jedinečných
@@ -37,7 +37,6 @@ const Home = () => {
           <Button className="btn--primary" onClick={handleClick}>
             Více o terroir
           </Button>
-          <Button className="btn--secondary">Více o terroir</Button>
         </section>
       </div>
     </>

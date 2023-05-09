@@ -1,15 +1,20 @@
-import { useState } from 'react';
-import Link from './Link';
+import React, { FC, useState } from 'react';
 import { MenuOutlined, Close } from '@mui/icons-material';
+import Link from './Link';
 
-const Navbar = () => {
-  const [active, setActive] = useState(false);
+interface LinkItem {
+  label: string;
+  path: string;
+}
+
+const Navbar: FC = () => {
+  const [active, setActive] = useState<boolean>(false);
 
   const showMenu = () => {
     setActive(!active);
   };
 
-  const links = [
+  const links: LinkItem[] = [
     { label: 'TERROIR', path: '/' },
     { label: 'NAŠI VINAŘI', path: '/vinari' },
     { label: 'NAŠE VÍNA', path: '/vina' },
@@ -28,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar-responsive">
-      <div className={!active ? 'menu-icon' : 'menu-icon-none'}>
+      <div className={!active ? 'menu-icon' : 'menu-icon--none'}>
         <MenuOutlined className="menu" onClick={showMenu} />
       </div>
       <div className={active ? 'navbar-slider active ' : 'navbar-slider'}>

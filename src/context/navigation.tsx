@@ -1,9 +1,21 @@
-import { createContext, useState, useEffect } from 'react';
-import { Context } from 'vm';
+import { createContext, useState, useEffect, ReactNode } from 'react';
+//import { Context } from 'vm';
 
-const NavigationContext = createContext({} as Context);
+type NavigationContextType = {
+  navigate: (to: string) => void;
+  currentPath: string;
+};
 
-const NavigationProvider = ({ children }: any) => {
+const NavigationContext = createContext<NavigationContextType>({
+  navigate: () => {},
+  currentPath: '',
+});
+
+type NavigationProviderProps = {
+  children: ReactNode;
+};
+
+const NavigationProvider = ({ children }: NavigationProviderProps) => {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
   useEffect(() => {
@@ -17,7 +29,7 @@ const NavigationProvider = ({ children }: any) => {
     };
   }, []);
 
-  const navigate = (to: any) => {
+  const navigate = (to: string) => {
     window.history.pushState({}, '', to);
     setCurrentPath(to);
   };
