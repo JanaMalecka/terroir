@@ -35,6 +35,9 @@ const Header: FC = () => {
       <Route path="/">
         <Home />
       </Route>
+      {/*  <Route path="/">
+        <Home />
+      </Route> */}
     </>
   );
 };
