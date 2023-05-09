@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import '/src/styles/components/navbar.scss';
 @import '/src/styles/components/logo.scss';
 @import '/src/styles/base/container.scss';
@@ -8,10 +7,25 @@
 @import '/src/styles/variables/layout.scss';
 @import '/src/styles/components/hero.scss';
 
+@font-face {
+  font-family: 'PhosphateSolid';
+  src: local('PhosphateSolid'),
+    url('./assets/fonts/PhosphateSolid.ttf') format('truetype');
+  //font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: local('AvenirNextLTPro-Regular'),
+    url('./assets/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16.5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
   font-style: normal;
   line-height: 1.8em;
   min-width: 100%;
@@ -22,18 +36,47 @@ html {
 
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
   color: $white !important;
   background-color: $white !important;
 }
+h1 {
+  font-family: 'PhosphateSolid', sans-serif;
+  //font-size: 100pt !important;
+}
+h2 {
+  font-family: 'PhosphateSolid', sans-serif;
+  // font-size: 80pt !important;
+}
+/* p {
+  font-size: 60pt;
+} */
 
-/* code {
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+h3,
+h4,
+h5,
+h6,
+p,
+div input,
+button,
+select,
+textarea {
+  font-family: 'AvenirNextLTPro-Regular', sans-serif;
+}
+
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
