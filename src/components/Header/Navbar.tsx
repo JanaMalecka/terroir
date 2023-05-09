@@ -15,11 +15,11 @@ const Navbar: FC = () => {
   };
 
   const links: LinkItem[] = [
-    { label: 'TERROIR', path: '/' },
-    { label: 'NAŠI VINAŘI', path: '/vinari' },
-    { label: 'NAŠE VÍNA', path: '/vina' },
     { label: 'ODRŮDY', path: '/odrudy' },
-    { label: 'NAŠE VINICE V MAPĚ', path: '/vinice' },
+    { label: 'ZATŘÍDĚNÁ VÍNA', path: '/zatridena-vina' },
+    { label: 'STATUT TERROIR ČEJKOVICE', path: '/statut-terroir-cejkovice' },
+    { label: 'VINIČNÍ TRATĚ ČEJKOVICE', path: '/vinicni-trate-cejkovice' },
+    { label: 'ČLENSKÁ VINAŘSTVÍ', path: '/clenska-vinarstvi' },
     { label: 'KONTAKT', path: '/kontakt' },
   ];
 

@@ -1,4 +1,4 @@
-const Winemakers = () => {
+const Wineries = () => {
   return (
     <>
       <div className="container__content">
@@ -33,4 +33,4 @@ const Winemakers = () => {
   );
 };
 
-export default Winemakers;
+export default Wineries;

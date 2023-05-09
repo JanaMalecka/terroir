@@ -2,12 +2,13 @@ import { FC } from 'react';
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Home from '../../pages/Home';
-import Winemakers from '../../pages/Winemakers';
+import Wineries from '../../pages/Wineries';
 import Route from './Route';
 import Wines from '../../pages/Wines';
 import Vineyards from '../../pages/Vineyards';
 import Varieties from '../../pages/Varieties';
 import Contacts from '../../pages/Contacts';
+import Statute from '../../pages/Statute';
 
 const Header: FC = () => {
   return (
@@ -16,17 +17,20 @@ const Header: FC = () => {
         <Logo />
         <Navbar />
       </div>
-      <Route path="/vinari">
-        <Winemakers />
-      </Route>
-      <Route path="/vina">
-        <Wines />
-      </Route>
       <Route path="/odrudy">
         <Varieties />
       </Route>
-      <Route path="/vinice">
+      <Route path="/zatridena-vina">
+        <Wines />
+      </Route>
+      <Route path="/statut-terroir-cejkovice">
+        <Statute />
+      </Route>
+      <Route path="/vinicni-trate-cejkovice">
         <Vineyards />
+      </Route>
+      <Route path="/clenska-vinarstvi">
+        <Wineries />
       </Route>
       <Route path="/kontakt">
         <Contacts />
@@ -35,9 +39,6 @@ const Header: FC = () => {
       <Route path="/">
         <Home />
       </Route>
-      {/*  <Route path="/">
-        <Home />
-      </Route> */}
     </>
   );
 };

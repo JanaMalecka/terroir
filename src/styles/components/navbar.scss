@@ -57,9 +57,13 @@
 
     &.active {
       top: 0;
-      left: 50%;
+      left: 30%;
       height: auto;
       transition: 0.45s ease-out;
+
+      @media (max-width: 425px) {
+        left: 35%;
+      }
     }
   }
 
@@ -77,13 +81,17 @@
   .menu-closed {
     display: flex;
     justify-content: flex-end;
-    width: 50%;
+    width: 70%;
 
-    &.close {
-      display: block;
-      cursor: pointer;
-      font-size: 50px;
+    @media (max-width: 425px) {
+      width: 65%;
     }
+  }
+  .menu-closed .close {
+    display: block;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
