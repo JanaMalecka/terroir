@@ -1,9 +1,12 @@
 import React, { FC } from 'react';
+import Link from './Link';
 
-const Logo: FC = () => {
+const Logo: FC = (): JSX.Element => {
   return (
     <div className="logo__container">
-      <div className="logo"></div>
+      <Link to={'/'}>
+        <div className="logo"></div>{' '}
+      </Link>
     </div>
   );
 };

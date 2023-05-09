@@ -13,7 +13,7 @@ const Link: FC<LinkProps> = ({ to, children, className, activeClassName }) => {
   const { navigate, currentPath } = useContext(NavigationContext);
 
   const classes = classNames(
-    'navbar-link',
+    'link',
     className,
     currentPath === to && activeClassName
   );

@@ -25,7 +25,12 @@ const Navbar: FC = () => {
 
   const renderedLinks = links.map((link) => {
     return (
-      <Link key={link.label} to={link.path} activeClassName="fw-bold">
+      <Link
+        key={link.label}
+        to={link.path}
+        activeClassName="fw-bold"
+        className="navbar-link"
+      >
         {link.label}
       </Link>
     );
