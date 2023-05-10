@@ -13,18 +13,18 @@
   @media (min-width: 768px) {
     background-image: url('../../assets/images/logo-vertical2.jpg');
     justify-content: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 0 0 42px 42px;
+    height: 84px;
+    // width: 70px;
+    border-radius: 0 0 10px 10px;
   }
 
   @media (min-width: 992px) {
     height: 100px;
-    width: 100px;
+    width: 84px;
   }
   @media (min-width: 1400px) {
     height: 120px;
-    width: 120px;
+    width: 100px;
   }
 
   &__container {
