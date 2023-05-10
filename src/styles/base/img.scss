@@ -1,0 +1,22 @@
+.img-style {
+  background-position: 25% 75%;
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    max-width: 90%;
+  }
+  @media (min-width: 992px) {
+    max-width: 80%;
+  }
+  @media (min-width: 1200px) {
+    max-width: 70%;
+  }
+  @media (min-width: 1400px) {
+    max-width: 50%;
+  }
+}

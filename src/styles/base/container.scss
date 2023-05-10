@@ -4,7 +4,7 @@
 .container__content {
   background-color: $blue-light;
   max-width: 100%;
-  margin-top: 20px;
+
   text-align: center;
   padding: 2rem;
 
@@ -22,6 +22,12 @@
   @media (min-width: 1400px) {
     max-width: 50%;
     margin-top: 40px;
+  }
+
+  &:nth-child(even) {
+    background-color: $white;
+    color: black;
+    margin-top: 20px;
   }
 
   &--mobile {
