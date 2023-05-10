@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState, useEffect } from 'react';
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Home from '../../pages/Home';
@@ -11,9 +11,35 @@ import Contacts from '../../pages/Contacts';
 import Statute from '../../pages/Statute';
 
 const Header: FC = () => {
+  const [show, setShow] = useState<boolean>(true);
+
+  useEffect(() => {
+    let prevScrollpos = window.pageYOffset;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isVisible =
+        prevScrollpos > currentScrollPos || currentScrollPos < 100;
+      setShow(isVisible);
+      prevScrollpos = currentScrollPos;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <div className="container__navigation hero">
+      <div
+        className={
+          show
+            ? 'container__navigation hero navbar--scrolly'
+            : 'container__navigation hero hidden'
+        }
+      >
         <Logo />
         <Navbar />
       </div>
