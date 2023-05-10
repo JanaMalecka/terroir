@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Button from '../components/Button';
 
-const Home = () => {
+const Home: FC = (): JSX.Element => {
   const handleClick = (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
     console.log(event.target);
   };
 
   return (
     <>
+      <section className="container__content--mobile"></section>
       <div className="container__content">
         <section id="intro">
           <h1>TERROIR</h1>

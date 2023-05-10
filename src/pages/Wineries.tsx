@@ -1,8 +1,11 @@
-const Wineries = () => {
+import React, { FC } from 'react';
+
+const Wineries: FC = (): JSX.Element => {
   return (
     <>
+      <section className="container__content--mobile"></section>
       <div className="container__content">
-        <section id="winemakers">
+        <section id="wineries">
           Vinari první apelační systém, který ukazuje neopakovatelnou typičnost
           odrůd Tramín a Rulandské modré pěstovaných na jedinečných viničních
           tratích Čejkovic. Čejkovice patří mezi významné tradiční vinařské obce

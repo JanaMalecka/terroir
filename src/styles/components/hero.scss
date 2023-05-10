@@ -1,18 +1,15 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../assets/images/hero-sm.jpg');
-  background-position: 25% 75%;
-
-  min-height: 100vh; //40vh
-  width: 100vw;
-  background-size: cover;
-  position: relative;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  object-fit: cover;
-  overflow: hidden;
-
   @media (min-width: 768px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url('../../assets/images/hero-sm.jpg');
+    background-position: 25% 75%;
     min-height: 70vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    overflow: hidden;
   }
 
   &--overlay {

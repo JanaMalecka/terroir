@@ -17,6 +17,7 @@ const Header: FC = () => {
         <Logo />
         <Navbar />
       </div>
+
       <Route path="/odrudy">
         <Varieties />
       </Route>

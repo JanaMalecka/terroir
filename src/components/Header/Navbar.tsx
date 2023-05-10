@@ -37,7 +37,7 @@ const Navbar: FC = () => {
   });
 
   return (
-    <div className="navbar-responsive">
+    <div>
       <div className={!active ? 'menu-icon' : 'menu-icon--none'}>
         <MenuOutlined className="menu" onClick={showMenu} />
       </div>

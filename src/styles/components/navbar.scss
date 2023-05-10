@@ -4,7 +4,7 @@
   font-family: 'AvenirNextLTPro-Regular';
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: white;
+  color: black;
   text-decoration: none;
   background: none;
   border: 0;
@@ -16,6 +16,9 @@
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  @media (min-width: 768px) {
+    color: white;
   }
 }
 
@@ -50,21 +53,28 @@
     position: fixed;
     min-width: 100%;
     height: 80vh; //40vh
-    background-color: transparent;
+    //background-color: transparent;
+    background-color: white;
     transition: 0.35s ease;
     top: -100%;
     left: 50%;
+    z-index: 1;
 
     &.active {
       top: 0;
-      left: 30%;
+      left: 0%;
       height: auto;
       transition: 0.45s ease-out;
+      text-align: center;
 
-      @media (max-width: 425px) {
+      /* @media (max-width: 425px) {
         left: 35%;
-      }
+      } */
     }
+  }
+
+  .menu-icon {
+    color: black;
   }
 
   .menu-icon .menu {
@@ -81,11 +91,12 @@
   .menu-closed {
     display: flex;
     justify-content: flex-end;
-    width: 70%;
+    width: 100%;
+    color: black;
 
-    @media (max-width: 425px) {
+    /* @media (max-width: 425px) {
       width: 65%;
-    }
+    } */
   }
   .menu-closed .close {
     display: block;
