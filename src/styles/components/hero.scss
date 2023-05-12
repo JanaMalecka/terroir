@@ -1,8 +1,8 @@
 .hero {
   @media (min-width: 768px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url('../../assets/images/hero-sm.jpg');
-    background-position: 25% 75%;
+    background-position: 25% 85%;
     min-height: 60vh;
     width: 100vw;
     background-size: cover;

@@ -28,7 +28,7 @@ const Navbar: FC = () => {
       <Link
         key={link.label}
         to={link.path}
-        activeClassName="fw-bold"
+        activeClassName="fw-medium"
         className="navbar-link"
       >
         {link.label}
