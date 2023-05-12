@@ -5,7 +5,7 @@ import Home from '../../pages/Home';
 import Wineries from '../../pages/Wineries';
 import Route from './Route';
 import Wines from '../../pages/Wines';
-import Vineyards from '../../pages/Vineyards';
+import Map from '../../pages/Map';
 import Varieties from '../../pages/Varieties';
 import Contacts from '../../pages/Contacts';
 import Statute from '../../pages/Statute';
@@ -53,8 +53,8 @@ const Header: FC = () => {
       <Route path="/statut-terroir-cejkovice">
         <Statute />
       </Route>
-      <Route path="/vinicni-trate-cejkovice">
-        <Vineyards />
+      <Route path="/mapa-terroir-cejkovice">
+        <Map />
       </Route>
       <Route path="/clenska-vinarstvi">
         <Wineries />

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Button from '../components/Button';
-import vineyard from '../assets/images/vineyard.jpg';
+import vineyardWide from '../assets/images/vineyardWide.jpg';
 
 const Home: FC = (): JSX.Element => {
   const handleClick = (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
@@ -44,7 +44,7 @@ const Home: FC = (): JSX.Element => {
         </p>
       </div>
       <div className="d-flex justify-content-center">
-        <img alt="Foto vinice" src={vineyard} className="img-style" />
+        <img alt="Foto vinice" src={vineyardWide} className="img-style" />
       </div>
       <div className="container__content">
         <p>

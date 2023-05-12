@@ -3,7 +3,6 @@ import React, { FC } from 'react';
 const Wineries: FC = (): JSX.Element => {
   return (
     <>
-      <section className="container__content--mobile"></section>
       <div className="container__content">
         <section id="wineries">
           Vinari první apelační systém, který ukazuje neopakovatelnou typičnost
