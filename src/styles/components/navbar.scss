@@ -1,3 +1,5 @@
+@import '/src/styles/variables/colors.scss';
+
 .navbar-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -5,7 +7,7 @@
   font-size: var(--bs-nav-link-font-size);
   font-size: 14px;
   font-weight: var(--bs-nav-link-font-weight);
-  color: black;
+  color: $green;
   text-decoration: none;
   background: none;
   border: 0;
@@ -17,6 +19,7 @@
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.2);
+    font-weight: 700 !important;
   }
 
   &:active {
@@ -124,7 +127,7 @@
   }
 
   .menu-icon {
-    color: black;
+    color: $green;
   }
 
   .menu-icon .menu {
@@ -142,7 +145,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    color: black;
+    color: $green;
 
     /* @media (max-width: 425px) {
       width: 65%;

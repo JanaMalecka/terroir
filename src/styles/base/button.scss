@@ -4,8 +4,24 @@
   padding: 10px 20px;
   border-width: 2px;
   border-style: solid;
-  border-color: $white;
+  border-color: $blue-light;
   border-radius: 10px;
   text-transform: uppercase;
   font-weight: 700;
+}
+.btn--secondary {
+  background-color: $white;
+  color: $blue-light;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $blue-light;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $blue-light;
+    color: $white;
+  }
 }

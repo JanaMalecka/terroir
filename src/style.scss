@@ -7,6 +7,7 @@
 @import '/src/styles/variables/layout.scss';
 @import '/src/styles/components/hero.scss';
 @import '/src/styles/base/img.scss';
+@import '/src/styles/components/modal.scss';
 
 @font-face {
   font-family: 'PhosphateSolid';
@@ -44,11 +45,11 @@ body {
   background-color: $white !important;
 }
 h1 {
-  font-family: 'PhosphateSolid', sans-serif;
+  font-family: 'PhosphateSolid', sans-serif !important;
   //font-size: 100pt !important;
 }
 h2 {
-  font-family: 'PhosphateSolid', sans-serif;
+  font-family: 'PhosphateSolid', sans-serif !important;
   // font-size: 80pt !important;
 }
 /* p {
@@ -75,9 +76,9 @@ textarea {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
