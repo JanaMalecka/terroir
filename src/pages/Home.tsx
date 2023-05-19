@@ -10,7 +10,7 @@ const Home: FC = (): JSX.Element => {
   return (
     <>
       <section className="container__content--mobile"></section>
-      <div className="container__content shadow p-3 mb-5 rounded">
+      <div className="container__content">
         <h1>TERROIR</h1>
         <h2>ČEJKOVICE</h2>
         <p>
@@ -19,7 +19,7 @@ const Home: FC = (): JSX.Element => {
           Čejkovic.{' '}
         </p>
       </div>
-      <div className="container__content shadow-lg p-3 mb-5 rounded">
+      <div className="container__content ">
         <h3>Čejkovice</h3>
         <p>
           patří mezi významné tradiční vinařské obce na jižní Moravě, aby tomu
@@ -35,7 +35,7 @@ const Home: FC = (): JSX.Element => {
           pradědové.
         </p>
       </div>
-      <div className="container__content shadow-lg p-3 mb-5 rounded">
+      <div className="container__content">
         <p>
           Jejich mottem byla především pokora a to jak k půdě, tak k samotnému
           vínu. Tato pokora je základem stavebním kamenem pro Terroir Čejkovice.

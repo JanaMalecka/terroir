@@ -7,7 +7,7 @@
   font-size: var(--bs-nav-link-font-size);
   font-size: 14px;
   font-weight: var(--bs-nav-link-font-weight);
-  color: $green;
+  color: $black;
   text-decoration: none;
   background: none;
   border: 0;
@@ -127,7 +127,7 @@
   }
 
   .menu-icon {
-    color: $green;
+    color: $black;
   }
 
   .menu-icon .menu {
@@ -145,7 +145,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    color: $green;
+    color: $black;
 
     /* @media (max-width: 425px) {
       width: 65%;
