@@ -73,6 +73,8 @@
   }
 }
 
-.container-shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+.container-footer {
+  background-color: $blue-light;
+  width: 100vw;
+  padding: 2rem;
 }

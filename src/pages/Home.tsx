@@ -1,11 +1,13 @@
 import React, { FC } from 'react';
 import Button from '../components/Button';
+import Link from '../features/Link';
+
 import vineyardWide from '../assets/images/vineyardWide.jpg';
 
 const Home: FC = (): JSX.Element => {
-  const handleClick = (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
-    console.log(event.target);
-  };
+  /*  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  }; */
 
   return (
     <>
@@ -67,10 +69,10 @@ const Home: FC = (): JSX.Element => {
           vhodnou sklenici a prostor se projevit až do terciálních aromat a
           zážitek je potom opravdu jedinečný.
         </p>
-
-        <Button className="btn--primary" onClick={handleClick}>
-          Více o terroir
-        </Button>
+        <Link to="/statut-terroir-cejkovice">
+          {' '}
+          <Button className="btn--primary">Více o terroir</Button>
+        </Link>
       </div>
     </>
   );

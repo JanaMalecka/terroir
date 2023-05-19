@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 import { MenuOutlined, Close } from '@mui/icons-material';
-import Link from './Link';
+import Link from './NavigationLink';
 
 interface LinkItem {
   label: string;

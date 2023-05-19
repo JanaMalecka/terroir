@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
-import Link from './Link';
+import NavigationLink from './NavigationLink';
 
 const Logo: FC = (): JSX.Element => {
   return (
     <div className="logo__container">
-      <Link to={'/'}>
-        <div className="logo"></div>{' '}
-      </Link>
+      <NavigationLink to={'/'}>
+        <div className="logo-terroir"></div>{' '}
+      </NavigationLink>
     </div>
   );
 };
