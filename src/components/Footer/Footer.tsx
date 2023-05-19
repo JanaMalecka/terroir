@@ -26,7 +26,9 @@ const Footer = (): JSX.Element => {
               https://www.vinozcejkovic.cz{' '}
             </a>
           </div>
-          <div className="logo-vino-z-cejkovic"></div>
+          <a href="https://www.vinozcejkovic.cz">
+            <div className="logo-vino-z-cejkovic"></div>
+          </a>
         </div>
         <div className="mb-3">
           <div>Ing. Petr Bíza</div>
