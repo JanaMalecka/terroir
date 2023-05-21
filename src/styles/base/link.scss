@@ -6,3 +6,12 @@
     text-decoration: underline;
   }
 }
+
+.link-dark {
+  text-decoration: none;
+  color: $black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
