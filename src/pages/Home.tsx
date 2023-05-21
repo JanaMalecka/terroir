@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+//import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Button from '../components/Button';
 import Link from '../features/Link';
 
@@ -50,7 +51,18 @@ const Home: FC = (): JSX.Element => {
         </p>
       </div>
       <div className="d-flex justify-content-center">
-        <img alt="Foto vinice" src={vineyardWide} className="img-style" />
+        {/* <LazyLoadImage
+          src={vineyardWide}
+          className="img-style"
+          alt="Foto vinice"
+          loading="lazy"
+        /> */}
+        <img
+          alt="Foto vinice"
+          src={vineyardWide}
+          className="img-style"
+          loading="lazy"
+        />
       </div>
       <div className="container__content ">
         <p>

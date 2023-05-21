@@ -6,3 +6,19 @@ $container-max-widths: (
   xxl: 1400px,
 );
 //max-width: map-get($container-max-widths, lg);
+
+//custom scrollbar
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $blue-light;
+  border-radius: 4px;
+}

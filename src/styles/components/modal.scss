@@ -1,1 +1,4 @@
-
+.modal-separator--color {
+  border-bottom: var(--bs-modal-header-border-width) solid $blue-light !important;
+  border-top: var(--bs-modal-header-border-width) solid $blue-light !important;
+}

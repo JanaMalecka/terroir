@@ -45,16 +45,12 @@ const Statute: FC = (): JSX.Element => {
           >
             <div className="modal-dialog modal-dialog-scrollable">
               <div className="modal-content">
-                <div className="modal-header">
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
+                <div className="modal-header modal-separator--color d-flex flex-column">
+                  <h1>TERROIR</h1>
+                  <h2>ČEJKOVICE</h2>
                 </div>
                 <Modal />
-                <div className="modal-footer">
+                <div className="modal-footer modal-separator--color">
                   <button
                     type="button"
                     className="btn--secondary"

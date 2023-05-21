@@ -1,8 +1,6 @@
 const Modal = (): JSX.Element => {
   return (
     <div className="modal-body">
-      <h1>TERROIR</h1>
-      <h2>ČEJKOVICE</h2>
       <p>
         Označení Terroir Čejkovice je možné přiznávat pouze vínům vyrobených z
         odrůd:
