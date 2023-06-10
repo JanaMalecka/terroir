@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/vinar.png",
+    "title": "Škrobák",
+    "text": "Příběh našeho vinařství je příběhem jedné rodiny, po generace spjaté s Čejkovicemi. Místem, kde je úcta k vinařskému řemeslu a jeho historii neodmyslitelnou součástí každodenního života. Proto i my čerpáme z bohatých tradic a zkušeností našich předků, jejich lásce k vínu a pokoře k přírodě."
+  },
+  {
+    "id": 2,
+    "image": "assets/images/vinar.png",
+    "title": "Vinař 2",
+    "text": "text 2"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/vinar.png",
+    "title": "Vinař 3",
+    "text": "text 3"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/vinar.png",
+    "title": "Vinař 4",
+    "text": "text 4"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/vinar.png",
+    "title": "Vinař 5",
+    "text": "text 5"
+  }
+]

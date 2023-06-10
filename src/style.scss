@@ -1,5 +1,6 @@
 @import '/src/styles/components/navbar.scss';
 @import '/src/styles/components/logo.scss';
+@import '/src/styles/components/carousel.scss';
 @import '/src/styles/base/container.scss';
 @import '/src/styles/variables/colors.scss';
 @import '/src/styles/base/button.scss';
@@ -46,11 +47,12 @@ body {
   background-color: $white !important;
 }
 h1 {
-  font-family: 'PhosphateSolid', sans-serif !important;
+  // font-family: 'PhosphateSolid', sans-serif !important;
   //font-size: 100pt !important;
+  //font-family: 'AvenirNextLTPro-Regular', sans-serif !important;
 }
 h2 {
-  font-family: 'PhosphateSolid', sans-serif !important;
+  //font-family: 'AvenirNextLTPro-Regular', sans-serif !important;
   // font-size: 80pt !important;
 }
 /* p {

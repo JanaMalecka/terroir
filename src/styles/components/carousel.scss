@@ -1,0 +1,158 @@
+@import '/src/styles/utilities/colors';
+
+.card .card-button {
+  position: absolute;
+  top: 22%;
+  box-shadow: none;
+  border-radius: 5px;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  z-index: 998 !important;
+}
+
+.card-button:hover {
+  background: rgba($blue-light, 0.3) !important;
+}
+.card .card-button.right {
+  right: 0%;
+}
+.react-stacked-center-carousel {
+  //padding: 20px 0;
+  margin: 20px 0;
+  //overflow: unset !important;
+  // overflow-y: unset !important;
+  padding-bottom: 40rem;
+}
+
+.card-card {
+  transition: all 300ms ease;
+  cursor: pointer;
+  width: 100%;
+  //border-radius: 15px;
+  height: 300px;
+  //height: auto;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.05);
+
+  /*  @media (min-width: 1200px) {
+    height: 450px;
+  } */
+}
+
+.card-card:hover {
+  transform: scale(1.05);
+}
+
+.react-stacked-center-carousel-slide-0 .card-card {
+  cursor: default;
+}
+
+.react-stacked-center-carousel-slide-0 .card-card:hover {
+  transform: none;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.card-card .card-overlay {
+  user-select: none;
+  position: absolute;
+  background-color: #00000099;
+  transition: all 300ms ease;
+  //border-radius: 15px;
+}
+
+.card-card:hover .card-overlay {
+  background-color: #0000002d;
+}
+
+.react-stacked-center-carousel-slide-0 .card-overlay {
+  background-color: #00000099 !important;
+}
+
+.card-card .cover-image {
+  object-fit: cover;
+}
+
+.card-card .cover {
+  position: absolute;
+  transition: opacity 300ms ease;
+}
+.react-stacked-center-carousel-slide-0 .card-card .cover {
+  transition: opacity 300ms ease, z-index 0ms 300ms;
+}
+
+.card-card .cover.on {
+  opacity: 1;
+  z-index: 1;
+}
+
+.card-card .cover.off {
+  opacity: 0;
+  z-index: -1;
+}
+
+.card-card .detail {
+  display: flex;
+}
+.card-card .video {
+  width: 20%;
+}
+.card-card .discription {
+  display: flex;
+  //flex-direction: column;
+  //margin: 10px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: $white;
+  overflow: visible !important;
+}
+
+.carousel-text--visible {
+  padding: 1rem 5rem;
+  background-color: $blue-light;
+  color: $white;
+  text-align: center;
+  overflow: visible !important;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+    background-color: $blue-light;
+    color: $white;
+    text-align: center;
+  }
+}
+
+.card {
+  border: none !important;
+}
+.carousel-layout {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+.carousel-title {
+  position: absolute;
+  top: 3rem;
+  left: 6rem;
+  font-weight: 700;
+  font-size: x-large;
+
+  @media (min-width: 425px) {
+    top: 3rem;
+    left: 2.5rem;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+
+  @media (min-width: 768px) {
+    top: 3rem;
+    left: 3rem;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+}
