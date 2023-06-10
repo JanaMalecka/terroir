@@ -1,16 +1,28 @@
 import React from 'react';
 import { StackedCarouselSlideProps } from 'react-stacked-center-carousel';
-//import data from '../data.json';
 
-const Slide = React.memo(function (props: StackedCarouselSlideProps) {
+interface SlideProps extends StackedCarouselSlideProps {
+  data: {
+    image: string;
+    title: string;
+    motto: string;
+    text?: string;
+    contact?: {
+      web?: string;
+      name?: string;
+      phone?: string;
+      email?: string;
+    };
+  }[];
+}
+
+const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
   const coverImage = data[dataIndex].image;
-  const text = data[dataIndex].text;
+  //const text = data[dataIndex].text;
   const title = data[dataIndex].title;
-
-  console.log(coverImage);
-  console.log(data);
+  const motto = data[dataIndex].motto;
 
   return (
     <>
@@ -43,7 +55,7 @@ const Slide = React.memo(function (props: StackedCarouselSlideProps) {
                 isCenterSlide ? 'carousel-text--visible' : 'carousel-text--none'
               }`}
             >
-              {text}
+              {motto}
             </div>
           </div>
         </div>

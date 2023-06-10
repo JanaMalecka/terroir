@@ -11,7 +11,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 import Slide from './Slide';
 
-const Carousel = () => {
+const Carousel: React.FC = () => {
   const ref = React.useRef<StackedCarousel>(null!); //initialize the ref with a value of null!
   return (
     <div className="container carousel-layout">
