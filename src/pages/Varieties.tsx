@@ -1,7 +1,8 @@
 import React, { FC } from 'react';
 import Carousel from '../components/Carousel';
 import SlideVarieties from '../components/SlideVarieties';
-import varieties from '../varieties.json';
+import varieties from '../tramin.json';
+import rulanda from '../components/rulanda.json';
 
 const Varieties: FC = (): JSX.Element => {
   return (
@@ -39,25 +40,39 @@ const Varieties: FC = (): JSX.Element => {
       <div className="container__content light">
         <h2>RULANDSKÉ MODRÉ</h2>{' '}
       </div>
+      <Carousel
+        slideComponent={SlideVarieties}
+        data={rulanda}
+        className="slide-varieties card-button--varieties"
+      />
       <div className="container__content light">
         <p>
-          {' '}
           Mezinárodně používaný název Pinot noir je starobylá odrůda révy vinné,
-          pocházející pravděpodobně z oblasti Burgundska. Odrůda je tradičně
-          používána k výrobě červených a růžových vín, ale je též jednou ze tří
-          odrůd povolených k výrobě francouzských klasických šumivých vín v
-          oblasti Champagne. Mezinárodní název skupiny „Pinot“ vychází z
-          francouzského slova „pin“, v překladu „pinie, borovice“. Hrozen odrůd
-          této skupiny je totiž poměrně malý a velmi kompaktní, svým vzhledem
-          opravdu může připomínat ještě uzavřenou šišku borovice pinie. Přídomek
-          „noir“, tedy česky černý, označuje ve Francii obecně modré odrůdy.
+          pocházející pravděpodobně z oblasti Burgundska.
+        </p>
+        <p>
+          Odrůda je tradičně používána k výrobě červených a růžových vín, ale je
+          též jednou ze tří odrůd povolených k výrobě francouzských klasických
+          šumivých vín v oblasti Champagne.
+        </p>
+        <p>
+          Mezinárodní název skupiny „Pinot“ vychází z francouzského slova „pin“,
+          v překladu „pinie, borovice“. Hrozen odrůd této skupiny je totiž
+          poměrně malý a velmi kompaktní, svým vzhledem opravdu může připomínat
+          ještě uzavřenou šišku borovice pinie. Přídomek „noir“, tedy česky
+          černý, označuje ve Francii obecně modré odrůdy.
+        </p>
+        <p>
           Vína z této odrůdy ohromují svou plností, která se zráním zvyšuje.
-          Velmi dobře se hodí k dlouhodobé archivaci. Typická barva vína je
-          bledě rubínová až cihlově červená, s oranžovým až nazlátlým okrajem u
-          sklenky, ve vůni jsou ovocné, hořkomandlové a kořenité tóny, chuť je
-          plná, víno má nízký obsah kyselin, velmi jemné třísloviny a hebkost
-          při klouzání po jazyku. Kvalitu a odrůdový charakter získává víno
-          převážně zráním v dubových sudech a delším ležením na láhvi.
+          Velmi dobře se hodí k dlouhodobé archivaci.
+        </p>
+        <p>
+          Typická barva vína je bledě rubínová až cihlově červená, s oranžovým
+          až nazlátlým okrajem u sklenky, ve vůni jsou ovocné, hořkomandlové a
+          kořenité tóny, chuť je plná, víno má nízký obsah kyselin, velmi jemné
+          třísloviny a hebkost při klouzání po jazyku. Kvalitu a odrůdový
+          charakter získává víno převážně zráním v dubových sudech a delším
+          ležením na láhvi.
         </p>
       </div>
     </>
