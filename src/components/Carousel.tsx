@@ -13,6 +13,9 @@ import Slide from './Slide';
 
 const Carousel: React.FC = () => {
   const ref = React.useRef<StackedCarousel>(null!); //initialize the ref with a value of null!
+
+  const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
+
   return (
     <div className="carousel-layout">
       <div className="card">
@@ -33,7 +36,7 @@ const Carousel: React.FC = () => {
                   carouselWidth={width}
                   data={data}
                   maxVisibleSlide={5}
-                  disableSwipe
+                  disableSwipe={!isMobileDevice}
                   customScales={[1, 0.85, 0.7, 0.55]}
                   transitionTime={450}
                 />
