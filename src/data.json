@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarstvi1.jpg",
     "title": "Vinařství Novotný-Bílek",
     "motto": "Motto: Dvě jména, dvě generace",
     "text": "Příběh našeho rodinného Vinařství Novotný Bílek začal vinobraním v roce 2017, kdy se spojila dvě jména a dvě generace. Vinaříme v Čejkovicích, kde obhospodařujeme 2 ha vinic. Zaměřujeme se na odrůdy, které nejlépe odráží jedinečný terroir Čejkovic.",
@@ -11,13 +11,13 @@
       "phone": "+420 723 424 442",
       "email": "vinarstvi@novotnybilek.cz"
     },
-    "logo": "assets/images/logo_vzc.png"
+    "logo": "assets/images/1LogoNovotnyBilek.png"
   },
   {
     "id": 2,
     "image": "assets/images/vinar.png",
     "title": "Vinařství Škrobák",
-    "motto": "S láskou a pokorou k vínu",
+    "motto": "Motto: S láskou a pokorou k vínu",
     "text": "Příběh našeho vinařství je příběhem jedné rodiny, po generace spjaté s Čejkovicemi. Místem, kde je úcta k vinařskému řemeslu a jeho historii neodmyslitelnou součástí každodenního života. Proto i my čerpáme z bohatých tradic a zkušeností našich předků, jejich lásce k vínu a pokoře k přírodě.",
     "contact": {
       "web": "https://vinoskrobak.cz/",
@@ -25,7 +25,7 @@
       "phone": "+420 721 743 478",
       "email": "skrobak.s@seznam.cz"
     },
-    "logo": "assets/images/logo_vzc.png"
+    "logo": "assets/images/2logoSkrobak.png"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "phone": "+420 774 995 272",
       "email": "pavka@vinomezisklepy.cz"
     },
-    "logo": "assets/images/logo_vzc.png"
+    "logo": "assets/images/3LogoMeziSklepy.png"
   },
   {
     "id": 4,
@@ -67,7 +67,7 @@
       "phone": "+420 608 838 502",
       "email": "kocarik@volny.cz"
     },
-    "logo": "assets/images/logo_vzc.png"
+    "logo": "assets/images/5LogoKocarik.png"
   },
   {
     "id": 6,
@@ -179,7 +179,7 @@
       "phone": "+420 777 598 222",
       "email": "info@vinocervenka.cz"
     },
-    "logo": "assets/images/logo_vzc.png"
+    "logo": "assets/images/13LogoCervenka.svg"
   },
   {
     "id": 14,

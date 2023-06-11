@@ -22,7 +22,7 @@
   margin: 20px 0;
   //overflow: unset !important;
   // overflow-y: unset !important;
-  padding-bottom: 40rem;
+  padding-bottom: 60rem;
 }
 
 .card-card {
@@ -30,7 +30,7 @@
   cursor: pointer;
   width: 100%;
   //border-radius: 15px;
-  height: 300px;
+  height: 365px;
   //height: auto;
   position: relative;
   background-color: #ffffff;
@@ -76,6 +76,7 @@
 
 .card-card .cover-image {
   object-fit: cover;
+  height: -webkit-fill-available;
 }
 
 .card-card .cover {
@@ -113,18 +114,28 @@
   overflow: visible !important;
 }
 
-.carousel-text--visible {
+.carousel-motto--visible {
   padding: 1rem 5rem;
   background-color: $blue-light;
   color: $white;
   text-align: center;
   overflow: visible !important;
+  cursor: pointer;
 
   @media (min-width: 768px) {
     padding: 2rem;
-    background-color: $blue-light;
-    color: $white;
-    text-align: center;
+  }
+}
+
+.carousel-text--visible {
+  padding: 1rem 5rem;
+  background-color: $white;
+  color: $black;
+  text-align: center;
+  overflow: visible !important;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
   }
 }
 
@@ -134,6 +145,15 @@
 .carousel-layout {
   margin-top: 1rem;
   margin-bottom: 0rem;
+
+  @media (min-width: 1400px) {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.none {
+  display: none;
 }
 .carousel-title {
   position: absolute;
@@ -141,10 +161,11 @@
   left: 6rem;
   font-weight: 700;
   font-size: x-large;
+  cursor: pointer;
 
   @media (min-width: 425px) {
     top: 3rem;
-    left: 2.5rem;
+    left: 4rem;
     font-weight: 700;
     font-size: xx-large;
   }
@@ -155,4 +176,9 @@
     font-weight: 700;
     font-size: xx-large;
   }
+}
+.divider {
+  background-color: $white;
+  min-height: 2rem;
+  width: auto;
 }

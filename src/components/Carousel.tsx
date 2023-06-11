@@ -14,9 +14,14 @@ import Slide from './Slide';
 const Carousel: React.FC = () => {
   const ref = React.useRef<StackedCarousel>(null!); //initialize the ref with a value of null!
   return (
-    <div className="container carousel-layout">
+    <div className="carousel-layout">
       <div className="card">
-        <div style={{ width: '100%', position: 'relative' }}>
+        <div
+          style={{
+            width: '100%',
+            position: 'relative',
+          }}
+        >
           <ResponsiveContainer
             carouselRef={ref}
             render={(width, carouselRef) => {
@@ -24,7 +29,7 @@ const Carousel: React.FC = () => {
                 <StackedCarousel
                   ref={carouselRef}
                   slideComponent={Slide}
-                  slideWidth={450}
+                  slideWidth={550}
                   carouselWidth={width}
                   data={data}
                   maxVisibleSlide={5}
