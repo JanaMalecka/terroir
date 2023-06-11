@@ -4,6 +4,7 @@
 .container__content {
   background-color: $blue-light;
   max-width: 100%;
+  color: $white;
 
   text-align: center;
   padding: 2rem;
@@ -34,12 +35,6 @@
     padding-right: 10rem;
   }
 
-  &:nth-child(even) {
-    background-color: $white;
-    color: $black;
-    margin-top: 40px;
-  }
-
   &--mobile {
     background-image: url('../../assets/images/hero-sm.jpg');
     background-position: 50% 75%;
@@ -62,6 +57,11 @@
       display: none;
     }
   }
+}
+.light {
+  background-color: $white;
+  color: $black;
+  margin-top: 40px;
 }
 
 .container__navigation {

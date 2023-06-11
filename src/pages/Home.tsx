@@ -22,7 +22,7 @@ const Home: FC = (): JSX.Element => {
           Čejkovic.{' '}
         </p>
       </div>
-      <div className="container__content ">
+      <div className="container__content light ">
         <h3>Čejkovice</h3>
         <p>
           patří mezi významné tradiční vinařské obce na jižní Moravě, aby tomu
@@ -44,7 +44,7 @@ const Home: FC = (): JSX.Element => {
           vínu. Tato pokora je základem stavebním kamenem pro Terroir Čejkovice.
         </p>
       </div>
-      <div className="container__content">
+      <div className="container__content light ">
         <p className="fw-bold">
           Od počátku bylo zřejmé, že historicky typickými odrůdami pro Čejkovice
           jsou Tramín a Rulandské modré (Pinot Noir).
@@ -64,7 +64,7 @@ const Home: FC = (): JSX.Element => {
           loading="lazy"
         />
       </div>
-      <div className="container__content ">
+      <div className="container__content light ">
         <p>
           Výběr Tramínu a Rulandského modrého vycházel ze staletých zkušeností,
           kdy vína z těchto odrůd jsou díky klimatickým a půdním podmínkám
