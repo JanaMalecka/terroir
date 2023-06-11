@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 import Carousel from '../components/Carousel';
+import Slide from '../components/Slide';
+import data from '../data.json';
 
 const Wineries: FC = (): JSX.Element => {
   return (
@@ -7,7 +9,7 @@ const Wineries: FC = (): JSX.Element => {
       <div className="container__content">
         <h1>Naši vinaři</h1>
       </div>
-      <Carousel />
+      <Carousel slideComponent={Slide} data={data} className="slide-wineries" />
     </>
   );
 };

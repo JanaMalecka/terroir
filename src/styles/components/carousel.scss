@@ -19,11 +19,6 @@
 }
 .react-stacked-center-carousel {
   margin: 20px 0;
-  padding-bottom: 70rem;
-
-  @media (max-width: 500px) {
-    padding-bottom: 80rem;
-  }
 }
 
 .card-card {
@@ -199,4 +194,19 @@
   @media (min-width: 500px) {
     flex-direction: row !important;
   }
+}
+.slide-varieties {
+  padding-bottom: 2rem;
+}
+
+.slide-wineries {
+  margin: 20px 0;
+  padding-bottom: 70rem;
+
+  @media (max-width: 500px) {
+    padding-bottom: 80rem;
+  }
+}
+.card-button--varieties {
+  top: 45% !important;
 }
