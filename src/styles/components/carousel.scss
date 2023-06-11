@@ -2,7 +2,7 @@
 
 .card .card-button {
   position: absolute;
-  top: 22%;
+  top: 15%;
   box-shadow: none;
   border-radius: 5px;
   width: 36px;
@@ -18,11 +18,12 @@
   right: 0%;
 }
 .react-stacked-center-carousel {
-  //padding: 20px 0;
   margin: 20px 0;
-  //overflow: unset !important;
-  // overflow-y: unset !important;
-  padding-bottom: 60rem;
+  padding-bottom: 70rem;
+
+  @media (max-width: 500px) {
+    padding-bottom: 80rem;
+  }
 }
 
 .card-card {
@@ -158,7 +159,7 @@
 .carousel-title {
   position: absolute;
   top: 3rem;
-  left: 6rem;
+  left: 7rem;
   font-weight: 700;
   font-size: x-large;
   cursor: pointer;
@@ -181,4 +182,21 @@
   background-color: $white;
   min-height: 2rem;
   width: auto;
+}
+.slide-description {
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  @media (min-width: 425px) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+.winemakers-contact {
+  flex-direction: column !important;
+
+  @media (min-width: 500px) {
+    flex-direction: row !important;
+  }
 }

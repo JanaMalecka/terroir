@@ -62,71 +62,78 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               {title}
             </div>
             <div className="divider"></div>
-            <div
-              className={`${
-                isCenterSlide ? 'carousel-motto--visible' : 'none'
-              }`}
-              onClick={handleClick}
-            >
-              {motto}
-            </div>
-            <div className="divider"></div>
-            <div
-              className={`${isCenterSlide ? 'carousel-text--visible' : 'none'}`}
-              ref={ref}
-            >
-              {text}
-            </div>
-            <div
-              className={`${isCenterSlide ? 'carousel-text--visible' : 'none'}`}
-            >
-              <h4>Kontakt:</h4>
-              <div className="d-flex justify-content-around align-items-center">
-                <div className="">
+
+            <div className="slide-description">
+              <div
+                className={`${
+                  isCenterSlide ? 'carousel-motto--visible' : 'none'
+                }`}
+                onClick={handleClick}
+              >
+                {motto}
+              </div>
+              <div className="divider"></div>
+              <div
+                className={`${
+                  isCenterSlide ? 'carousel-text--visible' : 'none'
+                }`}
+                ref={ref}
+              >
+                {text}
+              </div>
+              <div
+                className={`${
+                  isCenterSlide ? 'carousel-text--visible' : 'none'
+                }`}
+              >
+                <h4>Kontakt:</h4>
+                <div className="d-flex justify-content-around align-items-center winemakers-contact">
+                  <div className="">
+                    <div>
+                      <a
+                        href={`${web}`}
+                        className="link-dark"
+                        aria-label={`Přejít na webové stránky ${web}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {web}
+                      </a>
+                    </div>
+                    <div>{name}</div>
+                    <div>
+                      <a
+                        href={`${phone}`}
+                        className="link-dark"
+                        aria-label={`${phone}`}
+                      >
+                        {phone}
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href={`${email}`}
+                        className="link-dark"
+                        aria-label={`email ${email}`}
+                      >
+                        {email}
+                      </a>
+                    </div>
+                  </div>
                   <div>
                     <a
-                      href={`${web}`}
-                      className="link-dark"
-                      aria-label={`Přejít na webové stránky ${web}`}
+                      href={web}
                       target="_blank"
                       rel="noreferrer"
+                      aria-label={`Přejít na webové stránky ${web}`}
                     >
-                      {web}
+                      <img
+                        alt={`Logo vinařství ${title} `}
+                        src={logo}
+                        className="logo-winery"
+                      />
                     </a>
                   </div>
-                  <div>{name}</div>
-                  <div>
-                    <a
-                      href={`${phone}`}
-                      className="link-dark"
-                      aria-label={`${phone}`}
-                    >
-                      {phone}
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href={`${email}`}
-                      className="link-dark"
-                      aria-label={`email ${email}`}
-                    >
-                      {email}
-                    </a>
-                  </div>
-                </div>
-                <div>
-                  <a
-                    href={web}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`Přejít na webové stránky ${web}`}
-                  >
-                    <img
-                      alt={`Logo vinařství ${title} `}
-                      src={logo}
-                      className="logo-winery"
-                    />
-                  </a>
                 </div>
               </div>
             </div>
