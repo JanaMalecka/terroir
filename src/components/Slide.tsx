@@ -66,11 +66,11 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
             <div className="slide-description">
               <div
                 className={`${
-                  isCenterSlide ? 'carousel-motto--visible' : 'none'
+                  isCenterSlide ? 'carousel-motto--visible fst-italic' : 'none'
                 }`}
                 onClick={handleClick}
               >
-                {motto}
+                {`"${motto}"`}
               </div>
               <div className="divider"></div>
               <div
