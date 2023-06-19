@@ -34,6 +34,9 @@
   position: relative;
   object-fit: cover;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex !important;
 
   @media (min-width: 768px) {
     max-width: 90%;

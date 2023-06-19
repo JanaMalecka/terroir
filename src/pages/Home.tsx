@@ -1,9 +1,8 @@
 import React, { FC } from 'react';
-//import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Button from '../components/Button';
 import Link from '../features/Link';
-import vineyardWide from '../assets/images/vineyardWide.jpg';
-import FadeIn from '../features/Animate/FadeIn';
+import vineyardWideLow from '../assets/images/vineyardWideLow.webp';
 import FadeUp from '../features/Animate/FadeUp';
 import ScaleIn from '../features/Animate/ScaleIn';
 
@@ -22,19 +21,19 @@ const Home: FC = (): JSX.Element => {
       </div>
 
       <div className="container__content light ">
-        <FadeIn from={{ opacity: 0 }} to={{ opacity: 1 }}>
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <h3>Čejkovice</h3>
-        </FadeIn>
+        </FadeUp>
 
-        <FadeIn from={{ opacity: 0 }} to={{ opacity: 1 }}>
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
             patří mezi významné tradiční vinařské obce na jižní Moravě, aby tomu
             tak bylo i nadále, rozhodli se v roce 2018 ČTVRTEČNÍCI sdružení
             vinařů Čejkovice z.s. zdůraznit jedinečnost místních vín, vytvořením
             prvního apelačního systému: TERROIR ČEJKOVICE.
           </p>
-        </FadeIn>
-        <FadeIn from={{ opacity: 0 }} to={{ opacity: 1 }}>
+        </FadeUp>
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
             Během posledních třiceti let prošlo vinohradnictví a vinařství v
             České republice obrovským vývojem ať už v agrotechnice, šlechtění či
@@ -42,17 +41,17 @@ const Home: FC = (): JSX.Element => {
             častěji ohlížíme do minulosti, kdy vinařství dělali naši otcové,
             dědové a pradědové.
           </p>
-        </FadeIn>
+        </FadeUp>
       </div>
 
       <div className="container__content">
-        <FadeIn from={{ opacity: 0 }} to={{ opacity: 1 }}>
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
             Jejich mottem byla především pokora a to jak k půdě, tak k samotnému
             vínu. Tato pokora je základem stavebním kamenem pro Terroir
             Čejkovice.
           </p>
-        </FadeIn>
+        </FadeUp>
       </div>
       <div className="container__content light ">
         <FadeUp
@@ -70,18 +69,23 @@ const Home: FC = (): JSX.Element => {
         to={{ opacity: 1, translate: 'none' }}
       >
         <div className="d-flex justify-content-center">
-          {/* <LazyLoadImage
-          src={vineyardWide}
-          className="img-style"
-          alt="Foto vinice"
-          loading="lazy"
-        /> */}
-          <img
+          <LazyLoadImage
+            src={vineyardWideLow}
+            className="img-style"
+            alt="Foto vinice"
+            loading="lazy"
+            // effect="opacity" // Specify the desired effect (e.g., 'opacity', 'blur', etc.)
+            threshold={100} // Set the threshold in pixels for lazy loading
+            delayMethod="debounce" // Set the delay method for loading the image
+            //delayTime={100} // Set the delay time in milliseconds
+            visibleByDefault={true}
+          />
+          {/* <img
             alt="Foto vinice"
             src={vineyardWide}
             className="img-style"
             loading="lazy"
-          />
+          /> */}
         </div>
       </FadeUp>
 

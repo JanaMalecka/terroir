@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { StackedCarouselSlideProps } from 'react-stacked-center-carousel';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface SlideProps extends StackedCarouselSlideProps {
   data: {
@@ -49,12 +50,23 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
         </div>
         <div className="detail fill">
           <div className="discription flex-column">
-            <img
+            <LazyLoadImage
+              src={coverImage}
+              loading="lazy"
+              threshold={100}
+              delayMethod="debounce"
+              //visibleByDefault={true}
+              style={{ width: '100%' }}
+              alt="fotografie vinařů"
+              className="cover-image"
+              placeholder={null}
+            />
+            {/* <img
               style={{ width: '100%' }}
               alt="fotografie vinařů"
               className="cover-image"
               src={coverImage}
-            />
+            /> */}
             <div
               onClick={handleClick}
               className={`${isCenterSlide ? 'carousel-title' : 'none'}`}

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/vinarstvi1.jpg",
+    "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Vinařství Novotný-Bílek",
     "motto": "Dvě jména, dvě generace",
     "text": "Příběh našeho rodinného Vinařství Novotný Bílek začal vinobraním v roce 2017, kdy se spojila dvě jména a dvě generace. Vinaříme v Čejkovicích, kde obhospodařujeme 2 ha vinic. Zaměřujeme se na odrůdy, které nejlépe odráží jedinečný terroir Čejkovic.",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarLow.webp",
     "title": "Vinařství Škrobák",
     "motto": "S láskou a pokorou k vínu",
     "text": "Příběh našeho vinařství je příběhem jedné rodiny, po generace spjaté s Čejkovicemi. Místem, kde je úcta k vinařskému řemeslu a jeho historii neodmyslitelnou součástí každodenního života. Proto i my čerpáme z bohatých tradic a zkušeností našich předků, jejich lásce k vínu a pokoře k přírodě.",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Vinařství Mezi sklepy",
     "motto": "NÁŠ RUKOPIS JE NEMÍT RUKOPIS",
     "text": "Tady sú všecí šťastní. Nikdo si na nic nehraje. Každej je takovej jakej je a hlavně nosí úsměv na tváři. A proto to celé děláme. Vytváříme svěží i robustní vína. Dbáme na to, aby veškerá výroba byla v souladu s přírodou, proto pracujeme s jemnými kaly a využíváme potenciál přírodních antioxidantů. Vína se nemusí tolik sířit a díky tomu pomaleji stárnou. Jsou poté čistá a různorodá. Na dně každého pohárku najdete něco jiného.",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Vinařství Bíza Čejkovice",
     "motto": "Kultivovat krajinu i člověka.",
     "text": "Jsme rodinné vinařství založené v roce 1999. Navazujeme na tradici našich předků, kteří připutovali z Francie na Moravu v roce 1771.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Vinařství Petr Kočařík",
     "motto": "Autentická vína – terroirová vína – suchá vína",
     "text": "Pro naše rodinné vinařství je hlavní především kvalita. U vín se snažíme zachovat jejich přirozenost, jejich terroir. To znamená, že v našich lahvích naleznete odraz místa a průběhu počasí daného ročníku. Proto potřebujeme sklidit zdravé a vyzrálé hrozny, a jednou z cest jak toho dosáhnout, je odvést na vinici spoustu nadstandardní ruční práce, jako je vylamování zálistků nebo redukce hroznů. Půdu obděláváme bez herbicidů a od roku 2010 keře ošetřujeme pouze přípravky povolenými v ekologickém zemědělství.",
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Víno Červenka",
     "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a k přírodě",
     "text": "Vinařství vzniklo přirozenou cestou a navázalo na několik generací výroby vína v rodině. Cílem je vyrábět kvalitní přívlastková vína s důrazem na odrůdovost, svěží vůni a ovocnou chuť. Hrozny jen z vlastních vinic – kontrola kvality a vyzrálosti hroznů, které jsou potřeba při vyrobě kvalitních přívlastkových vín (jen přírodní cukr). Klademe velký důraz na práce ve vinici.",
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/vinarLow.webp",
     "title": "Vinařství Veverka",
     "motto": "Člověk žije příliš krátce na to, aby pil špatné víno.",
     "text": "Rodinné vinařství s dlouholetou tradicí a zkušenostmi. Hospodaříme na vinicích vysázených v prvotřídních tratích Čejkovic, lokalitě s velmi příznivými klimatickými a půdními podmínkami. Zakládáme si na maximální šetrnosti k přírodě a ke zdraví konzumenta.",
