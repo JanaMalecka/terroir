@@ -69,20 +69,20 @@ const Home: FC = (): JSX.Element => {
         to={{ opacity: 1, translate: 'none' }}
       >
         <div className="d-flex justify-content-center">
-          <LazyLoadImage
+          {/*   <LazyLoadImage
             src={vineyardWideLow}
             className="img-style"
             alt="Foto vinice"
             loading="lazy"
             delayMethod="debounce"
             visibleByDefault={true}
-          />
-          {/* <img
+          /> */}
+          <img
             alt="Foto vinice"
-            src={vineyardWide}
+            src={vineyardWideLow}
             className="img-style"
             loading="lazy"
-          /> */}
+          />
         </div>
       </FadeUp>
 
