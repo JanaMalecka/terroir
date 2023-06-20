@@ -75,7 +75,7 @@ const Home: FC = (): JSX.Element => {
             alt="Foto vinice"
             loading="lazy"
             delayMethod="debounce"
-            //visibleByDefault={true}
+            visibleByDefault={true}
           />
           {/* <img
             alt="Foto vinice"
