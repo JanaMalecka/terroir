@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { StackedCarouselSlideProps } from 'react-stacked-center-carousel';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -21,6 +21,8 @@ interface SlideProps extends StackedCarouselSlideProps {
 const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   const coverImage = data[dataIndex].image;
   const text = data[dataIndex].text;
   const title = data[dataIndex].title;
@@ -37,9 +39,17 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleImageLoad = () => {
+    setIsImageLoaded(true);
+  };
+
   return (
     <>
-      <div className="card-card" draggable={false}>
+      <div
+        className="card-card"
+        draggable={false}
+        style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
+      >
         <div className={`cover fill ${isCenterSlide ? 'off' : 'on'}`}>
           <div
             className="card-overlay fill"
@@ -53,13 +63,14 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
             <LazyLoadImage
               src={coverImage}
               loading="lazy"
-              threshold={100}
               delayMethod="debounce"
-              //visibleByDefault={true}
-              style={{ width: '100%' }}
+              visibleByDefault={true}
+              style={{
+                width: '100%',
+              }}
               alt="fotografie vinařů"
               className="cover-image"
-              placeholder={null}
+              afterLoad={handleImageLoad}
             />
             {/* <img
               style={{ width: '100%' }}
@@ -75,7 +86,10 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
             </div>
             <div className="divider"></div>
 
-            <div className="slide-description">
+            <div
+              className="slide-description"
+              style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
+            >
               <div
                 className={`${
                   isCenterSlide ? 'carousel-motto--visible fst-italic' : 'none'

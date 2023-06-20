@@ -74,11 +74,8 @@ const Home: FC = (): JSX.Element => {
             className="img-style"
             alt="Foto vinice"
             loading="lazy"
-            // effect="opacity" // Specify the desired effect (e.g., 'opacity', 'blur', etc.)
-            threshold={100} // Set the threshold in pixels for lazy loading
-            delayMethod="debounce" // Set the delay method for loading the image
-            //delayTime={100} // Set the delay time in milliseconds
-            visibleByDefault={true}
+            delayMethod="debounce"
+            //visibleByDefault={true}
           />
           {/* <img
             alt="Foto vinice"
