@@ -65,7 +65,7 @@ const Home: FC = (): JSX.Element => {
         </FadeUp>
       </div>
       <FadeUp
-        from={{ opacity: 0, translate: '0 2rem' }}
+        from={{ opacity: 1, translate: '0 2rem' }}
         to={{ opacity: 1, translate: 'none' }}
       >
         <div className="d-flex justify-content-center">
