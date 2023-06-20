@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+//import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Button from '../components/Button';
 import Link from '../features/Link';
 import vineyardWideLow from '../assets/images/vineyardWideLow.webp';
