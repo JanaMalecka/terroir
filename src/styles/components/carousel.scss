@@ -207,6 +207,42 @@
     padding-bottom: 80rem;
   }
 }
+
+.slide-wines {
+  margin: 20px 0;
+  padding-bottom: 60rem;
+
+  @media (min-width: 768px) {
+    padding-bottom: 80rem;
+  }
+}
 .card-button--varieties {
   top: 45% !important;
+}
+.card-button--wines {
+  top: 20% !important;
+
+  @media (min-width: 768px) {
+    top: 25% !important;
+  }
+}
+
+.carousel-description--visible {
+  padding: 0.5rem 5rem;
+  background-color: $white;
+  color: $black;
+  text-align: center;
+  overflow: visible !important;
+
+  @media (min-width: 768px) {
+    padding: 1rem;
+  }
+}
+
+.card-card--high {
+  height: 500px;
+
+  @media (min-width: 768px) {
+    height: 728px;
+  }
 }
