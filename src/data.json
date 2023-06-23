@@ -6,7 +6,7 @@
     "motto": "Dvě jména, dvě generace",
     "text": "Příběh našeho rodinného Vinařství Novotný Bílek začal vinobraním v roce 2017, kdy se spojila dvě jména a dvě generace. Vinaříme v Čejkovicích, kde obhospodařujeme 2 ha vinic. Zaměřujeme se na odrůdy, které nejlépe odráží jedinečný terroir Čejkovic.",
     "contact": {
-      "web": "https://www.novotnybilek.cz/",
+      "web": "www.novotnybilek.cz",
       "name": "Ing. Roman Bílek",
       "phone": "+420 723 424 442",
       "email": "vinarstvi@novotnybilek.cz"
@@ -20,7 +20,7 @@
     "motto": "S láskou a pokorou k vínu",
     "text": "Příběh našeho vinařství je příběhem jedné rodiny, po generace spjaté s Čejkovicemi. Místem, kde je úcta k vinařskému řemeslu a jeho historii neodmyslitelnou součástí každodenního života. Proto i my čerpáme z bohatých tradic a zkušeností našich předků, jejich lásce k vínu a pokoře k přírodě.",
     "contact": {
-      "web": "https://vinoskrobak.cz/",
+      "web": "www.vinoskrobak.cz",
       "name": "Ing. Stanislav Škrobák",
       "phone": "+420 721 743 478",
       "email": "skrobak.s@seznam.cz"
@@ -31,10 +31,10 @@
     "id": 3,
     "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Vinařství Mezi sklepy",
-    "motto": "NÁŠ RUKOPIS JE NEMÍT RUKOPIS",
+    "motto": "Náš rukopis je nemít rukopis",
     "text": "Tady sú všecí šťastní. Nikdo si na nic nehraje. Každej je takovej jakej je a hlavně nosí úsměv na tváři. A proto to celé děláme. Vytváříme svěží i robustní vína. Dbáme na to, aby veškerá výroba byla v souladu s přírodou, proto pracujeme s jemnými kaly a využíváme potenciál přírodních antioxidantů. Vína se nemusí tolik sířit a díky tomu pomaleji stárnou. Jsou poté čistá a různorodá. Na dně každého pohárku najdete něco jiného.",
     "contact": {
-      "web": "https://www.mezisklepy.cz/",
+      "web": "www.mezisklepy.cz",
       "name": "Richard Pavka",
       "phone": "+420 774 995 272",
       "email": "pavka@vinomezisklepy.cz"
@@ -48,7 +48,7 @@
     "motto": "Kultivovat krajinu i člověka.",
     "text": "Jsme rodinné vinařství založené v roce 1999. Navazujeme na tradici našich předků, kteří připutovali z Francie na Moravu v roce 1771.",
     "contact": {
-      "web": "https://www.bizavino.cz/",
+      "web": "www.bizavino.cz",
       "name": "Ing. Petr Bíza",
       "phone": "+420 776 120 439",
       "email": "bizavino@bizavino.cz"
@@ -62,7 +62,7 @@
     "motto": "Autentická vína – terroirová vína – suchá vína",
     "text": "Pro naše rodinné vinařství je hlavní především kvalita. U vín se snažíme zachovat jejich přirozenost, jejich terroir. To znamená, že v našich lahvích naleznete odraz místa a průběhu počasí daného ročníku. Proto potřebujeme sklidit zdravé a vyzrálé hrozny, a jednou z cest jak toho dosáhnout, je odvést na vinici spoustu nadstandardní ruční práce, jako je vylamování zálistků nebo redukce hroznů. Půdu obděláváme bez herbicidů a od roku 2010 keře ošetřujeme pouze přípravky povolenými v ekologickém zemědělství.",
     "contact": {
-      "web": "https://kocarik.cz/",
+      "web": "www.kocarik.cz",
       "name": "Petr Kočařík",
       "phone": "+420 608 838 502",
       "email": "kocarik@volny.cz"
@@ -76,7 +76,7 @@
     "motto": "Motto: ",
     "text": "Rozvoj Vinařství Fojtík probíhal pomalu, jak se říká na koleni. Navazoval na rodinnou tradici, ale v roce 2000 mu zdárný směr udal dnešní majitel. V současné době obhospodařujeme 1,5 ha vinic. Při sklizni klademe důraz na vysokou cukernatost a kvalitu hroznů. Používáme nejnovější technologie.",
     "contact": {
-      "web": "https://www.vinofojtik.cz/",
+      "web": "www.vinofojtik.cz",
       "name": "Zdeněk Fojtík",
       "phone": "+420 776 333 283",
       "email": "info@vinofojtik.cz"
@@ -90,7 +90,7 @@
     "motto": "Vína plná radosti, hrdosti a štěstí",
     "text": "Důvodem založení našeho malého rodinného vinařství byla jednak láska k vínu, půdě a vinicím, ale také dlouholetá tradice výroby vína v naší rodině. Při zpracování a výrobě vína se snažíme spojovat modernější technologie s tradičními postupy, které spolu s naším rukopisem dávají vínům nezaměnitelný charakter.",
     "contact": {
-      "web": "https://www.vinoveverka.cz/",
+      "web": "www.vinoveverka.cz",
       "name": "Libor Veverka",
       "phone": "+420 723 446 526",
       "email": "libor@vinoveverka.cz"
@@ -104,7 +104,7 @@
     "motto": "Základem je rodina, láska k vínu a přírodě, odkaz předků a mladické nadšení",
     "text": "Snažíme se produkovat vína výhradně ze sklizně z vlastních vinic. Při výrobě kombinujeme tradiční a nejnovější postupy a technologie. Pro vybrané odrůdy používáme také francouzské sudy. Výsledkem naší práce jsou jedinečná vína s regionálním charakterem a originálním rukopisem.",
     "contact": {
-      "web": "https://www.vinarstvipastorek.cz/",
+      "web": "www.vinarstvipastorek.cz",
       "name": "Ing. Jiří Pastorek",
       "phone": "+420 776 719 214",
       "email": "info@vinarstvipastorek.cz"
@@ -118,7 +118,7 @@
     "motto": "Motto: ",
     "text": "Vinařství je pro nás posláním a každodenní výzvou, věnujeme se mu s plným nasazením a jen ty nejlepší hrozny, které nám příroda dovolí sklidit, přetváříme ve víno, se kterým se Vám dostává do rukou ztělesněná práce ve vinici a sklepě.",
     "contact": {
-      "web": "https://www.samsula.cz/",
+      "web": "www.samsula.cz",
       "name": "Ing. Jakub Šamšula",
       "phone": "+420 603 927 741",
       "email": "jakub@samsula.cz"
@@ -129,10 +129,10 @@
     "id": 10,
     "image": "assets/images/vinar.png",
     "title": "Vinařství Konečný",
-    "motto": "JSEM RÁD, ŽE MĚ RODIČE ZASVĚTILI DO TAJŮ VINAŘINY. HLAVNĚ, ŽE MI DALI PROSTOR, ABYCH VŠEMU DOZRÁL SÁM...",
-    "text": "VÍNA VYRÁBÍME POMOCÍ MODERNÍCH TECHNOLOGIÍ, JAKO JE ŠETRNÉ ZPRACOVÁNÍ HROZNŮ, ODKALENÍ MOŠTŮ, ZAKVÁŠENÍ UŠLECHTILÝMI KVASINKAMI A ŘÍZENÁ TEPLOTA KVAŠENÍ. ODBOURÁVÁNÍ KYSELINY JABLEČNÉ U ČERVENÝCH VÍN JE SAMOZŘEJMOSTÍ. VŠECHNA NÁMI VYROBENÁ VÍNA JSOU JEDINEČNÁ A JSOU URČENA JAK PRO KAŽDODENNÍ POTĚŠENÍ, TAK PRO SLAVNOSTNÍ PŘÍLEŽITOSTI.",
+    "motto": "Jsem rád, že mě rodiče zasvětili do tajů vinařiny. Hlavně, že mi dali prostor, abych všemu dozrál sám...",
+    "text": "Vína vyrábíme pomocí moderních technologií, jako je šetrné zpracování hroznů, odkalení moštů, zakvašení ušlechtilými kvasinkami a řízená teplota kvašení. Odbourávání kyseliny jablečné u červených vín je samozřejmostí. Všechna námi vyrobená vína jsou jedinečná a jsou určena jak pro každodenní potěšení, tak pro slavnostní příležitosti.",
     "contact": {
-      "web": "https://www.vinarstvi-konecny.cz/",
+      "web": "www.vinarstvi-konecny.cz",
       "name": "Stanislav Konečný ",
       "phone": "+420 777 001 463",
       "email": "info@vinarstvi-konecny.cz"
@@ -146,7 +146,7 @@
     "motto": "Motto:  ",
     "text": "Láska k vínu se v naší rodině dědí již několik generací, které svůj život zasvětily pěstování vinic a výrobě vína pro vlastní potěšení. V roce 1991 jsme se rozhodli podělit o dlouholeté zkušenosti a nabídnout naše vína širší veřejnosti. Při výrobě vína využíváme tradiční postupy, které společně se zkušenostmi a novými technologiemi, umožňují vznik nádherných odrůdových vín.",
     "contact": {
-      "web": "http://www.vydarely-holomac.cz/",
+      "web": "www.vydarely-holomac.cz",
       "name": "Milan Vydařelý",
       "phone": "+420 723 526 325",
       "email": "milan.vydarely@centrum.cz"
@@ -160,7 +160,7 @@
     "motto": "Motto:  ",
     "text": "Text...",
     "contact": {
-      "web": "https://www.vinohradil.cz/",
+      "web": "www.vinohradil.cz",
       "name": "Ing. Lukáš Hradil",
       "phone": "+420 777 269 406",
       "email": "lukas@vinohradil.cz"
@@ -174,7 +174,7 @@
     "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a k přírodě",
     "text": "Vinařství vzniklo přirozenou cestou a navázalo na několik generací výroby vína v rodině. Cílem je vyrábět kvalitní přívlastková vína s důrazem na odrůdovost, svěží vůni a ovocnou chuť. Hrozny jen z vlastních vinic – kontrola kvality a vyzrálosti hroznů, které jsou potřeba při vyrobě kvalitních přívlastkových vín (jen přírodní cukr). Klademe velký důraz na práce ve vinici.",
     "contact": {
-      "web": "https://www.vinocervenka.cz/",
+      "web": "www.vinocervenka.cz",
       "name": "Pavel Červenka",
       "phone": "+420 777 598 222",
       "email": "info@vinocervenka.cz"
@@ -188,7 +188,7 @@
     "motto": "Člověk žije příliš krátce na to, aby pil špatné víno.",
     "text": "Rodinné vinařství s dlouholetou tradicí a zkušenostmi. Hospodaříme na vinicích vysázených v prvotřídních tratích Čejkovic, lokalitě s velmi příznivými klimatickými a půdními podmínkami. Zakládáme si na maximální šetrnosti k přírodě a ke zdraví konzumenta.",
     "contact": {
-      "web": "https://vinarstvi-veverka.cz/",
+      "web": "www.vinarstvi-veverka.cz",
       "name": "Ing. Tomáš Veverka",
       "phone": "+420 777 617 537",
       "email": "info@vinarstvi-veverka.cz"

@@ -48,6 +48,17 @@
   color: $black;
   width: 7rem;
   height: auto;
-  //background: $blue-light;
   margin: 1rem;
+
+  &--bigger {
+    width: 12rem;
+
+    @media (max-width: 767px) {
+      margin: 3rem 1rem;
+    }
+  }
+
+  &--smaller {
+    width: 4.5rem;
+  }
 }

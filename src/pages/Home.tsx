@@ -22,48 +22,26 @@ const Home: FC = (): JSX.Element => {
 
       <div className="container__content light ">
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <h3>Čejkovice</h3>
+          <h4>Cíl projektu Terroir Čejkovice je </h4>
         </FadeUp>
-
-        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <p>
-            patří mezi významné tradiční vinařské obce na jižní Moravě, aby tomu
-            tak bylo i nadále, rozhodli se v roce 2018 ČTVRTEČNÍCI sdružení
-            vinařů Čejkovice z.s. zdůraznit jedinečnost místních vín, vytvořením
-            prvního apelačního systému: TERROIR ČEJKOVICE.
-          </p>
-        </FadeUp>
-        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <p>
-            Během posledních třiceti let prošlo vinohradnictví a vinařství v
-            České republice obrovským vývojem ať už v agrotechnice, šlechtění či
-            nových technologických postupech při výrobě vína. Přesto se čím dál
-            častěji ohlížíme do minulosti, kdy vinařství dělali naši otcové,
-            dědové a pradědové.
-          </p>
-        </FadeUp>
+        <ul>
+          <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <li className="mb-3">zdůraznění jedinečnosti čejkovických vín</li>
+          </FadeUp>
+          <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <li className="mb-3">zviditelnění odrůd typických pro Čejkovice</li>
+          </FadeUp>
+          <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <li className="mb-3">důraz na vinifikaci a související kvalitu</li>
+          </FadeUp>
+          <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <li className="mb-3">
+              zachování historického odkazu pěstování hroznů v Čejkovicích
+            </li>
+          </FadeUp>
+        </ul>
       </div>
 
-      <div className="container__content">
-        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <p>
-            Jejich mottem byla především pokora a to jak k půdě, tak k samotnému
-            vínu. Tato pokora je základem stavebním kamenem pro Terroir
-            Čejkovice.
-          </p>
-        </FadeUp>
-      </div>
-      <div className="container__content light ">
-        <FadeUp
-          from={{ opacity: 0, translate: '0 2rem' }}
-          to={{ opacity: 1, translate: 'none' }}
-        >
-          <p className="fw-bold">
-            Od počátku bylo zřejmé, že historicky typickými odrůdami pro
-            Čejkovice jsou Tramín a Rulandské modré (Pinot Noir).
-          </p>
-        </FadeUp>
-      </div>
       <FadeUp
         from={{ opacity: 1, translate: '0 2rem' }}
         to={{ opacity: 1, translate: 'none' }}

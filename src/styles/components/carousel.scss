@@ -191,7 +191,7 @@
 .winemakers-contact {
   flex-direction: column !important;
 
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
     flex-direction: row !important;
   }
 }

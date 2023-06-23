@@ -4,6 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface SlideProps extends StackedCarouselSlideProps {
   data: {
+    id: number;
     image: string;
     title: string;
     motto: string;
@@ -32,6 +33,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const phone = data[dataIndex].contact.phone;
   const email = data[dataIndex].contact.email;
   const logo = data[dataIndex].logo;
+  const id = data[dataIndex].id;
 
   const ref = useRef<HTMLDivElement>(null);
 
@@ -148,7 +150,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                   </div>
                   <div>
                     <a
-                      href={web}
+                      href={`https:// ${web}`}
                       target="_blank"
                       rel="noreferrer"
                       aria-label={`Přejít na webové stránky ${web}`}
@@ -156,7 +158,14 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                       <img
                         alt={`Logo vinařství ${title} `}
                         src={logo}
-                        className="logo-winery"
+                        // className="logo-winery"
+                        className={
+                          id === 14 || id === 9
+                            ? 'logo-winery--bigger'
+                            : id === 2
+                            ? 'logo-winery--smaller'
+                            : 'logo-winery'
+                        }
                       />
                     </a>
                   </div>
