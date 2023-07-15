@@ -50,14 +50,14 @@ const Header: FC = () => {
       <Route path="/zatridena-vina">
         <Wines />
       </Route>
-      <Route path="/statut-terroir-cejkovice">
-        <Statute />
+      <Route path="/clenska-vinarstvi">
+        <Wineries />
       </Route>
       <Route path="/mapa-terroir-cejkovice">
         <Map />
       </Route>
-      <Route path="/clenska-vinarstvi">
-        <Wineries />
+      <Route path="/statut-terroir-cejkovice">
+        <Statute />
       </Route>
       <Route path="/kontakt">
         <Contacts />

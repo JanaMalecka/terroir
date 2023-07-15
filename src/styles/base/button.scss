@@ -32,3 +32,22 @@
     color: $white;
   }
 }
+
+.btn--tertiary {
+  background-color: $white;
+  color: $blue-light;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $blue-light;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+
+  &:hover {
+    background-color: $blue-light;
+    color: $white;
+    border-color: $white;
+  }
+}

@@ -13,17 +13,16 @@
 @import '/src/styles/components/modal.scss';
 
 @font-face {
-  font-family: 'PhosphateSolid';
-  src: local('PhosphateSolid'),
-    url('./assets/fonts/PhosphateSolid.ttf') format('truetype');
-  //font-weight: 100;
+  font-family: 'AvenirNextLTPro-Regular';
+  src: local('AvenirNextLTPro-Regular'),
+    url('./assets/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AvenirNextLTPro-Regular';
-  src: local('AvenirNextLTPro-Regular'),
-    url('./assets/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+  font-family: 'avenir-next-heavy';
+  src: local('avenir-next-heavy'),
+    url('./assets/fonts/avenir-next-heavy.ttf') format('truetype');
   font-style: normal;
 }
 
@@ -47,13 +46,13 @@ body {
   color: $white !important;
   background-color: $white !important;
 }
+
 h1 {
-  // font-family: 'PhosphateSolid', sans-serif !important;
+  font-family: 'avenir-next-heavy', sans-serif;
   //font-size: 100pt !important;
-  //font-family: 'AvenirNextLTPro-Regular', sans-serif !important;
 }
 h2 {
-  //font-family: 'AvenirNextLTPro-Regular', sans-serif !important;
+  font-family: 'avenir-next-heavy', sans-serif;
   // font-size: 80pt !important;
 }
 /* p {

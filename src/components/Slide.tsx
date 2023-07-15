@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { StackedCarouselSlideProps } from 'react-stacked-center-carousel';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Button from './Button';
 
 interface SlideProps extends StackedCarouselSlideProps {
   data: {
@@ -8,7 +9,7 @@ interface SlideProps extends StackedCarouselSlideProps {
     image: string;
     title: string;
     motto: string;
-    text: string;
+    text: string[];
     contact: {
       web: string;
       name: string;
@@ -100,14 +101,16 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               >
                 {`"${motto}"`}
               </div>
-              <div className="divider"></div>
+              <div className={`${isCenterSlide ? 'divider' : 'none'}`}></div>
               <div
                 className={`${
                   isCenterSlide ? 'carousel-text--visible' : 'none'
                 }`}
                 ref={ref}
               >
-                {text}
+                {text.map((sentence, index) => (
+                  <p key={index}>{sentence}</p>
+                ))}
               </div>
               <div
                 className={`${
@@ -160,7 +163,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                         src={logo}
                         // className="logo-winery"
                         className={
-                          id === 14 || id === 9
+                          id === 11 || id === 8
                             ? 'logo-winery--bigger'
                             : id === 2
                             ? 'logo-winery--smaller'
@@ -170,6 +173,22 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     </a>
                   </div>
                 </div>
+              </div>
+
+              <div
+                className={`${
+                  isCenterSlide ? 'carousel-text--visible' : 'none'
+                }`}
+              >
+                <a
+                  href={`https:// ${web}`}
+                  className="link-dark"
+                  aria-label={`Přejít na webové stránky ${web}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button className="btn--secondary">Navštívit vinaře</Button>
+                </a>
               </div>
             </div>
           </div>

@@ -17,9 +17,9 @@ const Navbar: FC = () => {
   const links: LinkItem[] = [
     { label: 'ODRŮDY', path: '/odrudy' },
     { label: 'ZATŘÍDĚNÁ VÍNA', path: '/zatridena-vina' },
-    { label: 'STATUT TERROIR ČEJKOVICE', path: '/statut-terroir-cejkovice' },
-    { label: 'MAPA TERROIR ČEJKOVICE', path: '/mapa-terroir-cejkovice' },
     { label: 'ČLENSKÁ VINAŘSTVÍ', path: '/clenska-vinarstvi' },
+    { label: 'MAPA TERROIR ČEJKOVICE', path: '/mapa-terroir-cejkovice' },
+    { label: 'STATUT TERROIR ČEJKOVICE', path: '/statut-terroir-cejkovice' },
     { label: 'KONTAKT', path: '/kontakt' },
   ];
 

@@ -2,7 +2,8 @@
   {
     "id": 1,
     "image": "assets/images/pinot.webp",
-    "wine": "Pinot Noir 2019",
+    "wine": "PINOT NOIR",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
     "name": "Víno Hradil",
@@ -12,41 +13,45 @@
   {
     "id": 2,
     "image": "assets/images/pinot.webp",
-    "wine": "Pinot Noir 2019",
+    "wine": "PINOT NOIR",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
     "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png"
+    "logo": "assets/images/12LogoHradil.png",
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
   },
   {
     "id": 3,
     "image": "assets/images/pinot.webp",
-    "wine": "Pinot Noir 2019",
+    "wine": "PINOT NOIR",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
     "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png"
+    "logo": "assets/images/12LogoHradil.png",
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
   },
   {
     "id": 4,
     "image": "assets/images/pinot.webp",
-    "wine": "Pinot Noir 2019",
+    "wine": "PINOT NOIR",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
     "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png"
+    "logo": "assets/images/12LogoHradil.png",
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
   },
   {
     "id": 5,
     "image": "assets/images/pinot.webp",
-    "wine": "Pinot Noir 2019",
+    "wine": "PINOT NOIR",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
     "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png"
+    "logo": "assets/images/12LogoHradil.png",
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
   }
 ]

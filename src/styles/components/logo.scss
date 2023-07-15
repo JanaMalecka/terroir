@@ -44,6 +44,46 @@
   margin-left: 10px;
 }
 
+.logo-wines {
+  position: absolute;
+  bottom: 2rem;
+  left: 6rem;
+  color: $black;
+  width: 5.5rem;
+  height: auto;
+  margin: 1rem;
+
+  @media (min-width: 375px) {
+    bottom: 3rem;
+    left: 5rem;
+  }
+
+  @media (min-width: 425px) {
+    bottom: 3rem;
+    left: 4rem;
+  }
+
+  @media (min-width: 768px) {
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  &--bigger {
+    width: 12rem;
+
+    @media (max-width: 767px) {
+      margin: 3rem 1rem;
+    }
+  }
+
+  &--smaller {
+    width: 4.5rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 6rem;
+  }
+}
+
 .logo-winery {
   color: $black;
   width: 7rem;

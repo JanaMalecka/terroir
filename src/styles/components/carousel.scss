@@ -75,6 +75,16 @@
   height: -webkit-fill-available;
 }
 
+.card-card .cover-image--fit {
+  object-fit: contain;
+  height: -webkit-fill-available;
+  background-color: $white;
+
+  @media (min-width: 768px) {
+    object-fit: cover;
+  }
+}
+
 .card-card .cover {
   position: absolute;
   transition: opacity 300ms ease;
@@ -111,7 +121,30 @@
 }
 
 .carousel-motto--visible {
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
+  background-color: $blue-light;
+  color: $white;
+  text-align: center;
+  overflow: visible !important;
+  cursor: pointer;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  @media (min-width: 425px) {
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+.carousel-specification--visible {
+  padding: 1rem;
   background-color: $blue-light;
   color: $white;
   text-align: center;
@@ -119,7 +152,20 @@
   cursor: pointer;
 
   @media (min-width: 768px) {
-    padding: 2rem;
+    padding: 2rem 0rem;
+  }
+}
+
+.carousel-specification--name {
+  text-align: end;
+  padding: 0.2rem 7rem 1rem 1rem;
+
+  @media (min-width: 375px) {
+    padding-right: 5rem;
+  }
+
+  @media (min-width: 425px) {
+    padding-right: 4rem;
   }
 }
 
@@ -181,11 +227,16 @@
 .slide-description {
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-top: -4rem;
 
   @media (min-width: 425px) {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+}
+.slide-description--wines {
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .winemakers-contact {
