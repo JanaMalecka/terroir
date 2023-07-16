@@ -8,7 +8,7 @@ import FadeUp from '../features/Animate/FadeUp';
 const Varieties: FC = (): JSX.Element => {
   return (
     <>
-      <div className="container__content light">
+      <div className="container__content">
         <h1>ODRŮDY</h1>
       </div>
       <Carousel

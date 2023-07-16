@@ -213,8 +213,7 @@ const Home: FC = (): JSX.Element => {
             <div className="modal-dialog modal-dialog-scrollable">
               <div className="modal-content">
                 <div className="modal-header modal-separator--color d-flex flex-column">
-                  <h2>Statut</h2>
-                  <h2> TERROIR ČEJKOVICE</h2>
+                  <h2 className="pt-3">Statut TERROIR ČEJKOVICE</h2>
                 </div>
                 <Modal />
                 <div className="modal-footer modal-separator--color">
