@@ -7,8 +7,7 @@ const Statute: FC = (): JSX.Element => {
   return (
     <>
       <div className="container__content">
-        <h1>TERROIR</h1>
-        <h2>ČEJKOVICE</h2>
+        <h1>STATUT TERROIR ČEJKOVICE</h1>
         <p>
           Označení Terroir Čejkovice je možné přiznávat pouze vínům vyrobených z
           odrůd:

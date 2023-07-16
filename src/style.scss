@@ -11,6 +11,7 @@
 @import '/src/styles/base/link.scss';
 @import '/src/styles/base/li.scss';
 @import '/src/styles/components/modal.scss';
+@import '/src/styles/mixins/fonts.scss';
 
 @font-face {
   font-family: 'AvenirNextLTPro-Regular';
@@ -47,17 +48,12 @@ body {
   background-color: $white !important;
 }
 
-h1 {
-  font-family: 'avenir-next-heavy', sans-serif;
-  //font-size: 100pt !important;
-}
+h1,
 h2 {
   font-family: 'avenir-next-heavy', sans-serif;
-  // font-size: 80pt !important;
+  color: $blue-light !important;
+  padding: 2rem 0 1rem 0;
 }
-/* p {
-  font-size: 60pt;
-} */
 
 article,
 aside,
@@ -78,7 +74,11 @@ select,
 textarea {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
-
+p {
+  @media (min-width: 768px) {
+    margin-bottom: 2rem !important;
+  }
+}
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

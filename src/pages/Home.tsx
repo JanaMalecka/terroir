@@ -10,10 +10,10 @@ const Home: FC = (): JSX.Element => {
     <>
       <section className="container__content--mobile"></section>
       <div className="container__content">
-        <h1>TERROIR</h1>
-        <h2>ČEJKOVICE</h2>
+        <h1>TERROIR ČEJKOVICE</h1>
+
         <p>
-          první apelační systém, který ukazuje neopakovatelnou typičnost odrůd
+          První apelační systém, který ukazuje neopakovatelnou typičnost odrůd
           Tramín a Rulandské modré pěstovaných na jedinečných viničních tratích
           Čejkovic.{' '}
         </p>
@@ -78,7 +78,7 @@ const Home: FC = (): JSX.Element => {
 
       <div className="container__content light ">
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <h4 className="mb-3">Cíl projektu Terroir Čejkovice je: </h4>
+          <h6 className="fw-bold mb-3">Cíl projektu Terroir Čejkovice je: </h6>
         </FadeUp>
 
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
@@ -106,7 +106,7 @@ const Home: FC = (): JSX.Element => {
 
       <div className="container__content">
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <h2>Statut TERROIR ČEJKOVICE</h2>
+          <h2>Statut Terroir Čejkovice</h2>
         </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
@@ -213,8 +213,8 @@ const Home: FC = (): JSX.Element => {
             <div className="modal-dialog modal-dialog-scrollable">
               <div className="modal-content">
                 <div className="modal-header modal-separator--color d-flex flex-column">
-                  <h1>TERROIR</h1>
-                  <h2>ČEJKOVICE</h2>
+                  <h2>Statut</h2>
+                  <h2> TERROIR ČEJKOVICE</h2>
                 </div>
                 <Modal />
                 <div className="modal-footer modal-separator--color">

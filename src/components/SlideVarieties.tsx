@@ -5,7 +5,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 interface SlideProps extends StackedCarouselSlideProps {
   data: {
     image: string;
-    title: string;
   }[];
 }
 
@@ -13,7 +12,6 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
   const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
   const coverImage = data[dataIndex].image;
-  const title = data[dataIndex].title;
 
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
@@ -55,9 +53,6 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               
             /> */}
-            <div className={`${isCenterSlide ? 'carousel-title' : 'none'}`}>
-              {title}
-            </div>
           </div>
         </div>
       </div>

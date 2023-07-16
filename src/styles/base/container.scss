@@ -1,14 +1,15 @@
 //@import '/src/styles/variables/colors.scss';
 @import '/src/styles/utilities/colors';
+@import 'src/styles/mixins/fonts';
 
 .container__content {
-  background-color: $blue-light;
+  /* background-color: $blue-light; */
   max-width: 100%;
-  color: $white;
+  color: $black;
 
   text-align: center;
-  padding: 2rem;
-  margin: 40px auto 0 auto;
+  padding: 0 2rem;
+  margin: 0 auto 0 auto;
 
   @media (min-width: 768px) {
     max-width: 90%;
@@ -78,6 +79,16 @@
   background-color: $blue-light;
   width: 100vw;
   padding: 2rem;
+  text-align: center;
+  @include font-size-14;
+}
+
+.footer-subsection {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 /* .container__carousel {

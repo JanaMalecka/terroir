@@ -9,14 +9,18 @@ const Varieties: FC = (): JSX.Element => {
   return (
     <>
       <div className="container__content light">
-        <h2>TRAMÍN</h2>
+        <h1>ODRŮDY</h1>
       </div>
       <Carousel
         slideComponent={SlideVarieties}
         data={varieties}
         className="slide-varieties card-button--varieties"
       />
+
       <div className="container__content light">
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+          <h2>TRAMÍN</h2>
+        </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
             Tramín je jednou z nejstarších pěstovaných odrůd, podílela se na
@@ -40,7 +44,7 @@ const Varieties: FC = (): JSX.Element => {
           </p>
         </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <p>
+          <p className="mb-5">
             Ve vůni a chuti můžeme hledat čajovou růži, koření, med, hrozinky,
             tropické ovoce, kompotované ovoce, meruňky, květ fialky či pivoňky,
             zázvor, skořici, lékořici, karamel, liči, mango, mučenku,
@@ -50,17 +54,17 @@ const Varieties: FC = (): JSX.Element => {
           </p>
         </FadeUp>
       </div>
-      <div className="container__content light">
-        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <h2>RULANDSKÉ MODRÉ</h2>{' '}
-        </FadeUp>
-      </div>
+
       <Carousel
         slideComponent={SlideVarieties}
         data={rulanda}
         className="slide-varieties card-button--varieties"
       />
       <div className="container__content light">
+        <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
+          <h2>RULANDSKÉ MODRÉ</h2>{' '}
+        </FadeUp>
+
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
             Mezinárodně používaný název Pinot noir je starobylá odrůda révy
