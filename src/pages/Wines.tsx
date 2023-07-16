@@ -7,7 +7,7 @@ const Wines: FC = (): JSX.Element => {
   return (
     <>
       <div className="container__content">
-        <h1 className="">ZATŘÍDĚNÁ VÍNA</h1>
+        <h1>ZATŘÍDĚNÁ VÍNA</h1>
       </div>
       <Carousel
         slideComponent={SlideWines}

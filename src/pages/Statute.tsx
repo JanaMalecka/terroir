@@ -109,8 +109,7 @@ const Statute: FC = (): JSX.Element => {
             <div className="modal-dialog modal-dialog-scrollable">
               <div className="modal-content">
                 <div className="modal-header modal-separator--color d-flex flex-column">
-                  <h1>TERROIR</h1>
-                  <h2>ČEJKOVICE</h2>
+                  <h2 className="pt-3">Statut TERROIR ČEJKOVICE</h2>
                 </div>
                 <Modal />
                 <div className="modal-footer modal-separator--color">
