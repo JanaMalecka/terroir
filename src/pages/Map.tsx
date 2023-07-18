@@ -4,10 +4,8 @@ import map from '../assets/images/map.webp';
 const Map: FC = (): JSX.Element => {
   return (
     <>
-      <div className="container__content">
-        <h1>MAPA VINIČNÍCH TRATÍ</h1>
-      </div>
-      <div>
+      <div className="container__content"></div>
+      <div className="mt-5">
         <img
           alt="Foto vinice"
           src={map}
