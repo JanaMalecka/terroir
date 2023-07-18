@@ -2,7 +2,8 @@
   {
     "id": 1,
     "image": "assets/images/vinarstvi1LowWebP.webp",
-    "title": "Vinařství Novotný-Bílek",
+    "title": "Novotný-Bílek",
+    "subtitle": "vinařství",
     "motto": "Dvě jména, dvě generace",
     "text": [
       "Příběh našeho rodinného Vinařství Novotný Bílek začal vinobraním v roce 2017, kdy se spojila dvě jména a dvě generace.",
@@ -19,7 +20,8 @@
   {
     "id": 2,
     "image": "assets/images/vinarLow.webp",
-    "title": "Vinařství Škrobák",
+    "title": "Škrobák",
+    "subtitle": "vinařství",
     "motto": "S láskou a pokorou k vínu",
     "text": [
       "Příběh našeho vinařství je příběhem jedné rodiny, po generace spjaté s Čejkovicemi. Místem, kde je úcta k vinařskému řemeslu a jeho historii neodmyslitelnou součástí každodenního života. Proto i my čerpáme z bohatých tradic a zkušeností našich předků, jejich lásce k vínu a pokoře k přírodě."
@@ -35,7 +37,8 @@
   {
     "id": 3,
     "image": "assets/images/vinarstvi1LowWebP.webp",
-    "title": "Vinařství Mezi sklepy",
+    "title": "Mezi sklepy",
+    "subtitle": "vinařství",
     "motto": "Náš rukopis je nemít rukopis",
     "text": [
       "Tady sú všecí šťastní. Nikdo si na nic nehraje. Každej je takovej jakej je a hlavně nosí úsměv na tváři. A proto to celé děláme.",
@@ -52,7 +55,8 @@
   {
     "id": 4,
     "image": "assets/images/vinarstvi1LowWebP.webp",
-    "title": "Vinařství Bíza Čejkovice",
+    "title": "Bíza Čejkovice",
+    "subtitle": "vinařství",
     "motto": "Kultivovat krajinu i člověka.",
     "text": [
       "Jsme rodinné vinařství založené v roce 1999. Navazujeme na tradici našich předků, kteří připutovali z Francie na Moravu v roce 1771."
@@ -68,7 +72,8 @@
   {
     "id": 5,
     "image": "assets/images/vinar.png",
-    "title": "Vinařství Fojtík",
+    "title": "Fojtík",
+    "subtitle": "vinařství",
     "motto": "Motto: ",
     "text": [
       "Rozvoj Vinařství Fojtík probíhal pomalu, jak se říká na koleni. Navazoval na rodinnou tradici, ale v roce 2000 mu zdárný směr udal dnešní majitel. V současné době obhospodařujeme 1,5 ha vinic.",
@@ -85,7 +90,8 @@
   {
     "id": 6,
     "image": "assets/images/vinar.png",
-    "title": "Libor Veverka rodinné vinařství",
+    "title": "Libor Veverka",
+    "subtitle": "vinařství",
     "motto": "Vína plná radosti, hrdosti a štěstí",
     "text": [
       "Důvodem založení našeho malého rodinného vinařství byla jednak láska k vínu, půdě a vinicím, ale také dlouholetá tradice výroby vína v naší rodině.",
@@ -102,7 +108,8 @@
   {
     "id": 7,
     "image": "assets/images/vinar.png",
-    "title": "Vinařství Pastorek",
+    "title": "Pastorek",
+    "subtitle": "vinařství",
     "motto": "Základem je rodina, láska k vínu a přírodě, odkaz předků a mladické nadšení",
     "text": [
       "Snažíme se produkovat vína výhradně ze sklizně z vlastních vinic. Při výrobě kombinujeme tradiční a nejnovější postupy a technologie. Pro vybrané odrůdy používáme také francouzské sudy.",
@@ -119,7 +126,8 @@
   {
     "id": 8,
     "image": "assets/images/vinar.png",
-    "title": "J. Šamšula vinařství",
+    "title": "J. Šamšula",
+    "subtitle": "vinařství",
     "motto": "Motto: ",
     "text": [
       "Vinařství je pro nás posláním a každodenní výzvou, věnujeme se mu s plným nasazením a jen ty nejlepší hrozny, které nám příroda dovolí sklidit, přetváříme ve víno, se kterým se Vám dostává do rukou ztělesněná práce ve vinici a sklepě."
@@ -135,7 +143,8 @@
   {
     "id": 9,
     "image": "assets/images/vinar.png",
-    "title": "Víno Hradil Čejkovice",
+    "title": "Hradil",
+    "subtitle": "vinařství",
     "motto": "Motto:  ",
     "text": ["Text..."],
     "contact": {
@@ -149,7 +158,8 @@
   {
     "id": 10,
     "image": "assets/images/vinarstvi1LowWebP.webp",
-    "title": "Víno Červenka",
+    "title": "Červenka",
+    "subtitle": "vinařství",
     "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a k přírodě",
     "text": [
       "Vinařství vzniklo přirozenou cestou a navázalo na několik generací výroby vína v rodině.",
@@ -166,7 +176,8 @@
   {
     "id": 11,
     "image": "assets/images/vinarLow.webp",
-    "title": "Vinařství Veverka",
+    "title": "Veverka",
+    "subtitle": "vinařství",
     "motto": "Člověk žije příliš krátce na to, aby pil špatné víno.",
     "text": [
       "Rodinné vinařství s dlouholetou tradicí a zkušenostmi.",

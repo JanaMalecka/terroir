@@ -8,6 +8,7 @@ interface SlideProps extends StackedCarouselSlideProps {
     id: number;
     image: string;
     title: string;
+    subtitle: string;
     motto: string;
     text: string[];
     contact: {
@@ -28,6 +29,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const coverImage = data[dataIndex].image;
   const text = data[dataIndex].text;
   const title = data[dataIndex].title;
+  const subtitle = data[dataIndex].subtitle;
   const motto = data[dataIndex].motto;
   const web = data[dataIndex].contact.web;
   const name = data[dataIndex].contact.name;
@@ -83,6 +85,12 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
             /> */}
             <div
               onClick={handleClick}
+              className={`${isCenterSlide ? 'carousel-subtitle' : 'none'}`}
+            >
+              {subtitle}
+            </div>
+            <div
+              onClick={handleClick}
               className={`${isCenterSlide ? 'carousel-title' : 'none'}`}
             >
               {title}
@@ -117,7 +125,6 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                   isCenterSlide ? 'carousel-text--visible' : 'none'
                 }`}
               >
-                <h4>Kontakt:</h4>
                 <div className="d-flex justify-content-around align-items-center winemakers-contact">
                   <div className="">
                     <div>

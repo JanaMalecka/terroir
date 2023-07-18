@@ -210,17 +210,26 @@
   cursor: pointer;
 
   @media (min-width: 425px) {
-    top: 3rem;
-    left: 4rem;
-    font-weight: 700;
+    left: 5rem;
     font-size: xx-large;
   }
 
   @media (min-width: 768px) {
-    top: 3rem;
     left: 3rem;
-    font-weight: 700;
-    font-size: xx-large;
+  }
+}
+.carousel-subtitle {
+  position: absolute;
+  top: 1rem;
+  left: 7rem;
+  font-weight: 400;
+  font-size: x-large;
+
+  @media (min-width: 425px) {
+    left: 5rem;
+  }
+  @media (min-width: 768px) {
+    left: 3rem;
   }
 }
 .divider {
@@ -259,7 +268,7 @@
   padding-bottom: 70rem;
 
   @media (max-width: 500px) {
-    padding-bottom: 80rem;
+    padding-bottom: 75rem;
   }
 }
 
