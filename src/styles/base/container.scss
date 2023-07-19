@@ -77,10 +77,22 @@
   @include font-size-14;
 }
 
+.footer-section {
+  @media (min-width: 1400px) {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70%;
+  }
+}
+
 .footer-subsection {
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (min-width: 700px) {
     justify-content: space-evenly;
   }
 }
