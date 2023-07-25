@@ -1,0 +1,77 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    padding: 0 1rem;
+  }
+}
+
+.contact-subsection {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 576px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.contact-photo {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-bottom: 2rem;
+
+  @media (min-width: 1200px) {
+    margin-left: 0;
+  }
+}
+
+.photo-style {
+  background-position: 50% 0%;
+  min-height: 50vh;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex !important;
+
+  @media (min-width: 768px) {
+    max-width: 90%;
+    min-height: unset;
+  }
+
+  @media (min-width: 1200px) {
+    order: 2;
+  }
+}
+.contact-info {
+  @media (min-width: 1200px) {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+.contact-logo-vino-z-cejkovic {
+  display: flex;
+  background-image: url('../../assets/images/logo_vzc_color.png');
+  width: 150px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: auto;
+}
+.contact-logo-terroir {
+  display: flex;
+  background-image: url('../../assets/images/logo-vertical2.jpg');
+  width: 160px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  margin: auto;
+}

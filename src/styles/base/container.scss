@@ -58,6 +58,18 @@
     }
   }
 }
+.container-content--columns {
+  max-width: 100%;
+
+  @media (min-width: 1200px) {
+    max-width: 80%;
+  }
+  @media (min-width: 1400px) {
+    max-width: 60%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 .container__navigation {
   display: flex;
@@ -96,23 +108,3 @@
     justify-content: space-evenly;
   }
 }
-
-/* .container__carousel {
-  max-width: 100%;
-
-  text-align: center;
-  padding: 2rem;
-
-  /* @media (min-width: 1200px) {
-    max-width: 70%;
-    margin-top: 30px;
-    padding-left: 6rem;
-    padding-right: 6rem;
-  } */
-/* @media (min-width: 1400px) {
-    max-width: 50%;
-    margin-top: 40px;
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-} */
