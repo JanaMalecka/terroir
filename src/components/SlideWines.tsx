@@ -87,8 +87,6 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
               }`}
             />
 
-            <div className={`${isCenterSlide ? 'divider' : 'none'}`}></div>
-
             <div
               className="slide-description--wines"
               style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}

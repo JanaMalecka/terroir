@@ -120,13 +120,10 @@
   overflow: visible !important;
 }
 .card-card-bottle {
-  height: 400px !important;
+  height: 380px !important;
 
-  @media (min-width: 768px) {
-    height: 450px !important;
-  }
-  @media (min-width: 1200px) {
-    height: 480px !important;
+  @media (min-width: 1400px) {
+    height: 400px !important;
   }
 }
 .cover-image--fitBottle {
@@ -287,10 +284,10 @@
 
 .slide-wines {
   margin: 20px 0;
-  padding-bottom: 50rem;
+  padding-bottom: 45rem;
 
   @media (min-width: 768px) {
-    padding-bottom: 55rem;
+    padding-bottom: 50rem;
   }
 }
 .card-button--varieties {
@@ -299,8 +296,8 @@
 .card-button--wines {
   top: 20% !important;
 
-  @media (min-width: 768px) {
-    top: 16% !important;
+  @media (min-width: 1200px) {
+    top: 23% !important;
   }
 }
 
