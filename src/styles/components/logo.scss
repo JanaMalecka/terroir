@@ -3,8 +3,8 @@
 .logo-terroir {
   display: flex;
   background-image: url('../../assets/images/logo-horizontal.jpg');
-  width: 70px;
-  height: 50px;
+  width: 80px;
+  height: 45px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
@@ -13,18 +13,18 @@
   @media (min-width: 768px) {
     background-image: url('../../assets/images/logo-vertical2.jpg');
     justify-content: center;
-    height: 84px;
-    // width: 70px;
+    height: 108px;
+    width: 90px;
     border-radius: 0 0 10px 10px;
   }
 
   @media (min-width: 992px) {
-    height: 100px;
-    width: 84px;
+    height: 150px;
+    width: 125px;
   }
   @media (min-width: 1400px) {
-    height: 120px;
-    width: 100px;
+    height: 165px;
+    width: 140px;
   }
 }
 
