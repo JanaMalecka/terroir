@@ -51,7 +51,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   return (
     <>
       <div
-        className="card-card"
+        className="card-card card-card--wineries"
         draggable={false}
         style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
       >
