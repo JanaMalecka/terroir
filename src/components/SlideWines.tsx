@@ -45,7 +45,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
   return (
     <>
       <div
-        className="card-card card-card--high"
+        className="card-card card-card--high card-card-bottle"
         draggable={false}
         style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
       >
@@ -68,7 +68,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
                 width: '100%',
               }}
               alt="fotografie vinařů"
-              className="cover-image--fit"
+              className="cover-image--fit cover-image--fitBottle"
               afterLoad={handleImageLoad}
             />
             <img

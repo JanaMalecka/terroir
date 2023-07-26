@@ -119,6 +119,19 @@
   color: $white;
   overflow: visible !important;
 }
+.card-card-bottle {
+  height: 400px !important;
+
+  @media (min-width: 768px) {
+    height: 450px !important;
+  }
+  @media (min-width: 1200px) {
+    height: 480px !important;
+  }
+}
+.cover-image--fitBottle {
+  object-fit: contain !important;
+}
 
 .carousel-motto--visible {
   padding: 1rem 3rem;
@@ -274,10 +287,10 @@
 
 .slide-wines {
   margin: 20px 0;
-  padding-bottom: 60rem;
+  padding-bottom: 50rem;
 
   @media (min-width: 768px) {
-    padding-bottom: 80rem;
+    padding-bottom: 55rem;
   }
 }
 .card-button--varieties {
@@ -287,7 +300,7 @@
   top: 20% !important;
 
   @media (min-width: 768px) {
-    top: 25% !important;
+    top: 16% !important;
   }
 }
 
