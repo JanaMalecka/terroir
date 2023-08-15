@@ -129,7 +129,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                   <div className="">
                     <div>
                       <a
-                        href={`${web}`}
+                        href={`https://${web}`}
                         className="link-dark"
                         aria-label={`Přejít na webové stránky ${web}`}
                         target="_blank"
@@ -141,7 +141,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>{name}</div>
                     <div>
                       <a
-                        href={`${phone}`}
+                        href={`tel:${phone}`}
                         className="link-dark"
                         aria-label={`${phone}`}
                       >
@@ -150,7 +150,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     </div>
                     <div>
                       <a
-                        href={`${email}`}
+                        href={`mailto:${email}`}
                         className="link-dark"
                         aria-label={`email ${email}`}
                       >
@@ -160,7 +160,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                   </div>
                   <div>
                     <a
-                      href={`https:// ${web}`}
+                      href={`https://${web}`}
                       target="_blank"
                       rel="noreferrer"
                       aria-label={`Přejít na webové stránky ${web}`}
@@ -188,7 +188,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                 }`}
               >
                 <a
-                  href={`https:// ${web}`}
+                  href={`https://${web}`}
                   className="link-dark"
                   aria-label={`Přejít na webové stránky ${web}`}
                   target="_blank"

@@ -190,5 +190,41 @@
       "email": "info@vinarstvi-veverka.cz"
     },
     "logo": "assets/images/14LogoVeverka.png"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/vinarLow.webp",
+    "title": "Konečný",
+    "subtitle": "vinařství",
+    "motto": "Jsem rád, že mě rodiče zasvětili do tajů vinařiny. Hlavně, že mi dali prostor, abych všemu dozrál sám.",
+    "text": [
+      "Vína vyrábíme pomocí moderních technologií, jako je šetrné zpracování hroznů, odkalení moštů, zakvášení ušlechtilými kvasinkami a řízená teplota kvašení. Odbourávání kyseliny jablečné u červených vín je samozřejmostí.",
+      "Všechna námi vyrobená vína jsou jedinečná a jsou určena jak pro každodenní potěšení, tak pro slavnostní příležitosti."
+    ],
+    "contact": {
+      "web": "www.vinarstvi-konecny.cz",
+      "name": "Stanislav Konečný",
+      "phone": "+420 777 001 463",
+      "email": "info@vinarstvi-konecny.cz"
+    },
+    "logo": "assets/images/10LogoKonecny.jpg"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/vinarLow.webp",
+    "title": "Vydařelý - Holomáč",
+    "subtitle": "vinařství",
+    "motto": ".",
+    "text": [
+      "Láska k vínu se v naší rodině dědí již několik generací, které svůj život zasvětily pěstování vinic a výrobě vína pro své potěšení. V roce 1991 jsme se rozhodli podělit o dlouholeté zkušenosti a nabídnout naše vína širší veřejnosti.",
+      "Při výrobě vína využíváme tradiční postupy, které společně se zkušenostmi a novými technologiemi umožňují vznik nádherných odrůdových vín."
+    ],
+    "contact": {
+      "web": "www.vydarely-holomac.cz",
+      "name": "Milan Vydařelý",
+      "phone": "+420 723 526 325",
+      "email": "milan.vydarely@centrum.cz"
+    },
+    "logo": "assets/images/11LogoVydarely.png"
   }
 ]
