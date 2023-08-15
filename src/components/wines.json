@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/lahev.png",
+    "image": "assets/images/hradilPinot.jpg",
     "wine": "PINOT NOIR",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/pinot.webp",
+    "image": "assets/images/skrobakTramin.jpg",
     "wine": "PINOT NOIR",
     "year": "2019",
     "description": "výběr z hroznů, suché",

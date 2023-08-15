@@ -46,7 +46,7 @@
 
 .logo-wines {
   position: absolute;
-  bottom: 2rem;
+  bottom: 3rem;
   left: 6rem;
   color: $black;
   width: 5.5rem;
@@ -67,6 +67,10 @@
     bottom: 3rem;
     left: 3rem;
   }
+  @media (min-width: 1200px) {
+    bottom: 5rem;
+    left: 3rem;
+  }
 
   &--bigger {
     width: 12rem;
@@ -79,8 +83,11 @@
   &--smaller {
     width: 4.5rem;
     position: absolute;
-    bottom: 3rem;
-    left: 6rem;
+    bottom: 4rem;
+    left: 7rem;
+    @media (min-width: 768px) {
+      bottom: 6rem;
+    }
   }
 }
 

@@ -157,29 +157,47 @@
 }
 
 .carousel-specification--visible {
-  padding: 1rem;
-  background-color: $blue-light;
+  background-color: #99bed0;
   color: $white;
   text-align: center;
   overflow: visible !important;
   cursor: pointer;
-
-  @media (min-width: 768px) {
-    padding: 2rem 0rem;
-  }
 }
 
 .carousel-specification--name {
-  text-align: end;
-  padding: 0.2rem 7rem 1rem 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 6rem;
+  color: $white;
+  width: 5.5rem;
+  height: auto;
+  margin: 1rem;
 
   @media (min-width: 375px) {
-    padding-right: 5rem;
+    bottom: 0.5rem;
+    right: 5rem;
+  }
+
+  @media (min-width: 425px) {
+    right: 4rem;
+  }
+
+  @media (min-width: 768px) {
+    right: 2rem;
+  }
+  @media (min-width: 1200px) {
+    bottom: 1rem;
+  }
+  /* text-align: end;
+  padding: 0.2rem 8rem 1rem 1rem;
+
+  @media (min-width: 375px) {
+    padding-right: 6rem;
   }
 
   @media (min-width: 425px) {
     padding-right: 4rem;
-  }
+  } */
 }
 .carousel-specification--wine {
   color: $white !important;
