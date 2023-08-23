@@ -47,13 +47,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $white !important;
-  background-color: $white !important;
+  background-color: $blue-light !important;
 }
 
 h1,
 h2 {
   font-family: 'avenir-next-heavy', sans-serif;
-  color: $blue-light !important;
+  color: $white !important;
   padding: 2rem 0 1rem 0;
 }
 
@@ -77,6 +77,7 @@ textarea {
   font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
 p {
+  color: $white !important;
   @media (min-width: 768px) {
     margin-bottom: 2rem !important;
   }

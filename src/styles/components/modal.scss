@@ -2,3 +2,9 @@
   border-bottom: var(--bs-modal-header-border-width) solid $blue-light !important;
   border-top: var(--bs-modal-header-border-width) solid $blue-light !important;
 }
+.modal-content p {
+  color: $blue-light !important;
+}
+.modal-header h2 {
+  color: $blue-light !important;
+}

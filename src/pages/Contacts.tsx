@@ -32,7 +32,7 @@ const Contacts: FC = (): JSX.Element => {
                 <div className="mb-3 mt-3 d-flex flex-column">
                   <a
                     href="tel:+420776078678"
-                    className="link-dark"
+                    className="link"
                     aria-label="+ 420. 776. 078. 678."
                   >
                     +420 776 078 678
@@ -40,14 +40,14 @@ const Contacts: FC = (): JSX.Element => {
 
                   <a
                     href="mailto:info@vinozcejkovic.cz"
-                    className="link-dark"
+                    className="link"
                     aria-label="email info@vinozcejkovic.cz"
                   >
                     info@vinozcejkovic.cz
                   </a>
                   <a
                     href="https://www.vinozcejkovic.cz"
-                    className="link-dark"
+                    className="link"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Přejít na webové stránky vinozcejkovic.cz"
@@ -73,7 +73,7 @@ const Contacts: FC = (): JSX.Element => {
                   <div className="mt-3">
                     <a
                       href="tel:+420776120439"
-                      className="link-dark"
+                      className="link"
                       aria-label="+ 420. 776. 120. 439."
                     >
                       +420 776 120 439
@@ -82,7 +82,7 @@ const Contacts: FC = (): JSX.Element => {
                   <div>
                     <a
                       href="mailto:bizavino@bizavino.cz"
-                      className="link-dark"
+                      className="link"
                       aria-label="email bizavino@bizavino.cz"
                     >
                       bizavino@bizavino.cz
@@ -91,7 +91,7 @@ const Contacts: FC = (): JSX.Element => {
                   <div>
                     <a
                       href="https://www.vinozcejkovic.cz"
-                      className="link-dark"
+                      className="link"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Přejít na webové stránky vinozcejkovic.cz"

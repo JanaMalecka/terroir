@@ -215,6 +215,9 @@
     padding: 2rem;
   }
 }
+.carousel-text--visible p {
+  color: $blue-light !important;
+}
 
 .card {
   border: none !important;

@@ -11,12 +11,14 @@
 .contact-subsection {
   display: flex;
   flex-direction: column;
+  color: $white;
 
   @media (min-width: 576px) {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
 .contact-photo {
   margin-left: -2rem;
   margin-right: -2rem;
