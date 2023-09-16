@@ -128,7 +128,7 @@
     "image": "assets/images/vinar.png",
     "title": "J. Šamšula",
     "subtitle": "vinařství",
-    "motto": "Motto: ",
+    "motto": "Vinařství je pro mě posláním a každodenní výzvou, nechte tedy víno, ať pohltí i Vás…",
     "text": [
       "Vinařství je pro nás posláním a každodenní výzvou, věnujeme se mu s plným nasazením a jen ty nejlepší hrozny, které nám příroda dovolí sklidit, přetváříme ve víno, se kterým se Vám dostává do rukou ztělesněná práce ve vinici a sklepě."
     ],
@@ -145,7 +145,7 @@
     "image": "assets/images/vinar.png",
     "title": "Hradil",
     "subtitle": "vinařství",
-    "motto": "Motto:  ",
+    "motto": "Víno je můj život…",
     "text": ["Text..."],
     "contact": {
       "web": "www.vinohradil.cz",
@@ -160,7 +160,7 @@
     "image": "assets/images/vinarstvi1LowWebP.webp",
     "title": "Červenka",
     "subtitle": "vinařství",
-    "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a k přírodě",
+    "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a přírodě",
     "text": [
       "Vinařství vzniklo přirozenou cestou a navázalo na několik generací výroby vína v rodině.",
       "Cílem je vyrábět kvalitní přívlastková vína s důrazem na odrůdovost, svěží vůni a ovocnou chuť. Hrozny jen z vlastních vinic – kontrola kvality a vyzrálosti hroznů, které jsou potřeba při vyrobě kvalitních přívlastkových vín (jen přírodní cukr). Klademe velký důraz na práce ve vinici."
@@ -194,24 +194,6 @@
   {
     "id": 12,
     "image": "assets/images/vinarLow.webp",
-    "title": "Konečný",
-    "subtitle": "vinařství",
-    "motto": "Jsem rád, že mě rodiče zasvětili do tajů vinařiny. Hlavně, že mi dali prostor, abych všemu dozrál sám.",
-    "text": [
-      "Vína vyrábíme pomocí moderních technologií, jako je šetrné zpracování hroznů, odkalení moštů, zakvášení ušlechtilými kvasinkami a řízená teplota kvašení. Odbourávání kyseliny jablečné u červených vín je samozřejmostí.",
-      "Všechna námi vyrobená vína jsou jedinečná a jsou určena jak pro každodenní potěšení, tak pro slavnostní příležitosti."
-    ],
-    "contact": {
-      "web": "www.vinarstvi-konecny.cz",
-      "name": "Stanislav Konečný",
-      "phone": "+420 777 001 463",
-      "email": "info@vinarstvi-konecny.cz"
-    },
-    "logo": "assets/images/10LogoKonecny.jpg"
-  },
-  {
-    "id": 13,
-    "image": "assets/images/vinarLow.webp",
     "title": "Vydařelý - Holomáč",
     "subtitle": "vinařství",
     "motto": ".",
@@ -226,5 +208,22 @@
       "email": "milan.vydarely@centrum.cz"
     },
     "logo": "assets/images/11LogoVydarely.png"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/vinarLow.webp",
+    "title": "Hlinecký",
+    "subtitle": "vinařství",
+    "motto": "Přímo z našich rukou.",
+    "text": [
+      "V dětství jsem s rodinou trávil ve vinohradu hodně času. Tehdy jsem to bral spíše jako nucené práce, ale jak šel čas, probudila se ve mě láska k vínu, vinohradu a místu, kde žijeme."
+    ],
+    "contact": {
+      "web": "www.vinohlinecky.cz",
+      "name": "Lukáš Hlinecký",
+      "phone": "+420 728 428 997",
+      "email": "info@vinohlinecky.cz"
+    },
+    "logo": "assets/images/13LogoHlinecky.png"
   }
 ]
