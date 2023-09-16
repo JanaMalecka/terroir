@@ -26,12 +26,11 @@
 
   @media (min-width: 1200px) {
     margin-left: 0;
+    width: 50%;
   }
 }
 
 .photo-style {
-  background-position: 50% 0%;
-  min-height: 50vh;
   background-size: cover;
   position: relative;
   object-fit: cover;
@@ -41,7 +40,6 @@
   display: flex !important;
 
   @media (min-width: 768px) {
-    max-width: 90%;
     min-height: unset;
   }
 
@@ -56,6 +54,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+    width: 50%;
   }
 }
 .contact-logo-vino-z-cejkovic {

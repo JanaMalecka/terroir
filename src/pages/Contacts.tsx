@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import photowinemakers from '../assets/images/photo-winemakers.webp';
+import photowinemakers from '../assets/images/spolecna.jpg';
 
 const Contacts: FC = (): JSX.Element => {
   return (
