@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/vinarstvi1LowWebP.webp",
+    "image": "assets/images/novotnyBilek.jpg",
     "title": "Novotný-Bílek",
     "subtitle": "vinařství",
     "motto": "Dvě jména, dvě generace",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/vinarLow.webp",
+    "image": "assets/images/skrobak.jpg",
     "title": "Škrobák",
     "subtitle": "vinařství",
     "motto": "S láskou a pokorou k vínu",
@@ -36,7 +36,7 @@
   },
   {
     "id": 3,
-    "image": "assets/images/vinarstvi1LowWebP.webp",
+    "image": "assets/images/meziSklepy.jpg",
     "title": "Mezi sklepy",
     "subtitle": "vinařství",
     "motto": "Náš rukopis je nemít rukopis",
@@ -54,7 +54,7 @@
   },
   {
     "id": 4,
-    "image": "assets/images/vinarstvi1LowWebP.webp",
+    "image": "assets/images/biza.jpg",
     "title": "Bíza Čejkovice",
     "subtitle": "vinařství",
     "motto": "Kultivovat krajinu i člověka.",
@@ -71,7 +71,7 @@
   },
   {
     "id": 5,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/fojtik.jpg",
     "title": "Fojtík",
     "subtitle": "vinařství",
     "motto": "Motto: ",
@@ -89,7 +89,7 @@
   },
   {
     "id": 6,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/veverkaLibor.jpg",
     "title": "Libor Veverka",
     "subtitle": "vinařství",
     "motto": "Vína plná radosti, hrdosti a štěstí",
@@ -107,7 +107,7 @@
   },
   {
     "id": 7,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/pastorek.jpg",
     "title": "Pastorek",
     "subtitle": "vinařství",
     "motto": "Základem je rodina, láska k vínu a přírodě, odkaz předků a mladické nadšení",
@@ -125,7 +125,7 @@
   },
   {
     "id": 8,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/samsula.jpg",
     "title": "J. Šamšula",
     "subtitle": "vinařství",
     "motto": "Vinařství je pro mě posláním a každodenní výzvou, nechte tedy víno, ať pohltí i Vás…",
@@ -142,7 +142,7 @@
   },
   {
     "id": 9,
-    "image": "assets/images/vinar.png",
+    "image": "assets/images/hradil.jpg",
     "title": "Hradil",
     "subtitle": "vinařství",
     "motto": "Víno je můj život…",
@@ -157,7 +157,7 @@
   },
   {
     "id": 10,
-    "image": "assets/images/vinarstvi1LowWebP.webp",
+    "image": "assets/images/cervenka.jpg",
     "title": "Červenka",
     "subtitle": "vinařství",
     "motto": "Rodinné vinařství, láska k vínu, úcta k půdě a přírodě",
@@ -175,7 +175,7 @@
   },
   {
     "id": 11,
-    "image": "assets/images/vinarLow.webp",
+    "image": "assets/images/veverka.jpg",
     "title": "Veverka",
     "subtitle": "vinařství",
     "motto": "Člověk žije příliš krátce na to, aby pil špatné víno.",
@@ -193,7 +193,7 @@
   },
   {
     "id": 12,
-    "image": "assets/images/vinarLow.webp",
+    "image": "assets/images/vydarely.jpg",
     "title": "Vydařelý - Holomáč",
     "subtitle": "vinařství",
     "motto": ".",
@@ -211,7 +211,7 @@
   },
   {
     "id": 13,
-    "image": "assets/images/vinarLow.webp",
+    "image": "assets/images/hlinecky.jpg",
     "title": "Hlinecký",
     "subtitle": "vinařství",
     "motto": "Přímo z našich rukou.",
