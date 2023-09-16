@@ -78,9 +78,9 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
               // className="logo-winery"
               className={`${
                 isCenterSlide
-                  ? id === 14 || id === 9
+                  ? id === 11
                     ? 'logo-wines--bigger'
-                    : id === 2
+                    : id === 12
                     ? 'logo-wines--smaller'
                     : 'logo-wines'
                   : 'none'

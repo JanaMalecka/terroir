@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/hradilPinot.jpg",
+    "image": "assets/images/pinot.webp",
     "wine": "PINOT NOIR",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -12,46 +12,178 @@
   },
   {
     "id": 2,
-    "image": "assets/images/skrobakTramin.jpg",
+    "image": "assets/images/pinot.webp",
     "wine": "PINOT NOIR",
-    "year": "2019",
+    "year": "2017",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
+    "name": "Vinařství Mezi sklepy",
+    "logo": "assets/images/3LogoMeziSklepy.png",
+    "site": "https://www.mezisklepy.cz/pinot-noir_p19/"
   },
   {
     "id": 3,
     "image": "assets/images/pinot.webp",
     "wine": "PINOT NOIR",
-    "year": "2019",
+    "year": "2015",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
+    "name": "Vinařství Bíza Čejkovice",
+    "logo": "assets/images/4LogoBiza.png",
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
   },
   {
     "id": 4,
     "image": "assets/images/pinot.webp",
     "wine": "PINOT NOIR",
-    "year": "2019",
+    "year": "2016",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
+    "name": "Vinařství Bíza Čejkovice",
+    "logo": "assets/images/4LogoBiza.png",
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
   },
   {
     "id": 5,
     "image": "assets/images/pinot.webp",
     "wine": "PINOT NOIR",
-    "year": "2019",
+    "year": "2018",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
-    "name": "Víno Hradil",
-    "logo": "assets/images/12LogoHradil.png",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
+    "name": "Vinařství Bíza Čejkovice",
+    "logo": "assets/images/4LogoBiza.png",
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2021",
+    "description": "pozdní sběr, suché",
+    "route": "viniční trať: Helezný díl",
+    "name": "Vinařství Pastorek",
+    "logo": "assets/images/8LogoPastorek.png",
+    "site": "https://obchod.vinarstvipastorek.cz/rulandske-modre-2021/"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2019",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Šatrapky",
+    "name": "Vinařství Libor Veverka",
+    "logo": "assets/images/7LogoVeverka.png",
+    "site": "https://www.vinoveverka.cz/#vina"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2021",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Díl u Včelína",
+    "name": "Vinařství J. Šamšula",
+    "logo": "assets/images/9LogoSamsula.png",
+    "site": "https://www.samsula.cz/vino/"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2020",
+    "description": "pozdní sběr, suché",
+    "route": "viniční trať: Helezný Díl",
+    "name": "Vinařství Červenka",
+    "logo": "assets/images/13LogoCervenka.svg",
+    "site": "https://www.vinocervenka.cz/nabidka-vin"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2017",
+    "description": "pozdní sběr, suché",
+    "route": "viniční trať: Stará Hora",
+    "name": "Vinařství Fojtík",
+    "logo": "assets/images/6LogoFojtik.png",
+    "site": "https://www.vinofojtik.cz/"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/pinot.webp",
+    "wine": "PINOT NOIR",
+    "year": "2020",
+    "description": "pozdní sběr, suché",
+    "route": "viniční trať: Helezný Díl",
+    "name": "Vinařství Veverka",
+    "logo": "assets/images/14LogoVeverka.png",
+    "site": "https://vinarstvi-veverka.cz/produkt/rulandske-modre-2019/"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2019",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Niva hrbatá",
+    "name": "Vinařství Škrobák",
+    "logo": "assets/images/2LogoSkrobak.png",
+    "site": "https://vinoskrobak.cz/produkt/tramin-pozdni-sber-2019-suche/"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2017",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Odměry",
+    "name": "Vinařství Mezi sklepy",
+    "logo": "assets/images/3LogoMeziSklepy.png",
+    "site": "https://www.mezisklepy.cz/tramin-cerveny-tri-sudy_p21"
+  },
+  {
+    "id": 14,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2019",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Odměry",
+    "name": "Vinařství Novotný Bílek",
+    "logo": "assets/images/1LogoNovotnyBilek.png",
+    "site": "http://eshop.novotnybilek.cz/tramin-cerveny-2019/"
+  },
+  {
+    "id": 15,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2020",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Šuby",
+    "name": "Vinařství Fojtík",
+    "logo": "assets/images/6LogoFojtik.png",
+    "site": "https://www.vinofojtik.cz/"
+  },
+  {
+    "id": 16,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2015",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Novosady",
+    "name": "Vinařství Bíza Čejkovice",
+    "logo": "assets/images/4LogoBiza.png",
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/"
+  },
+  {
+    "id": 17,
+    "image": "assets/images/pinot.webp",
+    "wine": "TRAMÍN",
+    "year": "2016",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Novosady",
+    "name": "Vinařství Bíza Čejkovice",
+    "logo": "assets/images/4LogoBiza.png",
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/"
   }
 ]

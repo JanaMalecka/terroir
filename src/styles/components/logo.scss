@@ -73,20 +73,26 @@
   }
 
   &--bigger {
-    width: 12rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 6rem;
+    width: 7rem;
+    margin: 3rem 0rem;
 
-    @media (max-width: 767px) {
-      margin: 3rem 1rem;
+    @media (min-width: 768px) {
+      left: 4rem;
     }
   }
 
   &--smaller {
-    width: 4.5rem;
+    width: 3rem;
     position: absolute;
     bottom: 4rem;
     left: 7rem;
+    margin: 1rem;
+
     @media (min-width: 768px) {
-      bottom: 6rem;
+      left: 5rem;
     }
   }
 }
