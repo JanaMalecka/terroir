@@ -205,31 +205,4 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   );
 });
 
-// Function to shuffle an array randomly
-function shuffleArray(array: any[]) {
-  let currentIndex = array.length,
-    randomIndex,
-    tempValue;
-
-  // While there remain elements to shuffle...
-  while (currentIndex !== 0) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    tempValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = tempValue;
-  }
-
-  return array;
-}
-
-// Shuffle the data array before rendering the Slide component
-const ShuffledSlide: React.FC<SlideProps> = (props) => {
-  const shuffledData = shuffleArray(props.data);
-  return <Slide {...props} data={shuffledData} />;
-};
-
-export default ShuffledSlide;
+export default Slide;
