@@ -74,7 +74,7 @@
     "image": "assets/images/fojtik.jpg",
     "title": "Fojtík",
     "subtitle": "vinařství",
-    "motto": "Motto: ",
+    "motto": "Každé víno má svůj příběh, my Vám přinášíme nejlepší kapitoly.",
     "text": [
       "Rozvoj Vinařství Fojtík probíhal pomalu, jak se říká na koleni. Navazoval na rodinnou tradici, ale v roce 2000 mu zdárný směr udal dnešní majitel. V současné době obhospodařujeme 1,5 ha vinic.",
       "Při sklizni klademe důraz na vysokou cukernatost a kvalitu hroznů. Používáme nejnovější technologie."
@@ -146,7 +146,10 @@
     "title": "Hradil",
     "subtitle": "vinařství",
     "motto": "Víno je můj život…",
-    "text": ["Text..."],
+    "text": [
+      "Od roku 2002 se naše rodinné vinařství specializuje na výrobu přívlastkových a speciálních vín z hroznů pocházejících z vinic starých 5 - 25 let. Klademe důraz na minimální obsah oxidu siřičitého ve víně.",
+      "Speciální řada bílých vín zraje minimálně 12 měsíců ve velkých dubových sudech, červená vína pak minimálně 24 měsíců v dubových francouzských sudech typu barrique."
+    ],
     "contact": {
       "web": "www.vinohradil.cz",
       "name": "Ing. Lukáš Hradil",
