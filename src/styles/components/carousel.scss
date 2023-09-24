@@ -236,18 +236,55 @@
   top: 3rem;
   left: 7rem;
   font-weight: 700;
-  font-size: x-large;
+  font-size: 22px;
   cursor: pointer;
 
   @media (min-width: 425px) {
     left: 5rem;
-    font-size: xx-large;
+    font-size: 24px;
   }
 
   @media (min-width: 768px) {
     left: 3rem;
   }
 }
+.carousel-title--right {
+  position: absolute;
+  top: 3rem;
+  right: -6rem;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 425px) {
+    right: -10rem;
+    font-size: 24px;
+  }
+
+  @media (min-width: 768px) {
+    right: -14rem;
+  }
+}
+.carousel-titleLarge {
+  position: absolute;
+  top: 5rem;
+  right: 7.5rem;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+
+  @media (min-width: 425px) {
+    right: 5rem;
+    font-size: 24px;
+  }
+
+  @media (min-width: 768px) {
+    right: 4rem;
+  }
+}
+
 .carousel-subtitle {
   position: absolute;
   top: 1rem;
@@ -260,6 +297,20 @@
   }
   @media (min-width: 768px) {
     left: 3rem;
+  }
+}
+.carousel-subtitle--right {
+  position: absolute;
+  top: 1rem;
+  right: -6rem;
+  font-weight: 400;
+  font-size: 22px;
+
+  @media (min-width: 425px) {
+    right: -10rem;
+  }
+  @media (min-width: 768px) {
+    right: -14rem;
   }
 }
 .divider {

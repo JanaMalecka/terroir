@@ -2,7 +2,8 @@
   {
     "id": 1,
     "image": "assets/images/novotnyBilek.jpg",
-    "title": "Novotný-Bílek",
+    "title": "Novotný",
+    "titleLarge": "Bílek",
     "subtitle": "vinařství",
     "motto": "Dvě jména, dvě generace",
     "text": [
@@ -55,7 +56,8 @@
   {
     "id": 4,
     "image": "assets/images/biza.jpg",
-    "title": "Bíza Čejkovice",
+    "title": "Bíza",
+    "titleLarge": "Čejkovice",
     "subtitle": "vinařství",
     "motto": "Kultivovat krajinu i člověka.",
     "text": [
@@ -197,7 +199,8 @@
   {
     "id": 12,
     "image": "assets/images/vydarely.jpg",
-    "title": "Vydařelý - Holomáč",
+    "title": "Vydařelý",
+    "titleLarge": "Holomáč",
     "subtitle": "vinařství",
     "motto": ".",
     "text": [
