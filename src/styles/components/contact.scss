@@ -11,7 +11,7 @@
 .contact-subsection {
   display: flex;
   flex-direction: column;
-  color: $white;
+  color: $blue-light;
 
   @media (min-width: 576px) {
     flex-direction: row;
@@ -59,29 +59,29 @@
 }
 .contact-logo-vino-z-cejkovic {
   display: flex;
-  background-image: url('../../assets/images/logo_vzc.png');
-  width: 100px;
+  background-image: url('../../assets/images/logo_vzc_color.png');
+  width: 150px;
   height: 160px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin: auto;
   background-size: contain;
-  @media (max-width: 767px) {
-    width: 80px;
-    height: 135px;
+  @media (min-width: 768px) {
+    width: 150px;
+    height: 95px;
   }
 }
 .contact-logo-terroir {
   display: flex;
-  background-image: url('../../assets/images/logo_terroir_contact.png');
-  width: 135px;
+  background-image: url('../../assets/images/logo-vertical2.png');
+  width: 75px;
   height: 190px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
   margin: auto;
-  @media (max-width: 767px) {
-    width: 100px;
-    height: 145px;
+  @media (min-width: 768px) {
+    width: 50px;
+    height: 110px;
   }
 }

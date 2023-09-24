@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = (): JSX.Element => {
   return (
-    <footer className="container-footer">
+    <footer className="container-footer mt-5">
       <div className="footer-section">
         <div>
           <p className="mb-3">
