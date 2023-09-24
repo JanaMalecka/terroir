@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = (): JSX.Element => {
   return (
-    <footer className="container-footer mt-5">
+    <footer className="container-footer">
       <div className="footer-section">
         <div>
           <div className="footer-subsection">
