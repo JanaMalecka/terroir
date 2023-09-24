@@ -137,8 +137,6 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               {titleLarge}
             </div>
 
-            <div className="divider"></div>
-
             <div
               className="slide-description"
               style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
@@ -172,7 +170,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`https://${web}`}
-                        className="link-dark"
+                        className="link"
                         aria-label={`Přejít na webové stránky ${web}`}
                         target="_blank"
                         rel="noreferrer"
@@ -184,7 +182,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`tel:${phone}`}
-                        className="link-dark"
+                        className="link"
                         aria-label={`${phone}`}
                       >
                         {phone}
@@ -193,33 +191,12 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`mailto:${email}`}
-                        className="link-dark"
+                        className="link"
                         aria-label={`email ${email}`}
                       >
                         {email}
                       </a>
                     </div>
-                  </div>
-                  <div>
-                    <a
-                      href={`https://${web}`}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`Přejít na webové stránky ${web}`}
-                    >
-                      <img
-                        alt={`Logo vinařství ${title} `}
-                        src={logo}
-                        // className="logo-winery"
-                        className={
-                          id === 11 || id === 8
-                            ? 'logo-winery--bigger'
-                            : id === 2
-                            ? 'logo-winery--smaller'
-                            : 'logo-winery'
-                        }
-                      />
-                    </a>
                   </div>
                 </div>
               </div>

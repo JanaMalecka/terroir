@@ -202,17 +202,14 @@
 
 .carousel-text--visible {
   padding: 1rem 5rem;
-  background-color: $white;
-  color: $black;
+  background-color: $blue-light;
+  color: $white;
   text-align: center;
   overflow: visible !important;
 
   @media (min-width: 768px) {
     padding: 2rem;
   }
-}
-.carousel-text--visible p {
-  color: $blue-light !important;
 }
 
 .card {
@@ -314,7 +311,7 @@
   }
 }
 .divider {
-  background-color: $white;
+  background-color: $blue-light;
   min-height: 2rem;
   width: auto;
 }
@@ -345,11 +342,12 @@
 }
 
 .slide-wineries {
-  margin: 20px 0;
-  padding-bottom: 70rem;
+  margin: 20px 0 0 0;
+  padding-bottom: 65rem;
+  background: linear-gradient(to bottom, transparent 20%, $blue-light 0%);
 
-  @media (max-width: 500px) {
-    padding-bottom: 75rem;
+  @media (min-width: 500px) {
+    padding-bottom: 65rem;
   }
 }
 
