@@ -17,15 +17,8 @@ const Contacts: FC = (): JSX.Element => {
           </div>
 
           <div className="pd-3 contact-info">
-            <div>
-              <p className="mb-3">
-                Projekt Terroir Čejkovice vznikl pod patronací spolku
-                Čtvrtečníci - sdružení vinařů Čejkovice, z.s.{' '}
-              </p>
-              <p className="mb-3"> IČO: 27006832</p>
-            </div>
             <div className="contact-subsection">
-              <div className="mb-3 p-3">
+              <div className=" p-3">
                 <div> Marie Novotná </div>
                 <div>manažerka spolku</div>
 
@@ -66,7 +59,7 @@ const Contacts: FC = (): JSX.Element => {
                 </a>
               </div>
 
-              <div className="mb-3 p-3">
+              <div className="p-3">
                 <div>Petr Bíza</div>
                 <div>
                   <div>manažer projektu</div>
@@ -110,6 +103,13 @@ const Contacts: FC = (): JSX.Element => {
                   </a>
                 </div>
               </div>
+            </div>
+            <div>
+              <p className="mb-3">
+                Projekt Terroir Čejkovice vznikl pod patronací spolku
+                Čtvrtečníci - sdružení vinařů Čejkovice, z.s.{' '}
+              </p>
+              <p className="mb-3"> IČO: 27006832</p>
             </div>
           </div>
         </div>

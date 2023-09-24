@@ -96,6 +96,8 @@
   width: 100vw;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
   @include font-size-14;
 }
 
@@ -103,7 +105,6 @@
   color: $white;
   @media (min-width: 1400px) {
     display: flex;
-    justify-content: center;
     margin: auto;
     max-width: 70%;
   }
@@ -125,4 +126,10 @@
   color: $white;
   padding-bottom: 3rem;
   border: 5px solid $blue-light;
+}
+.footer-left {
+  padding: 0 2rem;
+}
+.footer-right {
+  padding: 0 2rem;
 }
