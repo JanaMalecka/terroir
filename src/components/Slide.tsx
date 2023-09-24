@@ -18,7 +18,6 @@ interface SlideProps extends StackedCarouselSlideProps {
       phone: string;
       email: string;
     };
-    logo: string;
   }[];
 }
 
@@ -37,7 +36,6 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const name = data[dataIndex].contact.name;
   const phone = data[dataIndex].contact.phone;
   const email = data[dataIndex].contact.email;
-  const logo = data[dataIndex].logo;
   const id = data[dataIndex].id;
 
   const ref = useRef<HTMLDivElement>(null);
