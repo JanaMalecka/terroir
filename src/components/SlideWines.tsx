@@ -86,13 +86,6 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
                   : 'none'
               }`}
             />
-            <div
-              className={`${
-                isCenterSlide ? 'carousel-specification--name' : 'none'
-              }`}
-            >
-              {name}
-            </div>
 
             <div
               className="slide-description--wines"
@@ -104,7 +97,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
                 }`}
                 onClick={handleClick}
               >
-                <h2 className="carousel-specification--wine">{wine}</h2>
+                <h2 className="carousel-specification--wine mt-5">{wine}</h2>
                 <p>{year}</p>
                 <div>{description}</div>
                 <div>{route}</div>
