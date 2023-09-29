@@ -18,7 +18,7 @@ const Contacts: FC = (): JSX.Element => {
 
           <div className="pd-3 contact-info">
             <div className="contact-subsection">
-              <div className=" p-3">
+              <div className="contact-subsection-part">
                 <div> Marie Novotná </div>
                 <div>manažerka spolku</div>
 
@@ -59,7 +59,7 @@ const Contacts: FC = (): JSX.Element => {
                 </a>
               </div>
 
-              <div className="p-3">
+              <div className="contact-subsection-part">
                 <div>Petr Bíza</div>
                 <div>
                   <div>manažer projektu</div>

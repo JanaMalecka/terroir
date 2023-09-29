@@ -60,6 +60,8 @@
 }
 .container-content--columns {
   max-width: 100%;
+  padding: 0rem;
+  padding-top: 2rem;
 
   @media (min-width: 768px) {
     margin-left: 2rem;
