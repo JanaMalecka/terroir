@@ -211,6 +211,17 @@
     padding: 2rem;
   }
 }
+.carousel-contact--visible {
+  padding: 1rem 5rem;
+  background-color: $white;
+  color: $blue-light;
+  text-align: center;
+  overflow: visible !important;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
+}
 
 .card {
   border: none !important;
@@ -332,6 +343,7 @@
 
 .winemakers-contact {
   flex-direction: column !important;
+  background-color: transparent !important;
 
   @media (min-width: 768px) {
     flex-direction: row !important;
@@ -344,7 +356,12 @@
 .slide-wineries {
   margin: 20px 0 0 0;
   padding-bottom: 65rem;
-  background: linear-gradient(to bottom, transparent 20%, $blue-light 0%);
+  background: linear-gradient(
+    to bottom,
+    transparent 20%,
+    $blue-light 20% 63.01%,
+    transparent 20%
+  );
 
   @media (min-width: 500px) {
     padding-bottom: 65rem;

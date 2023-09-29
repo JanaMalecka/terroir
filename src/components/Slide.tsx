@@ -160,7 +160,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               </div>
               <div
                 className={`${
-                  isCenterSlide ? 'carousel-text--visible' : 'none'
+                  isCenterSlide ? 'carousel-contact--visible' : 'none'
                 }`}
               >
                 <div className="d-flex justify-content-around align-items-center winemakers-contact">
@@ -168,7 +168,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`https://${web}`}
-                        className="link"
+                        className="link-dark"
                         aria-label={`Přejít na webové stránky ${web}`}
                         target="_blank"
                         rel="noreferrer"
@@ -180,7 +180,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`tel:${phone}`}
-                        className="link"
+                        className="link-dark"
                         aria-label={`${phone}`}
                       >
                         {phone}
@@ -189,7 +189,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                     <div>
                       <a
                         href={`mailto:${email}`}
-                        className="link"
+                        className="link-dark"
                         aria-label={`email ${email}`}
                       >
                         {email}
@@ -201,7 +201,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
 
               <div
                 className={`${
-                  isCenterSlide ? 'carousel-text--visible' : 'none'
+                  isCenterSlide ? 'carousel-contact--visible' : 'none'
                 }`}
               >
                 <a
