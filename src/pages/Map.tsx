@@ -1,62 +1,38 @@
 import React, { FC } from 'react';
-import map from '../assets/images/map.webp';
+import map from '../assets/images/map2.png';
 import ScaleIn from '../features/Animate/ScaleIn';
-import Modal from '../components/Modal';
+import Button from '../components/Button';
 
 const Map: FC = (): JSX.Element => {
   return (
     <>
-      <section className="container--dark">
-        <div className="container__content"></div>
-        <div className="mt-5">
-          <img
-            alt="Foto vinice"
-            src={map}
-            className="img-style mb-5"
-            loading="lazy"
-          />
-        </div>
-        <div className="container__content">
-          <div>
-            <ScaleIn from={{ scale: '0' }} to={{ scale: '1' }}>
-              <button
-                type="button"
-                className="btn--primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Více o terroir
-              </button>
-            </ScaleIn>
+      <div className="container__content title-width">
+        <h1>Mapa terroir Čejkovice</h1>
+      </div>
 
-            <div
-              className="modal fade"
-              id="exampleModal"
-              /*  tabindex="-1" */
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
+      <div className="mt-5">
+        <img
+          alt="Foto vinice"
+          src={map}
+          className="img-style mb-5"
+          loading="lazy"
+        />
+      </div>
+      <div className="container__content">
+        <div>
+          <ScaleIn from={{ scale: '0' }} to={{ scale: '1' }}>
+            <a
+              href={`http://localhost:3000/statut-terroir-cejkovice`}
+              className="link-dark"
+              aria-label={`Přejít na webové stránky Statut terroir Čejkovice`}
+              target="_self"
+              rel="noreferrer"
             >
-              <div className="modal-dialog modal-dialog-scrollable">
-                <div className="modal-content">
-                  <div className="modal-header modal-separator--color d-flex flex-column">
-                    <h2 className="pt-3">Statut TERROIR ČEJKOVICE</h2>
-                  </div>
-                  <Modal />
-                  <div className="modal-footer modal-separator--color">
-                    <button
-                      type="button"
-                      className="btn--secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Zavřít
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+              <Button className="btn--secondary">Více o terroir</Button>
+            </a>
+          </ScaleIn>
         </div>
-      </section>
+      </div>
     </>
   );
 };

@@ -84,5 +84,8 @@ p {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+.title-width {
+  max-width: 100%;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
