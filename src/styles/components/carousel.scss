@@ -130,9 +130,9 @@
 }
 
 .carousel-motto--visible {
-  padding: 1rem 3rem;
-  background-color: $blue-light;
-  color: $white;
+  padding: 1rem 2rem;
+  background-color: $white;
+  color: $blue-light;
   text-align: center;
   overflow: visible !important;
   cursor: pointer;
@@ -146,7 +146,7 @@
   }
 
   @media (min-width: 768px) {
-    padding: 2rem;
+    padding: 1.5rem;
     margin-left: 4rem;
     margin-right: 4rem;
   }
