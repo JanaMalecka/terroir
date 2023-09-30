@@ -235,7 +235,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button className="btn--secondary">Navštívit vinaře</Button>
+                  <Button className="btn--tertiary">Navštívit vinaře</Button>
                 </a>
               </div>
             </div>

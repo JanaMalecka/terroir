@@ -14,6 +14,7 @@ interface SlideProps extends StackedCarouselSlideProps {
     site: string;
     name: string;
     logo: string;
+    text: string;
   }[];
 }
 
@@ -31,6 +32,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
   const name = data[dataIndex].name;
   const logo = data[dataIndex].logo;
   const id = data[dataIndex].id;
+  const text = data[dataIndex].text;
 
   const ref = useRef<HTMLDivElement>(null);
 
@@ -101,6 +103,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
                 <p>{year}</p>
                 <div>{description}</div>
                 <div>{route}</div>
+                <div className="specification--text">{text}</div>
 
                 <div>
                   <a

@@ -153,7 +153,7 @@
 }
 
 .carousel-specification--visible {
-  background-color: $blue-light;
+  background-color: transparent;
   color: $white;
   text-align: center;
   overflow: visible !important;
@@ -373,11 +373,11 @@
 
 .slide-wines {
   margin: 20px 0 0 0;
-  padding-bottom: 42rem;
+  padding-bottom: 75em;
   //background: linear-gradient(to bottom, transparent 35%, $blue-light 0%);
 
   @media (min-width: 768px) {
-    padding-bottom: 45rem;
+    padding-bottom: 65rem;
   }
 }
 .card-button--varieties {
@@ -385,10 +385,20 @@
 }
 .card-button--wines {
   top: 20% !important;
-  background: linear-gradient(to bottom, transparent 33%, $blue-light 0%);
-
-  @media (min-width: 1200px) {
+  background: linear-gradient(
+    to bottom,
+    transparent 26%,
+    $blue-light 20% 49%,
+    transparent 20%
+  );
+  @media (min-width: 768px) {
     top: 23% !important;
+    background: linear-gradient(
+      to bottom,
+      transparent 26%,
+      $blue-light 20% 58%,
+      transparent 20%
+    );
   }
 }
 
@@ -404,4 +414,13 @@
   width: 36px !important;
   height: 36px !important;
   color: $blue-light !important;
+}
+
+.specification--text {
+  padding: 5rem 7.5rem;
+  color: $blue-light !important;
+
+  @media (min-width: 768px) {
+    padding: 4rem 2rem 2rem 4rem;
+  }
 }

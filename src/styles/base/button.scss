@@ -34,8 +34,8 @@
 }
 
 .btn--tertiary {
-  background-color: $white;
-  color: $blue-light;
+  background-color: $blue-light;
+  color: $white;
   padding: 10px 20px;
   border-width: 2px;
   border-style: solid;
@@ -46,8 +46,8 @@
   margin: 2.5rem;
 
   &:hover {
-    background-color: $blue-light;
-    color: $white;
+    background-color: $white;
+    color: $blue-light;
     border-color: $white;
   }
 }

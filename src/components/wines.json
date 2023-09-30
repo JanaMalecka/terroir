@@ -8,7 +8,8 @@
     "route": "viniční trať: Novosady",
     "name": "Víno Hradil",
     "logo": "assets/images/12LogoHradil.png",
-    "site": "https://vino-hradil.cz/produkt/pinot-noir/"
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
+    "text": "Víno zrálo 24 měsíců ve francouzských dubových sudech. Jeho barva je granátová až cihlově červená. 60% první plnění a 40 % druhé plnění, tím získalo silnou kořenitou, výraznou chuť peckovin a mandlí, zakončenou sametovou trpkostí. Tento pinot je radost ochutnat jako mladý, má ale obrovský potenciál nádherně zrát. Před podáváním doporučujeme dekantovat."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Mezi sklepy",
     "logo": "assets/images/3LogoMeziSklepy.png",
-    "site": "https://www.mezisklepy.cz/pinot-noir_p19/"
+    "site": "https://www.mezisklepy.cz/pinot-noir_p19/",
+    "text": "text..."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
     "logo": "assets/images/4LogoBiza.png",
-    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/",
+    "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
     "logo": "assets/images/4LogoBiza.png",
-    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/",
+    "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
     "logo": "assets/images/4LogoBiza.png",
-    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/"
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-pinot-bize/",
+    "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "route": "viniční trať: Helezný díl",
     "name": "Vinařství Pastorek",
     "logo": "assets/images/8LogoPastorek.png",
-    "site": "https://obchod.vinarstvipastorek.cz/rulandske-modre-2021/"
+    "site": "https://obchod.vinarstvipastorek.cz/rulandske-modre-2021/",
+    "text": "text..."
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "route": "viniční trať: Šatrapky",
     "name": "Vinařství Libor Veverka",
     "logo": "assets/images/7LogoVeverka.png",
-    "site": "https://www.vinoveverka.cz/#vina"
+    "site": "https://www.vinoveverka.cz/#vina",
+    "text": "Hrozny tohoto vína pochází z vinice Helezný díl. Víno leželo 15 měsíců na dubových sudech a to v poměru 80 % nové sudy a 20 % použité sudy. Jedná se o typickou cihlovou barvu, která je pro tuto odrůdu charakteristická. Ve vůni můžeme cítit ostružiny a švestkové povidla s lehkým nádechem dubového dřeva."
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "route": "viniční trať: Díl u Včelína",
     "name": "Vinařství J. Šamšula",
     "logo": "assets/images/9LogoSamsula.png",
-    "site": "https://www.samsula.cz/vino/"
+    "site": "https://www.samsula.cz/vino/",
+    "text": "Víno zrálo 12 měsíců na francouzských sudech barrique. Má tmavě cihlovou barvu s rezavě jahodovými podtóny. Vůně sušených lesních bobulovin, planých trnek a surové kůže doplňující projev ožehnutého dřeva a jeřabiny přechází v kořenitou a překvapivě pikantní chuť švestkového kompotu a punče podpořenou elegantní tříslovinou."
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "route": "viniční trať: Helezný Díl",
     "name": "Vinařství Červenka",
     "logo": "assets/images/13LogoCervenka.svg",
-    "site": "https://www.vinocervenka.cz/nabidka-vin"
+    "site": "https://www.vinocervenka.cz/nabidka-vin",
+    "text": "text..."
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "route": "viniční trať: Stará Hora",
     "name": "Vinařství Fojtík",
     "logo": "assets/images/6LogoFojtik.png",
-    "site": "https://www.vinofojtik.cz/"
+    "site": "https://www.vinofojtik.cz/",
+    "text": "text..."
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "route": "viniční trať: Helezný Díl",
     "name": "Vinařství Veverka",
     "logo": "assets/images/14LogoVeverka.png",
-    "site": "https://vinarstvi-veverka.cz/produkt/rulandske-modre-2019/"
+    "site": "https://vinarstvi-veverka.cz/produkt/rulandske-modre-2019/",
+    "text": "Víno typické cihlové barvy, která napovídá, že víno leželo na dubových sudech. Ve vůni dominuje kombinace tónů koření vanilky a sušeného peckovitého ovoce. Chuť je komplexní, lehce kořenitá, harmonicky se snoubí dochuť sušeného ovoce a hořké čokolády. Potenciál zrání vína je 18 let. Víno doporučujeme k hovězím steakům a tvrdým zrajícím sýrům."
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "route": "viniční trať: Niva hrbatá",
     "name": "Vinařství Škrobák",
     "logo": "assets/images/2LogoSkrobak.png",
-    "site": "https://vinoskrobak.cz/produkt/tramin-pozdni-sber-2019-suche/"
+    "site": "https://vinoskrobak.cz/produkt/tramin-pozdni-sber-2019-suche/",
+    "text": "Víno zrálo 13 měsíců ve velkém sudu z dubu ze Ždánického lesa. Mělo tedy čas dokonale rozvinout svoje aroma. Krásná, elegantní vůně pomerančového likéru, červeného grepu, mandarinkové kůry a karamelu. Plná, kořeněná chuť s dotekem vanilky, která je pro tramín typická. Skvěle se hodí ke králičímu masu a k ovocným moučníkům."
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "route": "viniční trať: Odměry",
     "name": "Vinařství Mezi sklepy",
     "logo": "assets/images/3LogoMeziSklepy.png",
-    "site": "https://www.mezisklepy.cz/tramin-cerveny-tri-sudy_p21"
+    "site": "https://www.mezisklepy.cz/tramin-cerveny-tri-sudy_p21",
+    "text": "text..."
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "route": "viniční trať: Odměry",
     "name": "Vinařství Novotný Bílek",
     "logo": "assets/images/1LogoNovotnyBilek.png",
-    "site": "http://eshop.novotnybilek.cz/tramin-cerveny-2019/"
+    "site": "http://eshop.novotnybilek.cz/tramin-cerveny-2019/",
+    "text": "Krásně odrůdový tramín, který odráží jedinečný Terroir Čejkovic. Dlouhá macerace a fermentace na slupkách dává vínu krásně zlatavě oranžovou barvu. Ve vůni nalezneme růže, medový propolis a skořici s jemnou stopou dřeva. Víno leželo 14 měsíců na veškerých kvasnicích v sudu ze slavonského dubu."
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "route": "viniční trať: Šuby",
     "name": "Vinařství Fojtík",
     "logo": "assets/images/6LogoFojtik.png",
-    "site": "https://www.vinofojtik.cz/"
+    "site": "https://www.vinofojtik.cz/",
+    "text": "text..."
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
     "logo": "assets/images/4LogoBiza.png",
-    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/"
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/",
+    "text": "Macerace hroznů trvající 5 dnů na slupkách  ve spojení  se zráním ve francouzských dubových  sudech barrique (80% nové sudy) po dobu 15 měsíců vložili do vína intenzivní zlato-jantarovou barvu. Bohatá vůně lískových oříšků, růží, vanilkového lusku a zralých banánů je snoubena s tóny kakaa a ananasu.  Nazrálá,  kořenitá chuť  sušených meruněk, fíků, a lučního medu, je sladěna s dochutí vanilky a skořice. Víno je vhodné pro delší zrání na láhvi, která rozvine jeho velký potenciál."
   },
   {
     "id": 17,
@@ -184,6 +200,7 @@
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
     "logo": "assets/images/4LogoBiza.png",
-    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/"
+    "site": "https://www.bizavino.cz/vino/vina-v-barrique-sudech/grand-tramin/",
+    "text": "Macerace hroznů trvající 5 dnů na slupkách  ve spojení  se zráním ve francouzských dubových  sudech barrique (80% nové sudy) po dobu 15 měsíců vložili do vína intenzivní zlato-jantarovou barvu. Bohatá vůně lískových oříšků, růží, vanilkového lusku a zralých banánů je snoubena s tóny kakaa a ananasu.  Nazrálá,  kořenitá chuť  sušených meruněk, fíků, a lučního medu, je sladěna s dochutí vanilky a skořice. Víno je vhodné pro delší zrání na láhvi, která rozvine jeho velký potenciál."
   }
 ]
