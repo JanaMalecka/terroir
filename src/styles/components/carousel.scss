@@ -201,25 +201,25 @@
 }
 
 .carousel-text--visible {
-  padding: 1rem 5rem;
+  padding: 2rem 5rem;
   background-color: transparent;
   color: $white;
   text-align: center;
   overflow: visible !important;
 
   @media (min-width: 768px) {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 .carousel-contact--visible {
-  padding: 1rem 5rem;
+  padding: 5rem 5rem 0 5rem;
   background-color: transparent;
   color: $blue-light;
   text-align: center;
   overflow: visible !important;
 
   @media (min-width: 768px) {
-    padding: 2rem;
+    padding-top: 3rem;
   }
 }
 
@@ -355,16 +355,16 @@
 
 .slide-wineries {
   margin: 20px 0 0 0;
-  padding-bottom: 65rem;
+  padding-bottom: 70rem;
   background: linear-gradient(
     to bottom,
     transparent 20%,
-    $blue-light 20% 63.01%,
+    $blue-light 20% 67%,
     transparent 20%
   );
 
   @media (min-width: 500px) {
-    padding-bottom: 65rem;
+    padding-bottom: 70rem;
   }
 }
 

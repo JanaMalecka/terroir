@@ -9,7 +9,7 @@
 
 .link-dark {
   text-decoration: none;
-  color: $blue-light;
+  color: $blue-light !important;
 
   &:hover {
     text-decoration: underline;
