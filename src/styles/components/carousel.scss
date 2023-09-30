@@ -75,12 +75,12 @@
 
 .card-card .cover-image {
   object-fit: cover;
-  height: -webkit-fill-available;
+  // height: -webkit-fill-available;
 }
 
 .card-card .cover-image--fit {
   object-fit: contain;
-  height: -webkit-fill-available;
+  // height: -webkit-fill-available;
   background-color: $white;
 
   @media (min-width: 768px) {
