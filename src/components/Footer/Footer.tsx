@@ -6,7 +6,7 @@ const Footer: FC = (): JSX.Element => {
       <div className="footer-section">
         <div>
           <div className="footer-subsection">
-            <div className="mb-3 d-flex flex-column footer-left">
+            <div className="mb-3 d-flex footer-left">
               <a
                 href="https://www.vinozcejkovic.cz"
                 target="_blank"

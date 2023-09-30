@@ -113,9 +113,9 @@
 }
 
 .footer-subsection {
+  display: flex;
+
   @media (min-width: 500px) {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
   @media (min-width: 700px) {
