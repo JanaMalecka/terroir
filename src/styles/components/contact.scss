@@ -26,6 +26,13 @@
     padding-right: 4rem;
   }
 }
+.contact-subsection--bottom {
+  font-size: small;
+
+  @media (min-width: 768px) {
+    font-size: inherit;
+  }
+}
 
 .contact-photo {
   width: 100vw;

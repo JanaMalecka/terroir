@@ -104,7 +104,7 @@ const Contacts: FC = (): JSX.Element => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="contact-subsection--bottom">
               <p className="mb-3">
                 Projekt Terroir Čejkovice vznikl pod patronací spolku
                 Čtvrtečníci - sdružení vinařů Čejkovice, z.s.{' '}
