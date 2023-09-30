@@ -90,7 +90,7 @@ const Home: FC = (): JSX.Element => {
         <div>
           <ScaleIn from={{ scale: '0' }} to={{ scale: '1' }}>
             <a
-              href={`http://localhost:3000/statut-terroir-cejkovice`}
+              href={`https://terroir.netlify.app/statut-terroir-cejkovice`}
               className="link-dark"
               aria-label={`Přejít na webové stránky Statut terroir Čejkovice`}
               target="_self"
