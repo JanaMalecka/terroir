@@ -361,6 +361,16 @@
   height: -webkit-fill-available;
 }
 
+.slide-varieties .cover-image--fit {
+  object-fit: contain;
+  height: -webkit-fill-available;
+  background-color: $white;
+
+  @media (min-width: 768px) {
+    object-fit: cover;
+  }
+}
+
 .slide-wineries {
   margin: 20px 0 0 0;
   padding-bottom: 70rem;
