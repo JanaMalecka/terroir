@@ -202,7 +202,7 @@
 
 .carousel-text--visible {
   padding: 1rem 5rem;
-  background-color: $blue-light;
+  background-color: transparent;
   color: $white;
   text-align: center;
   overflow: visible !important;
@@ -213,7 +213,7 @@
 }
 .carousel-contact--visible {
   padding: 1rem 5rem;
-  background-color: $white;
+  background-color: transparent;
   color: $blue-light;
   text-align: center;
   overflow: visible !important;
@@ -386,18 +386,6 @@
 
   @media (min-width: 1200px) {
     top: 23% !important;
-  }
-}
-
-.carousel-description--visible {
-  padding: 0.5rem 5rem;
-  background-color: $white;
-  color: $black;
-  text-align: center;
-  overflow: visible !important;
-
-  @media (min-width: 768px) {
-    padding: 1rem;
   }
 }
 
