@@ -18,6 +18,7 @@ interface SlideProps extends StackedCarouselSlideProps {
       phone: string;
       email: string;
     };
+    logo: string;
   }[];
 }
 
@@ -37,6 +38,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   const phone = data[dataIndex].contact.phone;
   const email = data[dataIndex].contact.email;
   const id = data[dataIndex].id;
+  const logo = data[dataIndex].logo;
 
   const ref = useRef<HTMLDivElement>(null);
 
@@ -196,12 +198,34 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
                       </a>
                     </div>
                   </div>
+
+                  <div>
+                    <a
+                      href={`https://${web}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Přejít na webové stránky ${web}`}
+                    >
+                      <img
+                        alt={`Logo vinařství ${title} `}
+                        src={logo}
+                        // className="logo-winery"
+                        className={
+                          id === 11 || id === 8
+                            ? 'logo-winery--bigger'
+                            : id === 2
+                            ? 'logo-winery--smaller'
+                            : 'logo-winery'
+                        }
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
 
               <div
                 className={`${
-                  isCenterSlide ? 'carousel-contact--visible' : 'none'
+                  isCenterSlide ? 'carousel-contact--visibleButton' : 'none'
                 }`}
               >
                 <a

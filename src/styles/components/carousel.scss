@@ -212,7 +212,7 @@
   }
 }
 .carousel-contact--visible {
-  padding: 5rem 5rem 0 5rem;
+  padding: 5rem 2rem 0 2rem;
   background-color: transparent;
   color: $blue-light;
   text-align: center;
@@ -221,6 +221,9 @@
   @media (min-width: 768px) {
     padding-top: 3rem;
   }
+}
+.carousel-contact--visibleButton {
+  padding-top: 1rem;
 }
 
 .card {
