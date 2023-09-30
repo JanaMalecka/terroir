@@ -356,6 +356,11 @@
   padding-bottom: 2rem;
 }
 
+.slide-varieties .cover-image {
+  object-fit: cover;
+  height: -webkit-fill-available;
+}
+
 .slide-wineries {
   margin: 20px 0 0 0;
   padding-bottom: 70rem;
