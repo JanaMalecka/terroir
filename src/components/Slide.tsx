@@ -80,6 +80,31 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
 
   const subtitleClassName = generateSubtitleClassName(isCenterSlide, id);
 
+  function generateDescriptionClassName(id: number) {
+    if (
+      id === 13 ||
+      id === 12 ||
+      id === 9 ||
+      id === 1 ||
+      id === 2 ||
+      id === 4
+    ) {
+      return 'slide-description--oneRow';
+    } else if (id === 11 || id === 10) {
+      return 'slide-description--twoRows';
+    } else if (id === 6 || id === 3) {
+      return 'slide-description--twoOneRows';
+    } else if (id === 5) {
+      return 'slide-description--threeTwoRows';
+    } else if (id === 7) {
+      return 'slide-description--threeTwoRowsLarge';
+    } else {
+      return 'slide-description--threeRows';
+    }
+  }
+
+  const DescriptionClassName = generateDescriptionClassName(id);
+
   return (
     <>
       <div
@@ -133,7 +158,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
             </div>
 
             <div
-              className="slide-description"
+              className={DescriptionClassName}
               style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
             >
               <div
