@@ -210,22 +210,22 @@
   }
 }
 .carousel-contact--visible {
-  padding: 7rem 2rem 0 2rem;
+  padding: 4rem 2rem 0 2rem;
   background-color: transparent;
   color: $blue-light;
   text-align: center;
   overflow: visible !important;
 
   @media (min-width: 375px) {
-    padding-top: 5.5rem;
+    padding-top: 3rem;
   }
 
   @media (min-width: 425px) {
-    padding-top: 3.5rem;
+    padding-top: 3rem;
   }
 
   @media (min-width: 768px) {
-    padding-top: 4.5rem;
+    padding-top: 1rem;
   }
 }
 .carousel-contact--visibleButton {
@@ -481,11 +481,11 @@
 
 .slide-wineries {
   margin: 20px 0 0 0;
-  padding-bottom: 82rem;
+  padding-bottom: 80rem;
   background: linear-gradient(
     to bottom,
     transparent 20%,
-    $blue-light 20% 65%,
+    $blue-light 20% 63%,
     transparent 20%
   );
 
@@ -496,17 +496,17 @@
       $blue-light 20% 63%,
       transparent 20%
     );
-    padding-bottom: 82rem;
+    padding-bottom: 77rem;
   }
 
   @media (min-width: 425px) {
     background: linear-gradient(
       to bottom,
       transparent 20%,
-      $blue-light 20% 58%,
+      $blue-light 20% 63%,
       transparent 20%
     );
-    padding-bottom: 80rem;
+    padding-bottom: 76rem;
   }
 
   @media (min-width: 768px) {
@@ -516,7 +516,7 @@
       $blue-light 20% 68%,
       transparent 20%
     );
-    padding-bottom: 75rem;
+    padding-bottom: 70rem;
   }
 }
 
