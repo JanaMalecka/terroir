@@ -253,9 +253,9 @@
 .carousel-title {
   position: absolute;
   top: 3rem;
-  left: 7rem;
+  left: 7.5rem;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
 
   @media (min-width: 425px) {
@@ -272,10 +272,14 @@
   top: 3rem;
   right: -6rem;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 375px) {
+    right: -8rem;
+  }
 
   @media (min-width: 425px) {
     right: -10rem;
@@ -283,7 +287,7 @@
   }
 
   @media (min-width: 768px) {
-    right: -14rem;
+    right: -16rem;
   }
 }
 .carousel-titleLarge {
@@ -291,11 +295,15 @@
   top: 5rem;
   right: 7.5rem;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
 
+  @media (min-width: 375px) {
+    right: 6.5rem;
+  }
+
   @media (min-width: 425px) {
-    right: 5rem;
+    right: 6rem;
     font-size: 24px;
   }
 
@@ -303,13 +311,34 @@
     right: 4rem;
   }
 }
+.carousel-title--rightLarge {
+  position: absolute;
+  top: 3rem;
+  right: -4.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+
+  @media (min-width: 375px) {
+    right: -6.2rem;
+  }
+
+  @media (min-width: 425px) {
+    right: -8rem;
+    font-size: 24px;
+  }
+
+  @media (min-width: 768px) {
+    right: -16rem;
+  }
+}
 
 .carousel-subtitle {
   position: absolute;
   top: 1rem;
-  left: 7rem;
+  left: 7.5rem;
   font-weight: 400;
-  font-size: x-large;
+  font-size: 20px;
 
   @media (min-width: 425px) {
     left: 5rem;
@@ -323,13 +352,17 @@
   top: 1rem;
   right: -6rem;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
+
+  @media (min-width: 375px) {
+    right: -8rem;
+  }
 
   @media (min-width: 425px) {
     right: -10rem;
   }
   @media (min-width: 768px) {
-    right: -14rem;
+    right: -16rem;
   }
 }
 .divider {

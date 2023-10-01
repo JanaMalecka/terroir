@@ -50,6 +50,36 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
     setIsImageLoaded(true);
   };
 
+  function generateTitleClassName(isCenterSlide: boolean, id: number) {
+    if (isCenterSlide) {
+      if ([10, 7, 2, 9, 11, 13, 4, 12, 1].includes(id)) {
+        return 'carousel-title carousel-title--right';
+      } else if ([8, 3].includes(id)) {
+        return 'carousel-title carousel-title--rightLarge';
+      } else {
+        return 'carousel-title';
+      }
+    } else {
+      return 'none';
+    }
+  }
+
+  const titleClassName = generateTitleClassName(isCenterSlide, id);
+
+  function generateSubtitleClassName(isCenterSlide: boolean, id: number) {
+    if (isCenterSlide) {
+      if ([10, 7, 2, 9, 11, 13, 4, 12, 1, 8, 3].includes(id)) {
+        return 'carousel-subtitle carousel-subtitle--right';
+      } else {
+        return 'carousel-subtitle';
+      }
+    } else {
+      return 'none';
+    }
+  }
+
+  const subtitleClassName = generateSubtitleClassName(isCenterSlide, id);
+
   return (
     <>
       <div
@@ -85,45 +115,10 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               className="cover-image"
               src={coverImage}
             /> */}
-            <div
-              onClick={handleClick}
-              className={`${isCenterSlide ? 'carousel-subtitle' : 'none'} ${
-                id === 10 ||
-                id === 7 ||
-                id === 2 ||
-                id === 8 ||
-                id === 12 ||
-                id === 9 ||
-                id === 11 ||
-                id === 13 ||
-                id === 3 ||
-                id === 1 ||
-                id === 4
-                  ? 'carousel-subtitle--right'
-                  : 'carousel-subtitle'
-              }`}
-            >
+            <div onClick={handleClick} className={subtitleClassName}>
               {subtitle}
             </div>
-            <div
-              onClick={handleClick}
-              className={`${isCenterSlide ? 'carousel-title' : 'none'} ${
-                isCenterSlide &&
-                (id === 10 ||
-                  id === 7 ||
-                  id === 2 ||
-                  id === 8 ||
-                  id === 9 ||
-                  id === 11 ||
-                  id === 13 ||
-                  id === 3 ||
-                  id === 4 ||
-                  id === 12 ||
-                  id === 1)
-                  ? 'carousel-title--right'
-                  : 'carousel-title'
-              } `}
-            >
+            <div onClick={handleClick} className={titleClassName}>
               {title}
             </div>
             <div
