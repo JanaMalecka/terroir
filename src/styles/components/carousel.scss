@@ -39,7 +39,10 @@
 .card-card--wineries {
   height: 330px !important;
 }
-
+.card-card--wineries .fill {
+  width: 100%;
+  height: 105.5%;
+}
 .card-card:hover {
   transform: scale(1.05);
 }
