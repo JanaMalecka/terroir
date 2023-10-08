@@ -37,9 +37,11 @@
   margin-left: auto;
   margin-right: auto;
   display: flex !important;
+  padding-bottom: 20px;
 
   @media (min-width: 768px) {
     max-width: 90%;
+    padding-bottom: 0;
   }
   @media (min-width: 992px) {
     max-width: 80%;
