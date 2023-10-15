@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/pinot.jpg",
+    "image": "assets/images/MezisklepyPinotNOIR.png",
     "wine": "PINOT NOIR",
     "year": "2017",
     "description": "výběr z hroznů, suché",
@@ -61,8 +61,8 @@
   },
   {
     "id": 6,
-    "image": "assets/images/pinot.jpg",
-    "wine": "PINOT NOIR",
+    "image": "assets/images/PastorekRulandskeModre2021.png",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
     "description": "pozdní sběr, suché",
     "route": "viniční trať: Helezný díl",
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "image": "assets/images/pinot.jpg",
+    "image": "assets/images/VeverkaPinot2019.png",
     "wine": "PINOT NOIR",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -85,8 +85,8 @@
   },
   {
     "id": 8,
-    "image": "assets/images/pinot.jpg",
-    "wine": "PINOT NOIR",
+    "image": "assets/images/SamsulaRulandskeModre2021.png",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Díl u Včelína",
@@ -121,8 +121,8 @@
   },
   {
     "id": 11,
-    "image": "assets/images/pinot.jpg",
-    "wine": "PINOT NOIR",
+    "image": "assets/images/VeverkaRulandskeModre2020.png",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2020",
     "description": "pozdní sběr, suché",
     "route": "viniční trať: Helezný Díl",
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "image": "assets/images/pinot.jpg",
+    "image": "assets/images/SkrobakTramin2019.png",
     "wine": "TRAMÍN",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -145,7 +145,7 @@
   },
   {
     "id": 13,
-    "image": "assets/images/pinot.jpg",
+    "image": "assets/images/MezisklepyTraminCerveny.png",
     "wine": "TRAMÍN",
     "year": "2017",
     "description": "výběr z hroznů, suché",
@@ -157,7 +157,7 @@
   },
   {
     "id": 14,
-    "image": "assets/images/pinot.jpg",
+    "image": "assets/images/NovotnyBilekTraminCerveny.png",
     "wine": "TRAMÍN",
     "year": "2019",
     "description": "výběr z hroznů, suché",
