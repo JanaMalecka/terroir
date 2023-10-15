@@ -41,10 +41,10 @@ const Footer: FC = (): JSX.Element => {
 
             <div className="mb-3 footer-right">
               <a
-                href="https://www.vinozcejkovic.cz"
+                href="https://www.terroircejkovice.cz"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Přejít na webové stránky vinozcejkovic.cz"
+                aria-label="Přejít na webové stránky terroircejkovice.cz"
               >
                 <div className="logo-terroir--light"></div>
               </a>

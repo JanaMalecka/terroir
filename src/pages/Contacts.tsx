@@ -19,6 +19,50 @@ const Contacts: FC = (): JSX.Element => {
           <div className="pd-3 contact-info">
             <div className="contact-subsection">
               <div className="contact-subsection-part">
+                <div>Petr Bíza</div>
+                <div>
+                  <div>manažer projektu</div>
+                  <div className="mt-3">
+                    <a
+                      href="tel:+420776120439"
+                      className="link-dark"
+                      aria-label="+ 420. 776. 120. 439."
+                    >
+                      +420 776 120 439
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="mailto:bizavino@bizavino.cz"
+                      className="link-dark"
+                      aria-label="email bizavino@bizavino.cz"
+                    >
+                      bizavino@bizavino.cz
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.terroircejkovice.cz"
+                      className="link-dark"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Přejít na webové stránky terroircejkovice.cz"
+                    >
+                      {' '}
+                      www.terroircejkovice.cz{' '}
+                    </a>
+                  </div>
+                  <a
+                    href="https://www.terroircejkovice.cz"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Přejít na webové stránky terroircejkovice.cz"
+                  >
+                    <div className="contact-logo-terroir"></div>
+                  </a>
+                </div>
+              </div>
+              <div className="contact-subsection-part">
                 <div> Marie Novotná </div>
                 <div>manažerka spolku</div>
 
@@ -57,51 +101,6 @@ const Contacts: FC = (): JSX.Element => {
                 >
                   <div className="contact-logo-vino-z-cejkovic"></div>
                 </a>
-              </div>
-
-              <div className="contact-subsection-part">
-                <div>Petr Bíza</div>
-                <div>
-                  <div>manažer projektu</div>
-                  <div className="mt-3">
-                    <a
-                      href="tel:+420776120439"
-                      className="link-dark"
-                      aria-label="+ 420. 776. 120. 439."
-                    >
-                      +420 776 120 439
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="mailto:bizavino@bizavino.cz"
-                      className="link-dark"
-                      aria-label="email bizavino@bizavino.cz"
-                    >
-                      bizavino@bizavino.cz
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="https://www.vinozcejkovic.cz"
-                      className="link-dark"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Přejít na webové stránky vinozcejkovic.cz"
-                    >
-                      {' '}
-                      www.terroircejkovice.cz{' '}
-                    </a>
-                  </div>
-                  <a
-                    href="https://www.vinozcejkovic.cz"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Přejít na webové stránky vinozcejkovic.cz"
-                  >
-                    <div className="contact-logo-terroir"></div>
-                  </a>
-                </div>
               </div>
             </div>
             <div className="contact-subsection--bottom">
