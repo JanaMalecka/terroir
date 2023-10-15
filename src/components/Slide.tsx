@@ -42,7 +42,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
 
   const ref = useRef<HTMLDivElement>(null);
 
-  const [imageClicked, setImageClicked] = useState(false);
+  //const [imageClicked, setImageClicked] = useState(false);
 
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
@@ -118,7 +118,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
           <div
             className="card-overlay fill"
             onClick={() => {
-              if (!isCenterSlide && imageClicked) {
+              if (!isCenterSlide) {
                 swipeTo(slideIndex);
               }
             }}
@@ -137,7 +137,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
               alt="fotografie vinařů"
               className="cover-image"
               afterLoad={handleImageLoad}
-              onClick={() => setImageClicked(true)}
+              //onClick={() => setImageClicked(true)}
             />
             {/* <img
               style={{ width: '100%' }}
