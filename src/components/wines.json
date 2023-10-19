@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "assets/images/HradilPinot.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "image": "assets/images/MezisklepyPinotNOIR.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2017",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "image": "assets/images/BizaGrandPinot2015.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2015",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "image": "assets/images/BizaGrandPinot2016.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2016",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "image": "assets/images/BizaGrandPinot2018.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2018",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "image": "assets/images/VeverkaPinot2019.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Šatrapky",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "image": "assets/images/CervenkaPinot2020.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2020",
     "description": "pozdní sběr, suché",
     "route": "viniční trať: Helezný Díl",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "image": "assets/images/FojtikPinot2017.png",
-    "wine": "PINOT NOIR",
+    "wine": "RULANDSKÉ MODRÉ",
     "year": "2017",
     "description": "pozdní sběr, suché",
     "route": "viniční trať: Stará Hora",
