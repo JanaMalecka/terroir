@@ -1,7 +1,5 @@
 import React, { FC } from 'react';
 import map from '../assets/images/map2.png';
-import ScaleIn from '../features/Animate/ScaleIn';
-import Button from '../components/Button';
 
 const Map: FC = (): JSX.Element => {
   return (
@@ -18,21 +16,7 @@ const Map: FC = (): JSX.Element => {
           loading="lazy"
         />
       </div>
-      <div className="container__content">
-        <div>
-          <ScaleIn from={{ scale: '0' }} to={{ scale: '1' }}>
-            <a
-              href={`https://www.terroircejkovice.cz/statut-terroir-cejkovice`}
-              className="link-dark"
-              aria-label={`Přejít na webové stránky Statut terroir Čejkovice`}
-              target="_self"
-              rel="noreferrer"
-            >
-              <Button className="btn--secondary">Více o terroir</Button>
-            </a>
-          </ScaleIn>
-        </div>
-      </div>
+      <div className="container__content"></div>
     </>
   );
 };

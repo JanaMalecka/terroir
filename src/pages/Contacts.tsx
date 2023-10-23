@@ -64,7 +64,7 @@ const Contacts: FC = (): JSX.Element => {
               </div>
               <div className="contact-subsection-part">
                 <div> Marie Novotná </div>
-                <div>manažerka spolku</div>
+                <div>manažerka spolku Čtvrtečníci</div>
 
                 <div className="mb-3 mt-3 d-flex flex-column">
                   <a
