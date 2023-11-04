@@ -16,10 +16,12 @@ interface SlideProps extends StackedCarouselSlideProps {
     logo: string;
     text: string;
   }[];
+  isMobile: boolean;
 }
 
 const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
-  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
+  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex, isMobile } =
+    props;
 
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
@@ -49,7 +51,12 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
       <div
         className="card-card card-card--high card-card-bottle"
         draggable={false}
-        style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
+        style={{
+          visibility:
+            isImageLoaded || (isCenterSlide && !isMobile)
+              ? 'visible'
+              : 'hidden',
+        }}
       >
         <div className={`cover fill ${isCenterSlide ? 'off' : 'on'}`}>
           <div
@@ -65,7 +72,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              // visibleByDefault={false}
+              visibleByDefault={isCenterSlide && !isMobile ? true : false}
               style={{
                 width: '100%',
               }}

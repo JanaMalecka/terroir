@@ -6,10 +6,12 @@ interface SlideProps extends StackedCarouselSlideProps {
   data: {
     image: string;
   }[];
+  isMobile: boolean;
 }
 
 const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
-  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
+  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex, isMobile } =
+    props;
 
   const coverImage = data[dataIndex].image;
 
@@ -24,7 +26,12 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
       <div
         className="card-card"
         draggable={false}
-        style={{ visibility: isImageLoaded ? 'visible' : 'hidden' }}
+        style={{
+          visibility:
+            isImageLoaded || (isCenterSlide && !isMobile)
+              ? 'visible'
+              : 'hidden',
+        }}
       >
         <div className={`cover fill ${isCenterSlide ? 'off' : 'on'}`}>
           <div
@@ -43,7 +50,7 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              //visibleByDefault={false}
+              visibleByDefault={isCenterSlide && !isMobile ? true : false}
               afterLoad={handleImageLoad}
             />
             {/* <img
