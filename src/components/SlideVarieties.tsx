@@ -21,6 +21,9 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
     setIsImageLoaded(true);
   };
 
+  // Add a condition to check for initial load and mobile devices
+  const isInitialLoadOnMobile = dataIndex !== 0 && isMobile;
+
   return (
     <>
       <div
@@ -28,7 +31,9 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
         draggable={false}
         style={{
           visibility:
-            isImageLoaded || (isCenterSlide && !isMobile)
+            isImageLoaded ||
+            (isCenterSlide && !isMobile) ||
+            isInitialLoadOnMobile
               ? 'visible'
               : 'hidden',
         }}
@@ -50,7 +55,9 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              visibleByDefault={isCenterSlide && !isMobile ? true : false}
+              visibleByDefault={
+                (isCenterSlide && !isMobile) || isInitialLoadOnMobile
+              }
               afterLoad={handleImageLoad}
             />
             {/* <img
