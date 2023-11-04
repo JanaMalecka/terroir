@@ -51,7 +51,9 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
             <LazyLoadImage
               style={{ width: '100%' }}
               alt="fotografie hroznů"
-              className="cover-image"
+              className={`cover-image ${
+                isMobile && dataIndex !== 0 ? 'hidden' : ''
+              }`}
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
