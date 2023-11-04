@@ -43,7 +43,7 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              visibleByDefault={true}
+              //visibleByDefault={false}
               afterLoad={handleImageLoad}
             />
             {/* <img

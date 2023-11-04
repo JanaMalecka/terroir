@@ -65,7 +65,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              visibleByDefault={true}
+              // visibleByDefault={false}
               style={{
                 width: '100%',
               }}
