@@ -21,11 +21,6 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
 
   const isMobile = window.matchMedia('(max-width: 767px)').matches;
 
-  // Add a condition to check for initial load and mobile devices
-  const isInitialLoadOnMobile = dataIndex !== 0 && isMobile;
-
-  console.log('isMobile: ', isMobile);
-
   return (
     <>
       <div
@@ -33,9 +28,7 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
         draggable={false}
         style={{
           visibility:
-            isImageLoaded ||
-            (isCenterSlide && !isMobile) ||
-            isInitialLoadOnMobile
+            isImageLoaded || (isCenterSlide && !isMobile)
               ? 'visible'
               : 'hidden',
         }}
@@ -53,15 +46,11 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
             <LazyLoadImage
               style={{ width: '100%' }}
               alt="fotografie hroznů"
-              className={`cover-image ${
-                isMobile && dataIndex !== 0 ? 'hidden-image' : ''
-              }`}
+              className="cover-image"
               src={coverImage}
               loading="lazy"
               delayMethod="debounce"
-              visibleByDefault={
-                (isCenterSlide && !isMobile) || isInitialLoadOnMobile
-              }
+              visibleByDefault={isCenterSlide && !isMobile ? true : false}
               afterLoad={handleImageLoad}
             />
             {/* <img
