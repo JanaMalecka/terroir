@@ -6,12 +6,10 @@ interface SlideProps extends StackedCarouselSlideProps {
   data: {
     image: string;
   }[];
-  isMobile: boolean;
 }
 
 const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
-  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex, isMobile } =
-    props;
+  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
   const coverImage = data[dataIndex].image;
 
@@ -21,8 +19,12 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
     setIsImageLoaded(true);
   };
 
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
   // Add a condition to check for initial load and mobile devices
   const isInitialLoadOnMobile = dataIndex !== 0 && isMobile;
+
+  console.log('isMobile: ', isMobile);
 
   return (
     <>
@@ -52,7 +54,7 @@ const SlideVarieties: React.FC<SlideProps> = React.memo(function (props) {
               style={{ width: '100%' }}
               alt="fotografie hroznů"
               className={`cover-image ${
-                isMobile && dataIndex !== 0 ? 'hidden' : ''
+                isMobile && dataIndex !== 0 ? 'hidden-image' : ''
               }`}
               src={coverImage}
               loading="lazy"

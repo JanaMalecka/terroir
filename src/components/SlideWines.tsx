@@ -16,12 +16,10 @@ interface SlideProps extends StackedCarouselSlideProps {
     logo: string;
     text: string;
   }[];
-  isMobile: boolean;
 }
 
 const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
-  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex, isMobile } =
-    props;
+  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
@@ -45,6 +43,8 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
   const handleImageLoad = () => {
     setIsImageLoaded(true);
   };
+
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
 
   return (
     <>

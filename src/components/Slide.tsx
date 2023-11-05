@@ -20,12 +20,10 @@ interface SlideProps extends StackedCarouselSlideProps {
     };
     logo: string;
   }[];
-  isMobile: boolean;
 }
 
 const Slide: React.FC<SlideProps> = React.memo(function (props) {
-  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex, isMobile } =
-    props;
+  const { data, dataIndex, isCenterSlide, swipeTo, slideIndex } = props;
 
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
@@ -108,6 +106,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
   }
 
   const DescriptionClassName = generateDescriptionClassName(id);
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
 
   return (
     <>
