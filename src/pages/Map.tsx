@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import map from '../assets/images/map2.png';
+import map from '../assets/images/map3.png';
 
 const Map: FC = (): JSX.Element => {
   return (
