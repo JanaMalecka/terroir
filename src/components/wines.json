@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "assets/images/HradilPinot.png",
+    "image": "assets/images/HradilPinot.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "assets/images/MezisklepyPinotNOIR.png",
+    "image": "assets/images/MezisklepyPinotNOIR.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2017",
     "description": "výběr z hroznů, suché",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "assets/images/BizaGrandPinot2015.png",
+    "image": "assets/images/BizaGrandPinot2015.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2015",
     "description": "výběr z hroznů, suché",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "image": "assets/images/BizaGrandPinot2016.png",
+    "image": "assets/images/BizaGrandPinot2016.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2016",
     "description": "výběr z hroznů, suché",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "image": "assets/images/BizaGrandPinot2018.png",
+    "image": "assets/images/BizaGrandPinot2018.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2018",
     "description": "výběr z hroznů, suché",
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "image": "assets/images/PastorekRulandskeModre2021.png",
+    "image": "assets/images/PastorekRulandskeModre2021.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
     "description": "pozdní sběr, suché",
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "image": "assets/images/VeverkaPinot2019.png",
+    "image": "assets/images/VeverkaPinot2019.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "image": "assets/images/SamsulaRulandskeModre2021.png",
+    "image": "assets/images/SamsulaRulandskeModre2021.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
     "description": "výběr z hroznů, suché",
@@ -97,7 +97,7 @@
   },
   {
     "id": 9,
-    "image": "assets/images/CervenkaPinot2020.png",
+    "image": "assets/images/CervenkaPinot2020.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2020",
     "description": "pozdní sběr, suché",
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "image": "assets/images/FojtikPinot2017.png",
+    "image": "assets/images/FojtikPinot2017.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2017",
     "description": "pozdní sběr, suché",
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "image": "assets/images/VeverkaRulandskeModre2020.png",
+    "image": "assets/images/VeverkaRulandskeModre2020.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2020",
     "description": "pozdní sběr, suché",
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "image": "assets/images/SkrobakTramin2019.png",
+    "image": "assets/images/SkrobakTramin2019.jpg",
     "wine": "TRAMÍN",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -145,7 +145,7 @@
   },
   {
     "id": 13,
-    "image": "assets/images/MezisklepyTraminCerveny.png",
+    "image": "assets/images/MezisklepyTraminCerveny.jpg",
     "wine": "TRAMÍN",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -157,7 +157,7 @@
   },
   {
     "id": 14,
-    "image": "assets/images/NovotnyBilekTraminCerveny.png",
+    "image": "assets/images/NovotnyBilekTraminCerveny.jpg",
     "wine": "TRAMÍN",
     "year": "2019",
     "description": "výběr z hroznů, suché",
@@ -169,7 +169,7 @@
   },
   {
     "id": 15,
-    "image": "assets/images/FojtikTramin2020.png",
+    "image": "assets/images/FojtikTramin2020.jpg",
     "wine": "TRAMÍN",
     "year": "2020",
     "description": "výběr z hroznů, suché",
@@ -181,7 +181,7 @@
   },
   {
     "id": 16,
-    "image": "assets/images/BizaGrandTramin2015.png",
+    "image": "assets/images/BizaGrandTramin2015.jpg",
     "wine": "TRAMÍN",
     "year": "2015",
     "description": "výběr z hroznů, suché",
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "image": "assets/images/BizaGrandTramin2016.png",
+    "image": "assets/images/BizaGrandTramin2016.jpg",
     "wine": "TRAMÍN",
     "year": "2016",
     "description": "výběr z hroznů, suché",
