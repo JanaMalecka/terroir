@@ -124,7 +124,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
           <div
             className="card-overlay fill"
             onClick={() => {
-              if (!isCenterSlide) {
+              if (!isCenterSlide && !isMobile) {
                 swipeTo(slideIndex);
               }
             }}
