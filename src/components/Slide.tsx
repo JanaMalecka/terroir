@@ -112,7 +112,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
     <>
       <div
         className="card-card card-card--wineries"
-        draggable={false}
+        draggable={true}
         style={{
           visibility:
             isImageLoaded || (isCenterSlide && !isMobile)
