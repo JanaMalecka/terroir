@@ -9,6 +9,18 @@
   height: 36px;
   background-color: transparent;
   z-index: 998 !important;
+  @media (min-width: 1200px) {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  @media (min-width: 1400px) {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  @media (min-width: 2100px) {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 .card-button:hover {
@@ -536,7 +548,7 @@
   top: 45% !important;
 }
 .card-button--wines {
-  top: 20% !important;
+  top: 15% !important;
   background: linear-gradient(
     to bottom,
     transparent 26%,
@@ -544,7 +556,7 @@
     transparent 20%
   );
   @media (min-width: 768px) {
-    top: 23% !important;
+    top: 18% !important;
     background: linear-gradient(
       to bottom,
       transparent 26%,
