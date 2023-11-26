@@ -21,8 +21,8 @@ const Carousel: React.FC<CarouselProps> = ({
 }) => {
   const ref = React.useRef<StackedCarousel>(null!); //initialize the ref with a value of null!
 
-  const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
-
+  //const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
+  console.log('hovno');
   return (
     <div className="carousel-layout">
       <div className="card">
