@@ -537,7 +537,7 @@
 
 .slide-wines {
   margin: 20px 0 0 0;
-  padding-bottom: 75em;
+  padding-bottom: 70em;
   //background: linear-gradient(to bottom, transparent 35%, $blue-light 0%);
 
   @media (min-width: 768px) {
@@ -552,7 +552,7 @@
   background: linear-gradient(
     to bottom,
     transparent 26%,
-    $blue-light 20% 49%,
+    $blue-light 20% 52%,
     transparent 20%
   );
   @media (min-width: 768px) {
@@ -582,6 +582,7 @@
 
 .specification--text {
   padding: 5rem 7.5rem;
+  padding-bottom: 1rem;
   color: $blue-light !important;
 
   @media (min-width: 768px) {
