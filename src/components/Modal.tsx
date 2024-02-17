@@ -23,13 +23,13 @@ const Modal = (): JSX.Element => {
         Hrozny musí být zpracovány bez exogenních enzymů a jiných maceračních
         přídavných látek. Důležitá je minimalizace síření při výrobě vína. U
         odrůdy Rulandské modré je povolena maximální hranice do 100 mg/l
-        veškerého SO 2 . U odrůdy Tramín je povolena maximální hranice do 120
+        veškerého SO 2. U odrůdy Tramín je povolena maximální hranice do 120
         mg/l veškerého SO 2. Není povolen přídavek kyseliny askorbové.
       </p>
       <p className="mb-3">
         Vína lze vyrábět pouze z hroznů révy vinné odpovídajících kvalitativnímu
         zařazení: víno s přívlastkem pozdní sběr a víno s přívlastkem výběr z
-        hroznů. Obsah alkoholu ve vínech musí být minimálně 12,5 % obj.. Vína by
+        hroznů. Obsah alkoholu ve vínech musí být minimálně 12,5 % obj. Vína by
         měla být plná a extraktivní a musí vykazovat typické senzorické
         vlastnosti dané odrůdy.
       </p>
@@ -42,8 +42,8 @@ const Modal = (): JSX.Element => {
       </p>
       <p className="mb-3">
         Degustace probíhá minimálně jednou ročně. Degustační komise je složena
-        ze členů spolku Čtvrtečníci - sdružení vinařů Čejkovice, z.s. a pracuje
-        v minimálním počtu 11 osob.
+        ze členů spolku Čtvrtečníci - sdružení vinařů Čejkovice a z pozvaných
+        hostů. Pracuje v minimálním počtu 11 osob.
       </p>
       <p className="mb-3">
         Degustační komise hodnotí vína body a také o vínech hlasuje. Víno je
