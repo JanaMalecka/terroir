@@ -20,37 +20,34 @@ const Varieties: FC = (): JSX.Element => {
       <div className="container__content light">
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <h2>TRAMÍN</h2>
+          <h5 className="mb-5">Synonyma: Tramín červený, Gewürztraminer</h5>
         </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
-            Tramín je jednou z nejstarších pěstovaných odrůd, podílela se na
-            vzniku mnoha klasických evropských odrůd révy a je oblíbeným
-            partnerem při šlechtění nových odrůd.
+            Tramín je jednou z nejstarších pěstovaných odrůd. Je genetickým
+            předkem mnoha dalších odrůd a předpokládá se, že velmi příbuzné
+            odrůdy byly pěstovány již ve starém Římě.
           </p>
         </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
-            Výrazně reaguje na stanoviště a tak, i když má své typické aroma,
-            výrazně do něj přispívá terroir, a proto není nikdy stejný a
-            nezevšední.
+            Hrozny dosahují vysoké koncentrace cukru a aromatických látek. Víno
+            má vyšší viskozitu, aromatika bývá výrazně kořeněná – buket zahrnuje
+            celou řadu vůní od květinových tónů připomínajících čajovou růži
+            přes liči, citrusové plody, kůru pomeranče, jasmín, muškát až po med
+            a rozinky.
           </p>
         </FadeUp>
 
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p>
-            Typová vína Tramínu jsou ve vůni osobitá, snadno rozpoznatelná, mají
-            intenzívní kořenitě medové až bezové vůně a koncentrované, kořenité
-            chuti.
+            Chuť bývá většinou elegantní, plná, s nižším obsahem kyselin a
+            kopíruje celou řadu vjemů, které nacházíme ve vůni.
           </p>
         </FadeUp>
         <FadeUp from={{ opacity: 0 }} to={{ opacity: 1 }}>
           <p className="mb-5">
-            Ve vůni a chuti můžeme hledat čajovou růži, koření, med, hrozinky,
-            tropické ovoce, kompotované ovoce, meruňky, květ fialky či pivoňky,
-            zázvor, skořici, lékořici, karamel, liči, mango, mučenku,
-            grapefruit, květ černého bezu. Pocit na patře a v ústech je jemný,
-            plný, bohatý, hřejivě alkoholický, hutný až olejnatý. Ležením v
-            láhvi se aroma zušlechťuje.
+            Tramín má velmi dobrý potenciál k lahvovému zrání.
           </p>
         </FadeUp>
       </div>
