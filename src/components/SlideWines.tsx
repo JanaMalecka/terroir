@@ -33,6 +33,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
   const site = data[dataIndex].site;
   const name = data[dataIndex].name;
   const logo = data[dataIndex].logo;
+  // eslint-disable-next-line
   const id = data[dataIndex].id;
   const text = data[dataIndex].text;
 
