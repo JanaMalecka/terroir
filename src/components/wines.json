@@ -13,9 +13,72 @@
   },
   {
     "id": 2,
+    "image": "assets/images/HradilPinot.jpg",
+    "wine": "RULANDSKÉ MODRÉ",
+    "year": "2021",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Novosady",
+    "name": "Víno Hradil",
+    "logo": "assets/images/12LogoHradil.png",
+    "site": "https://vino-hradil.cz/produkt/pinot-noir/",
+    "text": "Víno zrálo 24 měsíců ve francouzských dubových sudech. Jeho barva je granátová až cihlově červená. 60% první plnění a 40 % druhé plnění, tím získalo silnou kořenitou, výraznou chuť peckovin a mandlí, zakončenou sametovou trpkostí. Tento pinot je radost ochutnat jako mladý, má ale obrovský potenciál nádherně zrát. Před podáváním doporučujeme dekantovat."
+  },
+  {
+    "id": 3,
+    "image": "assets/images/KocarikPinot2021.png",
+    "wine": "RULANDSKÉ MODRÉ",
+    "subWine": "Magnum",
+    "year": "2021",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Novosady,Helezný díl, Niva hrbatá ",
+    "name": "Vinařství Petr Kočařík",
+    "logo": "assets/images/5LogoKocarik.png",
+    "site": "https://kocarik.cz/",
+    "text": "Víno zrálo 11 měsíců na jemných kalech ve starších francouzských dubových sudech. Lahvováno bez čiření a filtrace."
+  },
+  {
+    "id": 4,
+    "image": "assets/images/KocarikPinot2022.png",
+    "wine": "RULANDSKÉ MODRÉ",
+    "subWine": "Novosady",
+    "year": "2022",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Novosady",
+    "name": "Vinařství Petr Kočařík",
+    "logo": "assets/images/5LogoKocarik.png",
+    "site": "https://kocarik.cz/",
+    "text": "”Vlajková loď” našeho vinařství. Mladý ovocně strukturovaný pinot. Víno zrálo 11 měsíců na jemných kalech ve starších francouzských dubových sudech. Lahvováno bez čiření a filtrace."
+  },
+  {
+    "id": 5,
+    "image": "assets/images/SkrobakPinot2021.png",
+    "wine": "RULANDSKÉ MODRÉ",
+    "subWine": "Scarabeus",
+    "year": "2022",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Stará hora",
+    "name": "Vinařství Škrobák",
+    "logo": "assets/images/2LogoSkrobak.png",
+    "site": "https://vinoskrobak.cz/produkt/scarabeus-pinot-noir-2016-vyber-z-hroznu/?_gl=1*13rvvci*_up*MQ..&gclid=CjwKCAjwrIixBhBbEiwACEqDJfsizN1aRbAWtvIdreuOHyLMYHe2lqoLNaEnZqmuUypuR9CGJiCSZRoCoH0QAvD_BwE",
+    "text": "SCARABEUS – Egyptský posvátný brouk a symbol těch nejlepších vín našeho vinařství. Leželo 12 měsíců ve francouzských sudech. Barva je tmavě cihlová. V typicky odrůdovém aroma převládají vařené povidla, marmeládové tóny, brusinky a doutnající dřevo. Mohutná, kořeněná chuť s příjemným projevem dřevitých tříslovin, zakončená kávovým zrnem. Víno je svým charakterem vhodné ke zrání v láhvi a archivací bude získávat na kvalitě. Doporučená doba archivace je 10 - 15 let. Nefiltrováno."
+  },
+  {
+    "id": 6,
+    "image": "assets/images/SkrobakPinot2021.png",
+    "wine": "RULANDSKÉ MODRÉ",
+    "year": "2021",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Niva hrbatá",
+    "name": "Vinařství Škrobák",
+    "logo": "assets/images/2LogoSkrobak.png",
+    "site": "https://vinoskrobak.cz/",
+    "text": "Víno zrálo 1 rok v sudu, následně další rok v nerezové nádobě. Víno se prezentuje cihlovou barvou. Ve vůni najdeme plané trnky,vařené povidla, přezrálé jahody a třešňovou zavařeninu. Chuť je příjemně plná marmeládových a povidlových tónů. Harmonické víno uzavírá středně dlouhá dochuť s hladkými tříslovinami a svěžími kyselinkami. Doporučujeme podávat k těžším úpravám kuřete a ke kachně či huse."
+  },
+  {
+    "id": 7,
     "image": "assets/images/MezisklepyPinotNOIR.jpg",
     "wine": "RULANDSKÉ MODRÉ",
-    "year": "2017",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
     "name": "Vinařství Mezi sklepy",
@@ -24,7 +87,7 @@
     "text": "Pro výsadbu vinic Pinotu noir jsme vybrali ty nejlepší klony a zvolili za nás ideální trať v Čejkovicích pro červená vína - NOVOSADY. Víno zrálo převážně v nových francouzských barikových sudech po dobu dvou let a následně po kupáži sudů nějakou dobu v nerezovém tanku, než šlo do lahve. Nejdříve po čtyřech letech je pinot připravený do Vašich skleniček."
   },
   {
-    "id": 3,
+    "id": 8,
     "image": "assets/images/BizaGrandPinot2015.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2015",
@@ -36,10 +99,10 @@
     "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
-    "id": 4,
+    "id": 9,
     "image": "assets/images/BizaGrandPinot2016.jpg",
     "wine": "RULANDSKÉ MODRÉ",
-    "year": "2016",
+    "year": "2021",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",
@@ -48,7 +111,7 @@
     "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
-    "id": 5,
+    "id": 10,
     "image": "assets/images/BizaGrandPinot2018.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2018",
@@ -60,7 +123,7 @@
     "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
-    "id": 6,
+    "id": 11,
     "image": "assets/images/PastorekRulandskeModre2021.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
@@ -72,10 +135,10 @@
     "text": "Hrozny tohoto vína pochází z vinice Helezný díl. Víno leželo 15 měsíců na dubových sudech a to v poměru 80% nové sudy a 20% použité sudy. jedná se o typickou cihlovou barvu, která je pro tuto odrůdu charakteristická. ve vůni můžeme cítit ostružiny a švestkové povidla s lehkým nádechem dubového dřeva."
   },
   {
-    "id": 7,
-    "image": "assets/images/VeverkaPinot2019.jpg",
+    "id": 12,
+    "image": "assets/images/VeverkaPinot2020.png",
     "wine": "RULANDSKÉ MODRÉ",
-    "year": "2019",
+    "year": "2020",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Šatrapky",
     "name": "Vinařství Libor Veverka",
@@ -84,7 +147,7 @@
     "text": "Hrozny tohoto vína pochází z vinice Helezný díl. Víno leželo 15 měsíců na dubových sudech a to v poměru 80 % nové sudy a 20 % použité sudy. Jedná se o typickou cihlovou barvu, která je pro tuto odrůdu charakteristická. Ve vůni můžeme cítit ostružiny a švestkové povidla s lehkým nádechem dubového dřeva."
   },
   {
-    "id": 8,
+    "id": 13,
     "image": "assets/images/SamsulaRulandskeModre2021.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2021",
@@ -96,31 +159,7 @@
     "text": "Víno zrálo 12 měsíců na francouzských sudech barrique. Má tmavě cihlovou barvu s rezavě jahodovými podtóny. Vůně sušených lesních bobulovin, planých trnek a surové kůže doplňující projev ožehnutého dřeva a jeřabiny přechází v kořenitou a překvapivě pikantní chuť švestkového kompotu a punče podpořenou elegantní tříslovinou."
   },
   {
-    "id": 9,
-    "image": "assets/images/CervenkaPinot2020.jpg",
-    "wine": "RULANDSKÉ MODRÉ",
-    "year": "2020",
-    "description": "pozdní sběr, suché",
-    "route": "viniční trať: Helezný Díl",
-    "name": "Vinařství Červenka",
-    "logo": "assets/images/13LogoCervenka.svg",
-    "site": "https://www.vinocervenka.cz/nabidka-vin",
-    "text": "Hrozny pochází z vinice s regulovanou sklizní. Ve víně najdete vůni vanilky, švestek a čokolády. Chuť je plná, komplexní, příjemně nasládlá. Víno zrálo v sudech z francouzského dubu s výrazným podílem nových sudů. Minimální potenciál zrání je 5 let."
-  },
-  {
-    "id": 10,
-    "image": "assets/images/FojtikPinot2017.jpg",
-    "wine": "RULANDSKÉ MODRÉ",
-    "year": "2017",
-    "description": "pozdní sběr, suché",
-    "route": "viniční trať: Stará Hora",
-    "name": "Vinařství Fojtík",
-    "logo": "assets/images/6LogoFojtik.png",
-    "site": "https://www.vinofojtik.cz/",
-    "text": "Víno zrálo 24 měsíců v nových dubových sudech. barva rubínová až cihlově červená se zlatavým okrajem kolem sklenice. Ve vůni naleznete čerstvé ostružiny, červené třešně a švestky. Chuť vína je přitažlivá pro nízký obsah kyselin, velmi jemné třísloviny a ohromující plnost, která se zráním zvyšuje. Zrání vína v láhvi 5-20 let. Vhodné především k ušlechtilým sýrům a zvěřině."
-  },
-  {
-    "id": 11,
+    "id": 14,
     "image": "assets/images/VeverkaRulandskeModre2020.jpg",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2020",
@@ -128,23 +167,35 @@
     "route": "viniční trať: Helezný Díl",
     "name": "Vinařství Veverka",
     "logo": "assets/images/14LogoVeverka.png",
-    "site": "https://vinarstvi-veverka.cz/produkt/rulandske-modre-2019/",
+    "site": "https://vinarstvi-veverka.cz/eshop/?pa_barva=cervene&pa_rocnik=2020",
     "text": "Víno typické cihlové barvy, která napovídá, že víno leželo na dubových sudech. Ve vůni dominuje kombinace tónů koření vanilky a sušeného peckovitého ovoce. Chuť je komplexní, lehce kořenitá, harmonicky se snoubí dochuť sušeného ovoce a hořké čokolády. Potenciál zrání vína je 18 let. Víno doporučujeme k hovězím steakům a tvrdým zrajícím sýrům."
   },
   {
-    "id": 12,
-    "image": "assets/images/SkrobakTramin2019.jpg",
+    "id": 15,
+    "image": "assets/images/NovotnyBilekTraminCerveny.jpg",
+    "wine": "RULANDSKÉ MODRÉ",
+    "year": "2022",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Odměry",
+    "name": "Vinařství Novotný Bílek",
+    "logo": "assets/images/1LogoNovotnyBilek.png",
+    "site": "http://eshop.novotnybilek.cz/generace/",
+    "text": "Lehký, ovocný styl pinotu."
+  },
+  {
+    "id": 16,
+    "image": "assets/images/SkrobakTramin2022.png",
     "wine": "TRAMÍN",
-    "year": "2019",
+    "year": "2022",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Niva hrbatá",
     "name": "Vinařství Škrobák",
     "logo": "assets/images/2LogoSkrobak.png",
-    "site": "https://vinoskrobak.cz/produkt/tramin-pozdni-sber-2019-suche/",
-    "text": "Víno zrálo 13 měsíců ve velkém sudu z dubu ze Ždánického lesa. Mělo tedy čas dokonale rozvinout svoje aroma. Krásná, elegantní vůně pomerančového likéru, červeného grepu, mandarinkové kůry a karamelu. Plná, kořeněná chuť s dotekem vanilky, která je pro tramín typická. Skvěle se hodí ke králičímu masu a k ovocným moučníkům."
+    "site": "https://vinoskrobak.cz/produkt/scarabeus-tramin-2022-pozdni-sber/?_gl=1*t97a5y*_up*MQ..&gclid=CjwKCAjwrIixBhBbEiwACEqDJfsizN1aRbAWtvIdreuOHyLMYHe2lqoLNaEnZqmuUypuR9CGJiCSZRoCoH0QAvD_BwE",
+    "text": "Víno fermentovalo a zrálo 12 měsíců ve velkém sudu z dubu ze Ždánického lesa. Mělo tedy čas dokonale rozvinout svoje aroma. Krásná, elegantní vůně pomerančového likéru, červeného grepu, mandarinkové kůry a karamelu. Plná, kořeněná chuť s dotekem vanilky, která je pro tramín typická."
   },
   {
-    "id": 13,
+    "id": 17,
     "image": "assets/images/MezisklepyTraminCerveny.jpg",
     "wine": "TRAMÍN",
     "year": "2019",
@@ -156,7 +207,7 @@
     "text": "Po dvoudenní maceraci hroznů, spontánním kvašení a dvou letech zrání v barikových sudech, jsme získali víno sytě žluté barvy s kořenitou vůní medu nebo medové plástve. Následně zrálo ještě dalších 12 měsíců v láhvi."
   },
   {
-    "id": 14,
+    "id": 18,
     "image": "assets/images/NovotnyBilekTraminCerveny.jpg",
     "wine": "TRAMÍN",
     "year": "2019",
@@ -168,19 +219,19 @@
     "text": "Krásně odrůdový tramín, který odráží jedinečný Terroir Čejkovic. Dlouhá macerace a fermentace na slupkách dává vínu krásně zlatavě oranžovou barvu. Ve vůni nalezneme růže, medový propolis a skořici s jemnou stopou dřeva. Víno leželo 14 měsíců na veškerých kvasnicích v sudu ze slavonského dubu."
   },
   {
-    "id": 15,
-    "image": "assets/images/FojtikTramin2020.jpg",
+    "id": 19,
+    "image": "assets/images/NovotnyBilekTraminCerveny.jpg",
     "wine": "TRAMÍN",
-    "year": "2020",
+    "year": "2022",
     "description": "výběr z hroznů, suché",
-    "route": "viniční trať: Šuby",
-    "name": "Vinařství Fojtík",
-    "logo": "assets/images/6LogoFojtik.png",
-    "site": "https://www.vinofojtik.cz/",
-    "text": "Víno zrálo 12 měsíců v akátovo-dubových sudech. Barva sytě žlutá až zlatá. Vůně výrazně aromatická po květu růže, akátu a včelých plástvích medu. V chuti je víno vysoce extraktivní, kořenité, medové, doplněno dochutí po kompotovaném ovoci. Zrání vína v láhvi doporučujeme 3-10 let."
+    "route": "viniční trať: Odměry",
+    "name": "Vinařství Novotný Bílek",
+    "logo": "assets/images/1LogoNovotnyBilek.png",
+    "site": "http://eshop.novotnybilek.cz/tramin-cerveny-2019/",
+    "text": "Krásně odrůdový tramín, který odráží jedinečný Terroir Čejkovic. Dlouhá macerace a fermentace na slupkách dává vínu krásně zlatavě oranžovou barvu. Ve vůni nalezneme růže, medový propolis a skořici s jemnou stopou dřeva. Víno leželo 14 měsíců na veškerých kvasnicích v sudu ze slavonského dubu."
   },
   {
-    "id": 16,
+    "id": 20,
     "image": "assets/images/BizaGrandTramin2015.jpg",
     "wine": "TRAMÍN",
     "year": "2015",
@@ -192,10 +243,10 @@
     "text": "Macerace hroznů trvající 5 dnů na slupkách  ve spojení  se zráním ve francouzských dubových  sudech barrique (80% nové sudy) po dobu 15 měsíců vložili do vína intenzivní zlato-jantarovou barvu. Bohatá vůně lískových oříšků, růží, vanilkového lusku a zralých banánů je snoubena s tóny kakaa a ananasu.  Nazrálá,  kořenitá chuť  sušených meruněk, fíků, a lučního medu, je sladěna s dochutí vanilky a skořice. Víno je vhodné pro delší zrání na láhvi, která rozvine jeho velký potenciál."
   },
   {
-    "id": 17,
-    "image": "assets/images/BizaGrandTramin2016.jpg",
+    "id": 21,
+    "image": "assets/images/BizaGrandTramin2019.png",
     "wine": "TRAMÍN",
-    "year": "2016",
+    "year": "2019",
     "description": "výběr z hroznů, suché",
     "route": "viniční trať: Novosady",
     "name": "Vinařství Bíza Čejkovice",

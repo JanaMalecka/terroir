@@ -8,6 +8,7 @@ interface SlideProps extends StackedCarouselSlideProps {
     id: number;
     image: string;
     wine: string;
+    subWine: string;
     year: number;
     description: string;
     route: string;
@@ -25,6 +26,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
 
   const coverImage = data[dataIndex].image;
   const wine = data[dataIndex].wine;
+  const subWine = data[dataIndex].subWine;
   const year = data[dataIndex].year;
   const description = data[dataIndex].description;
   const route = data[dataIndex].route;
@@ -87,9 +89,9 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
               // className="logo-winery"
               className={`${
                 isCenterSlide
-                  ? id === 11
+                  ? name === 'Vinařství Veverka'
                     ? 'logo-wines--bigger'
-                    : id === 12
+                    : name === 'Vinařství Škrobák'
                     ? 'logo-wines--smaller'
                     : 'logo-wines'
                   : 'none'
@@ -107,6 +109,7 @@ const SlideWines: React.FC<SlideProps> = React.memo(function (props) {
                 onClick={handleClick}
               >
                 <h2 className="carousel-specification--wine mt-5">{wine}</h2>
+                <h4>{subWine}</h4>
                 <p>{year}</p>
                 <div>{description}</div>
                 <div>{route}</div>
