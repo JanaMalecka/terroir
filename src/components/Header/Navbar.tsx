@@ -48,6 +48,14 @@ const Navbar: FC = () => {
 
         <div className="navbar-links" onClick={showMenu}>
           {renderedLinks}
+          <a
+            href="https://661362.myshoptet.com/vino/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar-link"
+          >
+            E-SHOP
+          </a>
         </div>
       </div>
     </div>
