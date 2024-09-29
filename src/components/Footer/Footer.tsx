@@ -50,7 +50,7 @@ const Footer: FC = (): JSX.Element => {
               </a>
             </div>
           </div>
-          <div>2023 © Čtvrtečníci - sdružení vinařů Čejkovice</div>
+          <div>© 2023 - 2024 Čtvrtečníci - sdružení vinařů Čejkovice</div>
           {/* <div>
         Používáním těchto webových stránek souhlasíte s použitím souborů
         cookies.
