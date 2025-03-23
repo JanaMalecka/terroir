@@ -239,5 +239,23 @@
       "email": "info@vinohlinecky.cz"
     },
     "logo": "assets/images/13LogoHlinecky.png"
+  },
+  {
+    "id": 14,
+    "image": "assets/images/kocarik.jpg",
+    "title": "Petr Kočařík",
+    "subtitle": "vinařství",
+    "motto": "Autentická vína - terroirová vína - suchá vína.",
+    "text": [
+      "Pro naše rodinné vinařství je hlavní především kvalita. U vín se snažíme zachovat jejich přirozenost, jejich terroir. V našich lahvích naleznete odraz místa a průběhu počasí daného ročníku. Proto potřebujeme sklidit zdravé a vyzrálé hrozny, což vyžaduje spoustu nadstandardní ruční práce.",
+      "Půdu obděláváme bez herbicidů a od roku 2010 keře ošetřujeme pouze přípravky povolenými v ekologickém zemědělství."
+    ],
+    "contact": {
+      "web": "kocarik.cz",
+      "name": "Petr Kočařík",
+      "phone": "+420 608 838 502",
+      "email": "petr@kocarik.cz"
+    },
+    "logo": "assets/images/14LogoKocarik.png"
   }
 ]

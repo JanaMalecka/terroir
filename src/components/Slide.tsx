@@ -56,7 +56,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
     if (isCenterSlide) {
       if ([10, 7, 2, 9, 11, 13, 4, 12, 1].includes(id)) {
         return 'carousel-title carousel-title--right';
-      } else if ([8, 3].includes(id)) {
+      } else if ([8, 3, 14].includes(id)) {
         return 'carousel-title carousel-title--rightLarge';
       } else {
         return 'carousel-title';
@@ -70,7 +70,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
 
   function generateSubtitleClassName(isCenterSlide: boolean, id: number) {
     if (isCenterSlide) {
-      if ([10, 7, 2, 9, 11, 13, 4, 12, 1, 8, 3].includes(id)) {
+      if ([10, 7, 2, 9, 11, 13, 4, 12, 1, 8, 3, 14].includes(id)) {
         return 'carousel-subtitle carousel-subtitle--right';
       } else {
         return 'carousel-subtitle';
@@ -92,7 +92,7 @@ const Slide: React.FC<SlideProps> = React.memo(function (props) {
       id === 4
     ) {
       return 'slide-description--oneRow';
-    } else if (id === 11 || id === 10) {
+    } else if (id === 11 || id === 10 || id === 14) {
       return 'slide-description--twoRows';
     } else if (id === 6 || id === 3) {
       return 'slide-description--twoOneRows';
