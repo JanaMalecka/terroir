@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "assets/images/KocarikPinot2021.png",
+    "image": "assets/images/KocarikPinotMagnum2021.png",
     "wine": "RULANDSKÉ MODRÉ",
     "subWine": "Magnum",
     "year": "2021",
@@ -88,7 +88,7 @@
   },
   {
     "id": 8,
-    "image": "assets/images/BizaGrandPinot2015.jpg",
+    "image": "assets/images/BizaGrandPinot2022.png",
     "wine": "RULANDSKÉ MODRÉ",
     "year": "2022",
     "description": "výběr z hroznů, suché",
@@ -244,7 +244,7 @@
   },
   {
     "id": 21,
-    "image": "assets/images/KocarikPinot2021.png",
+    "image": "assets/images/KocarikPinot2023.png",
     "wine": "RULANDSKÉ MODRÉ",
     "subWine": "Helezný díl",
     "year": "2023",
@@ -266,5 +266,17 @@
     "logo": "assets/images/13LogoCervenka.svg",
     "site": "https://www.vinocervenka.cz/nabidka-vin",
     "text": "Hrozny pochází z vinice s regulovanou sklizní. Ve vůni najdeme tóny vanilky, švestek a čokolády.Chuť je plná, komplexní,  příjemně nasládlá. Víno zrálo v sudech z francouzského dubu. Minimální potenciál zrání je 5 let."
+  },
+  {
+    "id": 23,
+    "image": "assets/images/KocarikTramin2023.png",
+    "wine": "TRAMÍN",
+    "year": "2023",
+    "description": "výběr z hroznů, suché",
+    "route": "viniční trať: Niva hrbatá",
+    "name": "Vinařství Petr Kočařík",
+    "logo": "assets/images/5LogoKocarik.png",
+    "site": "https://kocarik.cz/",
+    "text": "U Tramínu pracujeme s dobou macerace hroznů, která se pohybuje od 5 do 50 dnů."
   }
 ]
