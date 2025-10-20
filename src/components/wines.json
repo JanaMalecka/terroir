@@ -123,18 +123,6 @@
     "text": "Macerace hroznů trvající 30 dnů na slupkách ve spojení se zráním ve francouzských dubových sudech barrique po dobu 28 měsíců vložili do vína intenzivní granátovou barvu s cihlovými okraji. Ovocná vůně sušených švestek, třešní, jahod a fíků je harmonicky doplněna jemnými tóny vanilky v kombinaci s nugátem, likérem a mléčnou čokoládou s oříšky. V chuti je víno nazrálé, bohaté extraktem, s příjemně vyváženými sametovými tříslovinami a s lahodnou dochutí sušených třešní, jahodového džemu a čokolády."
   },
   {
-    "id": 11,
-    "image": "assets/images/PastorekRulandskeModre2021.jpg",
-    "wine": "RULANDSKÉ MODRÉ",
-    "year": "2021",
-    "description": "pozdní sběr, suché",
-    "route": "viniční trať: Helezný díl",
-    "name": "Vinařství Pastorek",
-    "logo": "assets/images/8LogoPastorek.png",
-    "site": "https://obchod.vinarstvipastorek.cz/rulandske-modre-2021/",
-    "text": "Hrozny tohoto vína pochází z vinice Helezný díl. Víno leželo 15 měsíců na dubových sudech a to v poměru 80% nové sudy a 20% použité sudy. jedná se o typickou cihlovou barvu, která je pro tuto odrůdu charakteristická. ve vůni můžeme cítit ostružiny a švestkové povidla s lehkým nádechem dubového dřeva."
-  },
-  {
     "id": 12,
     "image": "assets/images/VeverkaPinot2020.png",
     "wine": "RULANDSKÉ MODRÉ",
@@ -144,19 +132,7 @@
     "name": "Vinařství Libor Veverka",
     "logo": "assets/images/7LogoVeverka.png",
     "site": "https://www.vinoveverka.cz/#vina",
-    "text": "Hrozny tohoto vína pochází z vinice Helezný díl. Víno leželo 15 měsíců na dubových sudech a to v poměru 80 % nové sudy a 20 % použité sudy. Jedná se o typickou cihlovou barvu, která je pro tuto odrůdu charakteristická. Ve vůni můžeme cítit ostružiny a švestkové povidla s lehkým nádechem dubového dřeva."
-  },
-  {
-    "id": 13,
-    "image": "assets/images/SamsulaRulandskeModre2021.jpg",
-    "wine": "RULANDSKÉ MODRÉ",
-    "year": "2021",
-    "description": "výběr z hroznů, suché",
-    "route": "viniční trať: Díl u Včelína",
-    "name": "Vinařství J. Šamšula",
-    "logo": "assets/images/9LogoSamsula.png",
-    "site": "https://www.samsula.cz/vino/",
-    "text": "Víno zrálo 12 měsíců na francouzských sudech barrique. Má tmavě cihlovou barvu s rezavě jahodovými podtóny. Vůně sušených lesních bobulovin, planých trnek a surové kůže doplňující projev ožehnutého dřeva a jeřabiny přechází v kořenitou a překvapivě pikantní chuť švestkového kompotu a punče podpořenou elegantní tříslovinou."
+    "text": "Hrozny tohoto vína pochází z vinice Šatrapky. Víno má cihlově rubínovou barvu, je plné, tělnaté, ale přitom sametové s vystupujícím buketem ovocných marmeládových tónů. Objevují se i lehké stopy likéru a tabákových lístků. Víno zrálo 36 měsíců v dubovém francouzském sudu."
   },
   {
     "id": 14,
