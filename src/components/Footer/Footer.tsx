@@ -51,7 +51,7 @@ const Footer: FC = (): JSX.Element => {
         </div>
 
         {/* Footer text */}
-        <div>© 2023 - 2025 Čtvrtečníci - sdružení vinařů Čejkovice</div>
+        <div>© 2023 - 2026 Čtvrtečníci - sdružení vinařů Čejkovice</div>
       </div>
     </footer>
   );

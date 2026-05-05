@@ -48,6 +48,7 @@ const Navbar: FC = () => {
 
         <div className="navbar-links" onClick={showMenu}>
           {renderedLinks}
+          {/*
           <a
             href="https://eshop.terroircejkovice.cz/"
             target="_blank"
@@ -56,6 +57,7 @@ const Navbar: FC = () => {
           >
             E-SHOP
           </a>
+          */}
         </div>
       </div>
     </div>
